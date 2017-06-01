@@ -1,0 +1,75 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{1.45.2.1 }
+
+\bibitem[Batista \textit{et al.} 1999]{batista1999aplicando}
+\abntrefinfo{Batista \textit{et al.}}{BATISTA \textit{et al.}}{1999}
+{BATISTA, GEAPA; CARVALHO, ACPLF; MONARD, Maria~C; BRASIL, Silicon~Graphics.
+  Aplicando sele{\c{c}}{\~a}o unilateral em conjuntos de exemplos
+  desbalanceados: Resultados iniciais. In:  \textbf{XIX CONGRESSO NACIONAL DA
+  SOCIEDADE BRASILEIRA DE COMPUTA{\c{C}}{\~A}O “EDUCA{\c{C}}{\~A}O E
+  APRENDIZAGEM NA SOCIEDADE DA INFORMA{\c{C}}{\~A}O}. [S.l.: s.n.], 1999.
+  v.~20, p. 327--340.}
+
+\bibitem[CEBRASPE 2016]{paq_a:2016}
+\abntrefinfo{CEBRASPE}{CEBRASPE}{2016a}
+{CEBRASPE. \textbf{{CENTRO BRASILEIRO DE PESQUISA EM AVALIAÇÃO E SELEÇÃO E
+  DE PROMOÇÃO DE EVENTOS (CEBRASPE) PROGRAMA DE ATUALIZAÇÃO, QUALIFICAÇÃO
+  E SELEÇÃO DE AVALIADORES DAS REDAÇÕES DO ENEM 2016 }}. 2016.
+{Online; acessado 07 Abril 2017}.
+Dispon{\'\i}vel em:
+  $<$\url{http://www.cespe.unb.br/colaboradores/ENEM_16_AVALIADOR_REDACAO/arquivos/ENEM_REDA____ES_2016___AVALIADOR___REGULAMENTO.PDF}$>$.}
+
+\bibitem[CEBRASPE 2016]{relatorio_de_gestao:2016}
+\abntrefinfo{CEBRASPE}{CEBRASPE}{2016b}
+{CEBRASPE, CESPE~UNB. \textbf{{Relatório de Gestão CEBRASPE}}. 2016.
+1--20~p.
+{Online; acessado 07 Abril 2017}.
+Dispon{\'\i}vel em:
+  $<$\url{http://www.cespe.unb.br/cebraspe/arquivos/Relatorio_de_Gestao_2016.pdf}$>$.}
+
+\bibitem[CsF 2017]{csf:2017}
+\abntrefinfo{CsF}{CSF}{2017}
+{CSF, Ciência sem~Fronteiras. \textbf{{Estudante de Graduação}}. 2017.
+{Online; acessado 07 Abril 2017}.
+Dispon{\'\i}vel em:
+  $<$\url{http://www.cienciasemfronteiras.gov.br/web/csf/estudante}$>$.}
+
+\bibitem[INEP 2016]{edital_enem:2016}
+\abntrefinfo{INEP}{INEP}{2016}
+{INEP. \textbf{{EDITAIS}}. 2016.
+{Online; acessado 07 Abril 2017}.
+Dispon{\'\i}vel em:
+  $<$\url{http://download.inep.gov.br/educacao_basica/enem/edital/2016/edital_enem_2016.pdf}$>$.}
+
+\bibitem[Mitchell 1997]{machine_learning:1997}
+\abntrefinfo{Mitchell}{MITCHELL}{1997}
+{MITCHELL, Tom M.~Mitchell. \textbf{{Machine Learning}}. [S.l.]: Book News,
+  Inc., 1997.
+ISBN 0070428077.}
+
+\bibitem[Nobre 2011]{joao_nobre:2011}
+\abntrefinfo{Nobre}{NOBRE}{2011}
+{NOBRE, João Carlos~Silva.
+\textbf{{Modelo computacional para valoração e avaliação de redações
+  baseado em lógica Fuzzy}}.
+Tese (Doutorado) --- Instituto Tecnológico de Aeronáutica,
+  \url{http://www.bd.bibl.ita.br/tde_busca/arquivo.php?codArquivo=1936}, 9
+  2011.}
+
+\bibitem[SISU 2017]{sisu:2017}
+\abntrefinfo{SISU}{SISU}{2017}
+{SISU, Sistema de seleção~unificada. \textbf{{O que é o Sisu}}. 2017.
+{Online; acessado 07 Abril 2017}.
+Dispon{\'\i}vel em: $<$\url{http://sisu.mec.gov.br/}$>$.}
+
+\bibitem[waymo 2017]{waymo:2017}
+\abntrefinfo{waymo}{WAYMO}{2017}
+{WAYMO. \textbf{{We’re building a safer driver for everyone}}. 2017.
+{Online; acessado 07 Abril 2017}.
+Dispon{\'\i}vel em: $<$\url{https://waymo.com/}$>$.}
+
+\end{thebibliography}

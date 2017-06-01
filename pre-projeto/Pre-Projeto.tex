@@ -1,0 +1,50 @@
+\documentclass[ruledheader,noindentfirst,anapcustomindent,abntfigtabnum,tocpage=plain]{abnt}
+
+\include{configuracao/pacotes}
+\include{configuracao/comandos}
+
+
+\begin{document}
+
+%%%%% IMPORTANTE: ALTERA O TEXTO ENTRE ARIAL E TIMES NEW ROMAN (ALTERNAR OS COMENTÁRIOS)
+%
+%%%%%%%%%%%%%%%%%%%%%PARA UTILIZAR ARIAL%%%%%%%%%%%%%%%%%%%%%%%
+%
+\fontfamily{phv}                    %fonte Arial
+\renewcommand{\rmdefault}{phv}      %
+%
+%%%%%%%%%%%%%%%%%%%%%PARA UTILIZAR TIMES%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\fontfamily{ptm}               %fonte Times
+%\renewcommand{\rmdefault}{ptm} %
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%Arquivos .tex com os elementos pré-textuais
+%
+\include{pre-textuais/capa}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Capítulos passam a ter páginas numeradas
+%
+\pagestyle{fancy}
+
+%resseta os contadores de capítulo e seção
+%
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+
+
+
+%%% Outros arquivos .tex. É acoselhável utilizar vários arquivos, pelo menos um por capítulo
+\include{textuais/Introducao}
+\include{textuais/Plano}
+
+
+%%%% Estilo de citação ABNT e arquivo de bibitens (bib.bib)
+\bibliographystyle{configuracao/abnt-alf}
+\bibliography{bibliografia/bib}
+
+
+\end{document}

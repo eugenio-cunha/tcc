@@ -1,0 +1,77 @@
+@comment{x-kbibtex-personnameformatting=<%l><, %f>}
+
+%MEUS PADRÕES DE REFERENCIAS
+%
+%Artigos => Ultimo_Nome_Primeiro_Autor:Ano(aa)
+%Conferencias(Sem Proceedings)=> Ultimo_Nome_Primeiro_Autor:Conferenc_Ano(aa)
+%Inproceedings => Ultimo_Nome_Primeiro_Autor:Conferenc_Ano(aa)
+%Teses e Disserta\c{c}ões => Ultimo_Nome_Autor:Universidade_Ano(aa)
+%Books => Ultimo_Nome_Primeiro_Autor:Ano(aa)
+%OBS: Mesmo autor  e ano => Ultimo_Nome_Primeiro_Autor_a:Ano(aa)
+%
+
+@book{Oetiker:1995,
+	abstract = "",
+	address = "",
+	author = "Oetiker, Tobias and Partl, Hubert and Hyna, Irene and Schlegl, Elisabeth",
+	edition = "",
+	isbn = "",
+	keywords = "",
+	month = "Setembro",
+	note = "",
+	number = "",
+	price = "",
+	publisher = "Free Software Foundation",
+	series = "{}",
+	source = "",
+	title = "{Uma n{\~a}o t{\~a}o pequena introdu\c{c}{\~a}o ao LaTex}",
+	volume = "4.20.1",
+	year = "2007"
+}
+
+@article{radke:2005,
+	author = "Radke, Richard J and Andra, Srinivas and Al-Kofahi, Omar and Roysam, Badrinath",
+	journal = "IEEE transactions on image processing",
+	number = "3",
+	pages = "294--307",
+	publisher = "IEEE",
+	title = "{Image change detection algorithms: a systematic survey}",
+	volume = "14",
+	year = "2005"
+}
+
+@book{forsyth:2002,
+	author = "Forsyth, David A and Ponce, Jean",
+	publisher = "Prentice Hall Professional Technical Reference",
+	title = "{Computer vision: a modern approach}",
+	year = "2002"
+}
+
+@misc{cil:2016,
+	author = "University, Carnegie Mellon",
+	title = "{The computer vision home page}",
+	url = "\url{https://www.cs.cmu.edu/~cil/vision.html}",
+	year = "2016"
+}
+
+@article{al2006automated,
+	author = "Al-Kofahi, Omar and Radke, Richard J and Roysam, Badrinath and Banker, Gary",
+	journal = "IEEE Transactions on Biomedical Engineering",
+	number = "6",
+	pages = "1109--1123",
+	publisher = "IEEE",
+	title = "{Automated semantic analysis of changes in image sequences of neurons in culture}",
+	volume = "53",
+	year = "2006"
+}
+
+@mastersthesis{mastersthesis:93,
+	address = "The address of the publisher",
+	author = "Harwood, Peter",
+	month = 7,
+	note = "An optional note",
+	school = "The school of the thesis",
+	title = "{The title of the work}",
+	year = 1993
+}
+

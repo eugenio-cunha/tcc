@@ -1,0 +1,81 @@
+This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Projeto.aux
+A level-1 auxiliary file: pre-textuais/capa.aux
+A level-1 auxiliary file: pre-textuais/folharosto.aux
+A level-1 auxiliary file: pre-textuais/folhadeaprovacao.aux
+A level-1 auxiliary file: pre-textuais/dedicatoria.aux
+A level-1 auxiliary file: pre-textuais/agradecimentos.aux
+A level-1 auxiliary file: pre-textuais/epigrafe.aux
+A level-1 auxiliary file: pre-textuais/resumo.aux
+A level-1 auxiliary file: pre-textuais/abstract.aux
+A level-1 auxiliary file: textuais/Introducao.aux
+A level-1 auxiliary file: textuais/TrabalhosRelacionados.aux
+A level-1 auxiliary file: textuais/Fundamentacao.aux
+A level-1 auxiliary file: textuais/Metodologia.aux
+A level-1 auxiliary file: textuais/Desenvolvimento.aux
+A level-1 auxiliary file: textuais/Resultados.aux
+A level-1 auxiliary file: textuais/Conclusao.aux
+The style file: configuracao/abnt-alf.bst
+A level-1 auxiliary file: pos-textuais/appendices.aux
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: abnt-options.bib
+Database file #2: bibliografia/bib.bib
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
++---------------------------------------------------------+
+| Estilo bibliográfico abnt-alf.bst versão 1.45.2.1           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://abntex.codigolivre.org.br                        |
++---------------------------------------------------------+
+You've used 11 entries,
+            6480 wiz_defined-function locations,
+            1210 strings with 10346 characters,
+and the built_in function-call counts, 5962 in all, are:
+= -- 525
+> -- 146
+< -- 7
++ -- 107
+- -- 44
+* -- 365
+:= -- 795
+add.period$ -- 18
+call.type$ -- 14
+change.case$ -- 68
+chr.to.int$ -- 16
+cite$ -- 5
+duplicate$ -- 204
+empty$ -- 576
+format.name$ -- 219
+if$ -- 1484
+int.to.chr$ -- 5
+int.to.str$ -- 1
+missing$ -- 154
+newline$ -- 34
+num.names$ -- 25
+pop$ -- 144
+preamble$ -- 1
+purify$ -- 37
+quote$ -- 0
+skip$ -- 568
+stack$ -- 1
+substring$ -- 177
+swap$ -- 91
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 6
+warning$ -- 0
+while$ -- 33
+width$ -- 0
+write$ -- 88

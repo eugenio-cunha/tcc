@@ -1,0 +1,40 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{1.45.2.1 }
+
+\bibitem[Harwood 1993]{mastersthesis:93}
+\abntrefinfo{Harwood}{HARWOOD}{1993}
+{HARWOOD, Peter.
+\textbf{{The title of the work}}.
+Disserta{\c c}{\~a}o (Mestrado) --- The school of the thesis, The address of
+  the publisher, 7 1993.}
+
+\bibitem[Joslin 1993]{phdthesis:2011}
+\abntrefinfo{Joslin}{JOSLIN}{1993}
+{JOSLIN, Peter.
+\textbf{{The title of the work}}.
+Tese (Doutorado) --- The school of the thesis, The address of the publisher, 7
+  1993. An optional note.}
+
+\bibitem[Oetiker \textit{et al.} 2007]{Oetiker:1995}
+\abntrefinfo{Oetiker \textit{et al.}}{OETIKER \textit{et al.}}{2007}
+{OETIKER, Tobias; PARTL, Hubert; HYNA, Irene; SCHLEGL, Elisabeth. \textbf{{Uma
+  n{\~a}o t{\~a}o pequena introdu\c{c}{\~a}o ao LaTex}}. [S.l.]: Free Software
+  Foundation, 2007.  ({}, v. 4.20.1).}
+
+\bibitem[Radke \textit{et al.} 2005]{radke:2005}
+\abntrefinfo{Radke \textit{et al.}}{RADKE \textit{et al.}}{2005}
+{RADKE, Richard~J; ANDRA, Srinivas; AL-KOFAHI, Omar; ROYSAM, Badrinath. {Image
+  change detection algorithms: a systematic survey}.
+\textbf{IEEE transactions on image processing}, IEEE, v.~14, n.~3, p. 294--307,
+  2005.}
+
+\bibitem[University 2016]{cil:2016}
+\abntrefinfo{University}{UNIVERSITY}{2016}
+{UNIVERSITY, Carnegie~Mellon. \textbf{{The computer vision home page}}. 2016.
+Dispon{\'\i}vel em: $<$\url{https://www.cs.cmu.edu/~cil/vision.html}$>$.}
+
+\end{thebibliography}

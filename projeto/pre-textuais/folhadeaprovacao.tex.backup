@@ -1,0 +1,30 @@
+\begin{folhadeaprovacao}
+\setlength{\ABNTsignthickness}{0.2pt}
+\setlength{\ABNTsignskip}{1.7cm}
+
+\begin{center}
+\includegraphics[width=2.5cm]{figures/brasao_republica.eps}\\
+%\includegraphics[width=5cm]{figures/IF_logo.eps}\\ %outros brasões
+%\includegraphics[width=5cm]{figures/IF_logo2.eps}\\%outros brasões
+
+            {UNIVERSIDADE DE ITAÚNA} \\
+            {COORDENAÇÃO DE CIÊNCIA DA COMPUTAÇÃO}  \\
+
+    \vspace{1.5cm}
+                                    {JOÃO DÓRIA JUNIOR}\\
+    \bfseries{}
+\end{center}
+
+Este projeto foi julgada adequada para a obten\c{c}\~{a}o do Grau de Bacharel em Ciência da Computação, sendo aprovada pela Coordenadoria de Telemática e pela Coordenadoria do curso de Bacharelado em Ciência da Computação do Campus Maracanaú do Instituto Federal de Educação, Ciência e Tecnologia do Ceará e pela banca examinadora:
+
+    \vspace{0.15cm}
+    \assinatura{Orientador: Prof. Dr. Amauri \\ Instituto Federal do Ceará - IFCE}
+    \assinatura{Prof. Dr. Huguinho \\ Instituto Federal do Ceará - IFCE}
+    \assinatura{Prof. Dr. Zezinho \\ Instituto Federal do Ceará - IFCE}
+    \assinatura{Prof. Dr. Luizinho \\ Instituto Federal do Ceará - IFCE}
+    \vspace{0.15cm}%\vfill
+
+    \begin{center}
+        Fortaleza, 06 de Abril de 2013
+    \end{center}
+\end{folhadeaprovacao}

@@ -1,0 +1,52 @@
+\chapter{Introdução}\label{CAP:introducao}
+
+\noindent Este documento consiste de um modelo básico para a produção de documentos academicos, seguindo as normas ABNT. 
+
+Não e abordado o estudo do LaTex neste template. Sugerimos a leitura do texto em \citeonline{Oetiker:1995}. O uso do LaTex e aconselhavel devido a sua qualidade grafica, facil referenciacao,
+ criacao de listas, indices, referencias bibliograficas e escrita matematica profissional. Porem, nao e obrigatorio o uso deste template, apenas as orientacoes de formatação segundo as normas ABNT devem ser obrigatoriamente seguidas.
+
+Uma observação em particular é a de que, no pacote ABNTex, as referências diretas devem utilizar o comando ``citeonline''. Referências indiretas utilizam o comando ``cite''.
+
+Exemplo de citacao direta: Uma otima fonte de estudo para compreender o LaTex e apresentada por \citeonline{Oetiker:1995}. 
+
+Exemplo de citação indireta: Existem boas fontes de pesquisa para entendimento do LaTex~\cite{Oetiker:1995,radke:2005}, estas incluem documentação online disponível na web.
+
+Uma citação da Internet~\cite{cil:2016,phdthesis:2011}.
+
+Uma dissertação de mestrado~\cite{mastersthesis:93} ou~\citeonline{mastersthesis:93} kkkkkk~\citeonline{Oetiker:1995}.
+
+Uma tese de doutorado~\cite{phdthesis:2011} ou~\citeonline{phdthesis:2011}.
+
+A hipótese desta monografia é que \textit{a detecção de mudanças em cenas terrestres usando imagens aéreas pode ter sua eficiência
+e eficácia aprimoradas e respostas melhor adaptadas a um dado domínio de aplicação, quando uma função
+de densidade é utilizada para modelagem das características locais da imagem de referência (sem mudança).} Dessa maneira, o sistema de detecção de mudanças pode
+atuar como um filtro em que apenas um subconjunto representativo de imagens seja apresentado para o técnico.
+
+\section{Prolbema de Pesquisa}
+
+De acordo com Radke et al.~\citeP{forsyth:2002,radke:2005}, o problema de detecção de mudanças consiste em:
+\newline
+\noindent \textit{Dado apenas um par de imagens aéreas $I_1$ e $I_2$ representantes de uma mesma cena e adquiridas em instantes de tempo diferentes
+$t_1$ e $t_2$, respectivamente, como determinar se ocorreram mudanças na cena a partir do processamento e análise de $I_1$ e $I_2$, por meio
+de abordagem não-paramétrica e não-supervisionada?}
+\newline
+
+
+\section{Motivação}
+
+
+ 
+\section{Contribuicoes}
+
+
+
+
+\section{Organizacao do trabalho}
+
+\noindent \textbf{Capitulo \ref{trab_rela}}: descricao...
+
+\noindent \textbf{Capitulo \ref{meto}}: descricaoo...
+
+\noindent \textbf{Capitulo \ref{desen}}: descricao...
+
+\noindent \textbf{Capitulo \ref{result}}: descricao...

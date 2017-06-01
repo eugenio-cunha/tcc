@@ -1,0 +1,385 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.12)  20 MAR 2017 19:22
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**capa.tex
+(/home/genio/Workspace/UIT/TCC/pre-projeto/pre-textuais/capa.tex
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4  \begin{center}
+                   
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 4--4
+[] 
+ []
+
+
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5     \begin{figure}
+                      [t]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ] in font nullfont!
+! Undefined control sequence.
+l.8             \includegraphics
+                                [width=15cm]{figuras/logo-uit.pdf}\\[-0.1in]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no f in font nullfont!
+
+! LaTeX Error: \begin{center} on input line 4 ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9      \end{figure}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.11     {\large
+                \bfseries UNIVERSIDADE DE ITAÃšNA} \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no Ã in font cmbx10!
+Missing character: There is no š in font cmbx10!
+
+Overfull \hbox (91.40227pt too wide) in paragraph at lines 11--11
+ []\OT1/cmr/bx/n/10 UNIVERSIDADE 
+ []
+
+
+Overfull \hbox (16.37491pt too wide) in paragraph at lines 11--11
+ \OT1/cmr/bx/n/10 DE 
+ []
+
+
+Overfull \hbox (37.79146pt too wide) in paragraph at lines 11--11
+ \OT1/cmr/bx/n/10 ITANA 
+ []
+
+! Undefined control sequence.
+l.12     {\large
+                \bfseries PRÃ“-REITORIA DE ENSINO} \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no Ã in font cmbx10!
+Missing character: There is no “ in font cmbx10!
+
+Overfull \hbox (20.31934pt too wide) in paragraph at lines 12--12
+ []\OT1/cmr/bx/n/10 PR- 
+ []
+
+
+Overfull \hbox (58.86078pt too wide) in paragraph at lines 12--12
+ \OT1/cmr/bx/n/10 REITORIA 
+ []
+
+
+Overfull \hbox (16.37491pt too wide) in paragraph at lines 12--12
+ \OT1/cmr/bx/n/10 DE 
+ []
+
+
+Overfull \hbox (20.38878pt too wide) in paragraph at lines 12--12
+ \OT1/cmr/bx/n/10 EN- 
+ []
+
+
+Overfull \hbox (28.38873pt too wide) in paragraph at lines 12--12
+ \OT1/cmr/bx/n/10 SINO 
+ []
+
+! Undefined control sequence.
+l.13     {\large
+                \bfseries COORDENAÃ‡ÃƒO DE CIÃŠNCIA DA COMPUTACAO}  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no Ã in font cmbx10!
+Missing character: There is no ‡ in font cmbx10!
+Missing character: There is no Ã in font cmbx10!
+Missing character: There is no ƒ in font cmbx10!
+Missing character: There is no Ã in font cmbx10!
+Missing character: There is no Š in font cmbx10!
+
+Overfull \hbox (76.91624pt too wide) in paragraph at lines 13--13
+ []\OT1/cmr/bx/n/10 COORDENAO 
+ []
+
+
+Overfull \hbox (16.37491pt too wide) in paragraph at lines 13--13
+ \OT1/cmr/bx/n/10 DE 
+ []
+
+
+Overfull \hbox (25.49986pt too wide) in paragraph at lines 13--13
+ \OT1/cmr/bx/n/10 CIN- 
+ []
+
+
+Overfull \hbox (21.361pt too wide) in paragraph at lines 13--13
+ \OT1/cmr/bx/n/10 CIA 
+ []
+
+
+Overfull \hbox (17.19435pt too wide) in paragraph at lines 13--13
+ \OT1/cmr/bx/n/10 DA 
+ []
+
+
+Overfull \hbox (31.69427pt too wide) in paragraph at lines 13--13
+ \OT1/cmr/bx/n/10 COM- 
+ []
+
+
+Overfull \hbox (36.27757pt too wide) in paragraph at lines 13--13
+ \OT1/cmr/bx/n/10 PUTA- 
+ []
+
+
+Overfull \hbox (25.3193pt too wide) in paragraph at lines 13--13
+ \OT1/cmr/bx/n/10 CAO 
+ []
+
+! Undefined control sequence.
+l.14     {\large
+                \bfseries BACHARELADO EM CIÃŠNCIA DA COMPUTAÃ‡ÃƒO}  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no Ã in font cmbx10!
+Missing character: There is no Š in font cmbx10!
+Missing character: There is no Ã in font cmbx10!
+Missing character: There is no ‡ in font cmbx10!
+Missing character: There is no Ã in font cmbx10!
+Missing character: There is no ƒ in font cmbx10!
+
+Overfull \hbox (91.80505pt too wide) in paragraph at lines 14--14
+ []\OT1/cmr/bx/n/10 BACHARELADO 
+ []
+
+
+Overfull \hbox (18.47212pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 EM 
+ []
+
+
+Overfull \hbox (25.49986pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 CIN- 
+ []
+
+
+Overfull \hbox (21.361pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 CIA 
+ []
+
+
+Overfull \hbox (17.19435pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 DA 
+ []
+
+
+Overfull \hbox (31.69427pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 COM- 
+ []
+
+
+Overfull \hbox (40.76366pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/bx/n/10 PUTAO 
+ []
+
+
+! LaTeX Error: Environment large undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17     \begin{large}
+                       \bfseries EugÃªnio Cunha\end{large}\\[0.4in]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no Ã in font cmbx10!
+Missing character: There is no ª in font cmbx10!
+
+! LaTeX Error: \begin{center} on input line 4 ended by \end{large}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 ...large} \bfseries EugÃªnio Cunha\end{large}
+                                                  \\[0.4in]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (35.02759pt too wide) in paragraph at lines 17--17
+ []\OT1/cmr/bx/n/10 Eugnio 
+ []
+
+
+Overfull \hbox (33.0623pt too wide) in paragraph at lines 17--17
+ \OT1/cmr/bx/n/10 Cunha 
+ []
+
+Missing character: There is no Ã in font cmbx10!
+Missing character: There is no ‡ in font cmbx10!
+Missing character: There is no Ã in font cmbx10!
+Missing character: There is no ƒ in font cmbx10!
+Missing character: There is no Ã in font cmbx10!
+Missing character: There is no ‡ in font cmbx10!
+Missing character: There is no Ã in font cmbx10!
+Missing character: There is no • in font cmbx10!
+
+Overfull \hbox (78.29123pt too wide) in paragraph at lines 21--21
+ []\OT1/cmr/bx/n/10 CLASSIFICAO 
+ []
+
+
+Overfull \hbox (16.37491pt too wide) in paragraph at lines 21--21
+ \OT1/cmr/bx/n/10 DE 
+ []
+
+
+Overfull \hbox (47.31918pt too wide) in paragraph at lines 21--21
+ \OT1/cmr/bx/n/10 REDAES 
+ []
+
+
+Overfull \hbox (27.86096pt too wide) in paragraph at lines 21--21
+ \OT1/cmr/bx/n/10 COM 
+ []
+
+
+Overfull \hbox (63.54134pt too wide) in paragraph at lines 21--21
+ []\OT1/cmr/bx/n/10 ``MACHINE 
+ []
+
+
+Overfull \hbox (44.62476pt too wide) in paragraph at lines 21--21
+ \OT1/cmr/bx/n/10 LEARN- 
+ []
+
+
+Overfull \hbox (28.4304pt too wide) in paragraph at lines 21--21
+ \OT1/cmr/bx/n/10 ING'' 
+ []
+
+Missing character: There is no Ã in font cmbx10!
+Missing character: There is no š in font cmbx10!
+
+Overfull \hbox (37.79146pt too wide) in paragraph at lines 23--23
+ []\OT1/cmr/bx/n/10 ITANA 
+ []
+
+
+Overfull \hbox (22.99988pt too wide) in paragraph at lines 23--24
+ []\OT1/cmr/bx/n/10 2017 
+ []
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 \normalsize
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+! Emergency stop.
+<*> capa.tex
+            
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 13 strings out of 493029
+ 393 string characters out of 6136234
+ 54223 words of memory out of 5000000
+ 3647 multiletter control sequences out of 15000+600000
+ 3948 words of font info for 15 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 12i,1n,9p,107b,107s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

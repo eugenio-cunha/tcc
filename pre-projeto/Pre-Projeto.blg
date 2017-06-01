@@ -1,0 +1,104 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Pre-Projeto.aux
+A level-1 auxiliary file: pre-textuais/capa.aux
+A level-1 auxiliary file: textuais/Introducao.aux
+A level-1 auxiliary file: textuais/Plano.aux
+The style file: configuracao/abnt-alf.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: abnt-options.bib
+Database file #2: bibliografia/bib.bib
+You're missing a field name---line 100 of file bibliografia/bib.bib
+ : 
+ : % abstract = "",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 119 of file bibliografia/bib.bib
+ : 
+ : % author = "Radke, Richard J and Andra, Srinivas and Al-Kofahi, Omar and Roysam, Badrinath",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 130 of file bibliografia/bib.bib
+ : 
+ : % author = "Forsyth, David A and Ponce, Jean",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 137 of file bibliografia/bib.bib
+ : 
+ : % author = "UCM,  Carnegie Mellon University ",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 144 of file bibliografia/bib.bib
+ : 
+ : % author = "Al-Kofahi, Omar and Radke, Richard J and Roysam, Badrinath and Banker, Gary",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 155 of file bibliografia/bib.bib
+ : 
+ : % address = "The address of the publisher",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 165 of file bibliografia/bib.bib
+ : 
+ : % address = "The address of the publisher",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
++---------------------------------------------------------+
+| Estilo bibliográfico abnt-alf.bst versão 1.45.2.1           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://abntex.codigolivre.org.br                        |
++---------------------------------------------------------+
+You've used 15 entries,
+            6480 wiz_defined-function locations,
+            1212 strings with 10980 characters,
+and the built_in function-call counts, 8285 in all, are:
+= -- 742
+> -- 171
+< -- 4
++ -- 113
+- -- 55
+* -- 470
+:= -- 1124
+add.period$ -- 43
+call.type$ -- 18
+change.case$ -- 82
+chr.to.int$ -- 16
+cite$ -- 9
+duplicate$ -- 310
+empty$ -- 845
+format.name$ -- 259
+if$ -- 2074
+int.to.chr$ -- 6
+int.to.str$ -- 1
+missing$ -- 215
+newline$ -- 60
+num.names$ -- 45
+pop$ -- 234
+preamble$ -- 1
+purify$ -- 47
+quote$ -- 0
+skip$ -- 717
+stack$ -- 1
+substring$ -- 291
+swap$ -- 122
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 3
+warning$ -- 0
+while$ -- 58
+width$ -- 0
+write$ -- 147
+(There were 7 error messages)
