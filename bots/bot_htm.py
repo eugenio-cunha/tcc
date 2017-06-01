@@ -32,8 +32,8 @@ def get_links_from_url(url):
         if 'https://educacao.uol.com.br/bancoderedacoes/redacoes/' in url and '.htm' in url:
             print(url)
             name = url.replace('https://educacao.uol.com.br/bancoderedacoes/redacoes/', '')
-            if not Path('htm/{0}'.format(name)).is_file():
-                with open('htm/{0}'.format(name), 'w') as text:
+            if not Path('./htm/{0}'.format(name)).is_file():
+                with open('./htm/{0}'.format(name), 'w') as text:
                     text.write(response.body.decode())
 
         html = response.body if isinstance(response.body, str) \
