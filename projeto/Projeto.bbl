@@ -5,36 +5,68 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{1.45.2.1 }
 
-\bibitem[Harwood 1993]{mastersthesis:93}
-\abntrefinfo{Harwood}{HARWOOD}{1993}
-{HARWOOD, Peter.
-\textbf{{The title of the work}}.
-Disserta{\c c}{\~a}o (Mestrado) --- The school of the thesis, The address of
-  the publisher, 7 1993.}
+\bibitem[Batista \textit{et al.} 1999]{batista1999aplicando}
+\abntrefinfo{Batista \textit{et al.}}{BATISTA \textit{et al.}}{1999}
+{BATISTA, GEAPA; CARVALHO, ACPLF; MONARD, Maria~C; BRASIL, Silicon~Graphics.
+  Aplicando sele{\c{c}}{\~a}o unilateral em conjuntos de exemplos
+  desbalanceados: Resultados iniciais. In:  \textbf{XIX CONGRESSO NACIONAL DA
+  SOCIEDADE BRASILEIRA DE COMPUTA{\c{C}}{\~A}O “EDUCA{\c{C}}{\~A}O E
+  APRENDIZAGEM NA SOCIEDADE DA INFORMA{\c{C}}{\~A}O}. [S.l.: s.n.], 1999.
+  v.~20, p. 327--340.}
 
-\bibitem[Joslin 1993]{phdthesis:2011}
-\abntrefinfo{Joslin}{JOSLIN}{1993}
-{JOSLIN, Peter.
-\textbf{{The title of the work}}.
-Tese (Doutorado) --- The school of the thesis, The address of the publisher, 7
-  1993. An optional note.}
+\bibitem[CEBRASPE 2016]{paq_a:2016}
+\abntrefinfo{CEBRASPE}{CEBRASPE}{2016a}
+{CEBRASPE. \textbf{{CENTRO BRASILEIRO DE PESQUISA EM AVALIAÇÃO E SELEÇÃO E
+  DE PROMOÇÃO DE EVENTOS (CEBRASPE) PROGRAMA DE ATUALIZAÇÃO, QUALIFICAÇÃO
+  E SELEÇÃO DE AVALIADORES DAS REDAÇÕES DO ENEM 2016 }}. 2016.
+{Online; acessado 07 Abril 2017}.
+Dispon{\'\i}vel em:
+  $<$\url{http://www.cespe.unb.br/colaboradores/ENEM_16_AVALIADOR_REDACAO/arquivos/ENEM_REDA____ES_2016___AVALIADOR___REGULAMENTO.PDF}$>$.}
 
-\bibitem[Oetiker \textit{et al.} 2007]{Oetiker:1995}
-\abntrefinfo{Oetiker \textit{et al.}}{OETIKER \textit{et al.}}{2007}
-{OETIKER, Tobias; PARTL, Hubert; HYNA, Irene; SCHLEGL, Elisabeth. \textbf{{Uma
-  n{\~a}o t{\~a}o pequena introdu\c{c}{\~a}o ao LaTex}}. [S.l.]: Free Software
-  Foundation, 2007.  ({}, v. 4.20.1).}
+\bibitem[CEBRASPE 2016]{relatorio_de_gestao:2016}
+\abntrefinfo{CEBRASPE}{CEBRASPE}{2016b}
+{CEBRASPE, CESPE~UNB. \textbf{{Relatório de Gestão CEBRASPE}}. 2016.
+1--20~p.
+{Online; acessado 07 Abril 2017}.
+Dispon{\'\i}vel em:
+  $<$\url{http://www.cespe.unb.br/cebraspe/arquivos/Relatorio_de_Gestao_2016.pdf}$>$.}
 
-\bibitem[Radke \textit{et al.} 2005]{radke:2005}
-\abntrefinfo{Radke \textit{et al.}}{RADKE \textit{et al.}}{2005}
-{RADKE, Richard~J; ANDRA, Srinivas; AL-KOFAHI, Omar; ROYSAM, Badrinath. {Image
-  change detection algorithms: a systematic survey}.
-\textbf{IEEE transactions on image processing}, IEEE, v.~14, n.~3, p. 294--307,
-  2005.}
+\bibitem[CsF 2017]{csf:2017}
+\abntrefinfo{CsF}{CSF}{2017}
+{CSF, Ciência sem~Fronteiras. \textbf{{Estudante de Graduação}}. 2017.
+{Online; acessado 07 Abril 2017}.
+Dispon{\'\i}vel em:
+  $<$\url{http://www.cienciasemfronteiras.gov.br/web/csf/estudante}$>$.}
 
-\bibitem[University 2016]{cil:2016}
-\abntrefinfo{University}{UNIVERSITY}{2016}
-{UNIVERSITY, Carnegie~Mellon. \textbf{{The computer vision home page}}. 2016.
-Dispon{\'\i}vel em: $<$\url{https://www.cs.cmu.edu/~cil/vision.html}$>$.}
+\bibitem[INEP 2016]{edital_enem:2016}
+\abntrefinfo{INEP}{INEP}{2016}
+{INEP. \textbf{{EDITAIS}}. 2016.
+{Online; acessado 07 Abril 2017}.
+Dispon{\'\i}vel em:
+  $<$\url{http://download.inep.gov.br/educacao_basica/enem/edital/2016/edital_enem_2016.pdf}$>$.}
+
+\bibitem[Mitchell 1997]{machine_learning:1997}
+\abntrefinfo{Mitchell}{MITCHELL}{1997}
+{MITCHELL, Tom M.~Mitchell. \textbf{{Machine Learning}}. [S.l.]: Book News,
+  Inc., 1997.
+ISBN 0070428077.}
+
+\bibitem[SISU 2017]{sisu:2017}
+\abntrefinfo{SISU}{SISU}{2017}
+{SISU, Sistema de seleção~unificada. \textbf{{O que é o Sisu}}. 2017.
+{Online; acessado 07 Abril 2017}.
+Dispon{\'\i}vel em: $<$\url{http://sisu.mec.gov.br/}$>$.}
+
+\bibitem[UOL 2017]{uol_banco_redacoes:2017}
+\abntrefinfo{UOL}{UOL}{2017}
+{UOL. \textbf{{Banco de redações}}. 2017.
+{Online; acessado 01 Junho 2017}.
+Dispon{\'\i}vel em: $<$\url{https://educacao.uol.com.br/bancoderedacoes/}$>$.}
+
+\bibitem[waymo 2017]{waymo:2017}
+\abntrefinfo{waymo}{WAYMO}{2017}
+{WAYMO. \textbf{{We’re building a safer driver for everyone}}. 2017.
+{Online; acessado 07 Abril 2017}.
+Dispon{\'\i}vel em: $<$\url{https://waymo.com/}$>$.}
 
 \end{thebibliography}

@@ -4,19 +4,20 @@
 \contentsline {chapter}{Lista de S\IeC {\'\i }mbolos}{}
 \contentsline {chapter}{Lista de Abreviacoes}{}
 \contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{12}
-\contentsline {section}{\numberline {1.1}Motiva\IeC {\c c}\IeC {\~a}o e objetivos}{13}
-\contentsline {section}{\numberline {1.2}Contribuicoes}{13}
-\contentsline {section}{\numberline {1.3}Organizacao do trabalho}{13}
-\contentsline {chapter}{\numberline {2}Trabalhos Relacionados}{14}
-\contentsline {chapter}{\numberline {3}Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica}{15}
-\contentsline {section}{\numberline {3.1}M\IeC {\'e}todos de Kernel}{15}
-\contentsline {section}{\numberline {3.2}Kernel em an\IeC {\'a}lise de padr\IeC {\~o}es}{15}
-\contentsline {subsection}{\numberline {3.2.1}Exemplo de uma equa\IeC {\c c}\IeC {\~a}o mais complexa}{16}
-\contentsline {section}{\numberline {3.3}Tabelas}{16}
-\contentsline {chapter}{\numberline {4}M\IeC {\'e}todo Proposto}{19}
-\contentsline {chapter}{\numberline {5}Desenvolvimento}{20}
-\contentsline {chapter}{\numberline {6}Resultados Experimentais}{21}
-\contentsline {chapter}{\numberline {7}Conclus\IeC {\~a}o e Trabalhos Futuros}{22}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{23}
-\contentsline {chapter}{Ap\^endice{} A{} -$\tmspace -\thinmuskip {.1667em}$-{} T\IeC {\'\i }tulo do Ap\IeC {\^e}ndice}{24}
-\contentsline {chapter}{Ap\^endice{} B{} -$\tmspace -\thinmuskip {.1667em}$-{} Exemplo do pacote Algorithm}{25}
+\contentsline {section}{\numberline {1.1}Problema de Pesquisa}{13}
+\contentsline {section}{\numberline {1.2}Motiva\IeC {\c c}\IeC {\~a}o}{13}
+\contentsline {section}{\numberline {1.3}Contribuicoes}{14}
+\contentsline {section}{\numberline {1.4}Organizacao do trabalho}{14}
+\contentsline {chapter}{\numberline {2}Trabalhos Relacionados}{15}
+\contentsline {chapter}{\numberline {3}Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica}{16}
+\contentsline {section}{\numberline {3.1}M\IeC {\'e}todos de Kernel}{16}
+\contentsline {section}{\numberline {3.2}Kernel em an\IeC {\'a}lise de padr\IeC {\~o}es}{16}
+\contentsline {subsection}{\numberline {3.2.1}Exemplo de uma equa\IeC {\c c}\IeC {\~a}o mais complexa}{17}
+\contentsline {section}{\numberline {3.3}Tabelas}{17}
+\contentsline {chapter}{\numberline {4}M\IeC {\'e}todo Proposto}{20}
+\contentsline {chapter}{\numberline {5}Desenvolvimento}{21}
+\contentsline {chapter}{\numberline {6}Resultados Experimentais}{22}
+\contentsline {chapter}{\numberline {7}Conclus\IeC {\~a}o e Trabalhos Futuros}{23}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{24}
+\contentsline {chapter}{Ap\^endice{} A{} -$\tmspace -\thinmuskip {.1667em}$-{} T\IeC {\'\i }tulo do Ap\IeC {\^e}ndice}{25}
+\contentsline {chapter}{Ap\^endice{} B{} -$\tmspace -\thinmuskip {.1667em}$-{} Exemplo do pacote Algorithm}{26}
