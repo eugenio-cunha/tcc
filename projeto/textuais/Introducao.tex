@@ -1,7 +1,7 @@
 \chapter{Introdução}\label{CAP:introducao}
 
 \noindent O desenvolvimento de uma redação e uma atividade prática presente na cultura civilizada desde a invenção da escrita.
-Já faz pelo menos uma década que um bom desempenho na redação do Exame Nacional de Ensino Médio - ENEM  virou sinônimo de chances maiores para ser aprovado no processo seletivo de acesso a inúmeras universidades públicas ~\cite{sisu:2017} e a importantes programas de governo, Ciência sem fronteiras ~\cite{csf:2017}.
+Já faz pelo menos uma década que um bom desempenho na redação do Exame Nacional de Ensino Médio - ENEM  virou sinônimo de chances maiores para ser aprovado no processo seletivo de acesso a inúmeras universidades públicas ~\cite{sisu:2017} e a importantes programas de governo como Ciência sem fronteiras ~\cite{csf:2017}.
 
 Em todo processo seletivo é comum o uso de marcações em gabaritos afim de automatizar o processo de correção, uma alternativa rápida e segura, até mesmo aplicações de provas eletrônicas são cada vez mais comum. Um exemplo seria o processo seletivo para avaliador das redações do ENEM que durante a ``FASE II'' respondem uma prova eletrônica eliminatória ~\cite{paq_a:2016}. É notável que todo o processo evoluiu com objetivo de agilidade, confiança e segurança do resultado, entretanto a avaliação das competências de uma redação ainda depende exclusivamente da supervisão de duas ou mais pessoas envolvidas ~\cite{edital_enem:2016}.
 
@@ -11,9 +11,9 @@ Segundo o edital do ENEM 2016 ~\cite{edital_enem:2016} cada redação foi avalia
 
 \textit{Machine Learning} ou aprendizado de máquina é uma área de IA cujo objetivo é o desenvolvimento de técnicas computacionais sobre o aprendizado bem como a construção de sistemas capazes de adquirir conhecimento de forma automática. Os algoritmos de aprendizado de máquina procuram padrões dentro de um conjunto de dados~\cite{machine_learning:1997}. Esses algoritmos existem há bastante tempo, uma ciência que não é nova, mas que está ganhando um novo impulso enquanto o processamento computacional cresce e fica mais barato.
 
-A hipótese desta monografia é que a aplicação do aprendizado de máquina na valoração das competências de uma redação pode ser tão eficiênte quanto o processo de avaliação manual por avaliadores.
+A hipótese desta monografia é que um ou mais modelos de aprendizado de máquina na valoração das competências de uma redação pode ser tão eficiênte quanto o processo de avaliação manual.
 
-\section{Problema de Pesquisa}
+\section{Definição do Problema de Pesquisa}
 
 Dado um corpus de redações avaliar as competências exigidas em um texto de redação do tipo dissertativo-argumentativo substituindo a etapa de avaliação manual.
 
@@ -23,8 +23,67 @@ Com crescente volume e variedade de dados disponíveis, o processamento computac
 
 Aplicações de aprendizado de máquina estão presentes na nossa vida cotidiana como, resultados de pesquisa web, análise de sentimento baseado em texto e na detecção de fraudes em operações com cartões de crédito ~\cite{batista1999aplicando}.
 
-As competências exigidas em uma redação podem ser avaliadas com aprendizado de máquina. Uma aplicação de aprendizado de máquina está livre de ansiedade, fadiga, \textit{stress} entre outro fatores que afetão a tomada de decisão. Isto representaria a análise e classificação de um texto imparcial a opinião do autor classificando todas as competências necessárias para definição de uma nota.
- 
+As competências exigidas em uma redação podem ser avaliadas por aprendizado de máquina. Diferente de um ser humano um modelo de aprendizado de máquina está livre de ansiedade, fadiga, \textit{stress} entre outro fatores emocionais que afetão uma avaliação. Isto representaria a classificação de um texto imparcial a opinião do autor classificando todas as competências necessárias para definição de uma nota.
+
+\section{Objetivos Gerais e Específicos}
+
+Este trabalho tem como objetivo geral aplicar aprendizado de máquina na avaliação das competências exigidas em um texto de redação do tipo dissertativo-argumentativo.
+
+\subsection{Objetivos Especificos}
+
+Dentro do escopo geral de forma detalhada e refinada as ações que se prentende executar para alcançar o objetivo geral acima, são particularizadas como os seguintes objetivos específicos:
+
+\begin{itemize}
+ \item Coletar, normalizar e compilar um \textit{corpus} de redações com textos em prosa, do tipo dissertativo-argumentativo com temas diversificados, onde todas as competências foram avaliadas;
+ \item Montar um fluxo de trabalho utilizando a ferramenta de \textit{Data Mining} Orange3 com modelos  classificadores de multiplas classes;
+ \item Ajustar e treinar os modelos classificadores com o corpus de redações; 
+ \item Realizar os seguintes testes;
+  \begin{itemize}
+   \item Acurácia ou taxa de erro;
+   \item \textit{Overfitting} ou super-ajustamento;
+   \item \textit{Noise} ou ruído;
+  \end{itemize}
+ \item Representar graficamente os resultados obtidos. 
+\end{itemize}
+
+\section{Metodologia}
+
+Para concluir com êxito os objetivos propostos o método utilizado para solução do problema tem os seguintes passo:
+
+\begin{itemize}
+\item Linguagens, Frameworks e bibliotecas
+ \begin{itemize}
+  \item Definição e justificativa da linguagem utilizada.
+  \item Definição e justificativa das bibliotecas utilizadas.
+  \item Definição e justificativa das frameworks utilizadas.
+ \end{itemize}
+\item Coleta de dados
+ \begin{itemize}
+  \item A partir de fontes de dados disponíveis na web, coletar e organizar um corpus de redações com textos em prosa, do tipo dissertativo-argumentativo de temas variados, avaliados segundo as competências exigidas pelo ENEM.
+  \item Dividir 75\% do corpus para ser utilizado na etapa de treinamento do modelo e os demais 25\% restantes para testes posteriores.
+ \end{itemize}
+\item Algoritmo e modelo
+ \begin{itemize}
+  \item Avaliar a viabilidade do uso de um algoritimo supervisionado ou semi-supervisionado.
+  \item Definição dos modelos que atendem o escopo geral do problema de avaliação de redações.
+ \end{itemize}
+\item Treinamento e teste.
+ \begin{itemize}
+  \item Treinamento dos modelos avaliados.
+  \item Teste de acurácia, \textit{overfitting} e \textit{noise} do modelos avaliados.
+ \end{itemize}
+\item Resultados.
+ \begin{itemize}
+  \item Comparar gráficamente o resultado dos testes de cada modelo avaliado entre cada um.
+  \item Elaboração da conclusão dos teste e viabilidade de uso de cada modelo.
+ \end{itemize}
+\item Aplicação prática.
+ \begin{itemize}
+  \item Embasado na conclusão dos testes utilizar os modelos em uma aplicação web. 
+ \end{itemize}
+\end{itemize}
+
+
 \section{Contribuicoes}
 
 
