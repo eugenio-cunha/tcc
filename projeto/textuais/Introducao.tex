@@ -23,7 +23,7 @@ Com crescente volume e variedade de dados disponíveis, o processamento computac
 
 Aplicações de aprendizado de máquina estão presentes na nossa vida cotidiana como, resultados de pesquisa web, análise de sentimento baseado em texto e na detecção de fraudes em operações com cartões de crédito ~\cite{batista1999aplicando}.
 
-As competências exigidas em uma redação podem ser avaliadas por aprendizado de máquina. Diferente de um ser humano um modelo de aprendizado de máquina está livre de ansiedade, fadiga, \textit{stress} entre outro fatores emocionais que afetão uma avaliação. Isto representaria a classificação de um texto imparcial a opinião do autor classificando todas as competências necessárias para definição de uma nota.
+As competências exigidas em uma redação podem ser avaliadas por aprendizado de máquina. Diferente de um ser humano um algoritmo de aprendizado de máquina está livre de ansiedade, fadiga, \textit{stress} entre outro fatores emocionais que afetão uma avaliação. Isto representaria a classificação de um texto imparcial a opinião do autor classificando todas as competências necessárias para definição de uma nota.
 
 \section{Objetivos Gerais e Específicos}
 
@@ -34,10 +34,11 @@ Este trabalho tem como objetivo geral aplicar aprendizado de máquina na avalia�
 Dentro do escopo geral de forma detalhada e refinada as ações que se prentende executar para alcançar o objetivo geral acima, são particularizadas como os seguintes objetivos específicos:
 
 \begin{itemize}
- \item Coletar, normalizar e compilar um \textit{corpus} de redações com textos em prosa, do tipo dissertativo-argumentativo com temas diversificados, onde todas as competências foram avaliadas;
+ \item Percorrer o banco de redações UOL ~\cite{uol_banco_redacoes:2017}, filtrar e coletar redações avaliadas;
+ \item Normalizar os textos coletados separar o tema, título, texto e competências avaliadas em uma estrura no formato JSON e armazenar;
  \item Montar um fluxo de trabalho utilizando a ferramenta de \textit{Data Mining} Orange3 com modelos  classificadores de multiplas classes;
  \item Ajustar e treinar os modelos classificadores com o corpus de redações; 
- \item Realizar os seguintes testes;
+ \item Realizar testes de acurácia, \textit{overfitting} e \textit{noise};
   \begin{itemize}
    \item Acurácia ou taxa de erro;
    \item \textit{Overfitting} ou super-ajustamento;
@@ -50,39 +51,43 @@ Dentro do escopo geral de forma detalhada e refinada as ações que se prentende
 
 Para concluir com êxito os objetivos propostos o método utilizado para solução do problema tem os seguintes passo:
 
-\begin{itemize}
-\item Linguagens, Frameworks e bibliotecas
- \begin{itemize}
-  \item Definição e justificativa da linguagem utilizada.
-  \item Definição e justificativa das bibliotecas utilizadas.
-  \item Definição e justificativa das frameworks utilizadas.
- \end{itemize}
-\item Coleta de dados
- \begin{itemize}
-  \item A partir de fontes de dados disponíveis na web, coletar e organizar um corpus de redações com textos em prosa, do tipo dissertativo-argumentativo de temas variados, avaliados segundo as competências exigidas pelo ENEM.
-  \item Dividir 75\% do corpus para ser utilizado na etapa de treinamento do modelo e os demais 25\% restantes para testes posteriores.
- \end{itemize}
-\item Algoritmo e modelo
- \begin{itemize}
-  \item Avaliar a viabilidade do uso de um algoritimo supervisionado ou semi-supervisionado.
-  \item Definição dos modelos que atendem o escopo geral do problema de avaliação de redações.
- \end{itemize}
-\item Treinamento e teste.
- \begin{itemize}
-  \item Treinamento dos modelos avaliados.
-  \item Teste de acurácia, \textit{overfitting} e \textit{noise} do modelos avaliados.
- \end{itemize}
-\item Resultados.
- \begin{itemize}
-  \item Comparar gráficamente o resultado dos testes de cada modelo avaliado entre cada um.
-  \item Elaboração da conclusão dos teste e viabilidade de uso de cada modelo.
- \end{itemize}
-\item Aplicação prática.
- \begin{itemize}
-  \item Embasado na conclusão dos testes utilizar os modelos em uma aplicação web. 
- \end{itemize}
-\end{itemize}
+\begin{figure}[h]
+\begin{center}
+    \includegraphics[scale=0.75]{figuras/metodologia_1.png}
+\end{center}
+\caption{Diagrama de blocos da primeira etapa.}
+\label{Img:3DRobotWorkspace}
+\end{figure}
 
+\begin{figure}[h]
+\begin{center}
+    \includegraphics[scale=0.75]{figuras/metodologia_2.png}
+\end{center}
+\caption{Diagrama de blocos da segunda etapa.}
+\label{Img:3DRobotWorkspace}
+\end{figure}
+
+\begin{figure}[h]
+\begin{center}
+    \includegraphics[scale=0.75]{figuras/metodologia_3.png}
+\end{center}
+\caption{Diagrama de blocos da terceira etapa.}
+\label{Img:3DRobotWorkspace}
+\end{figure}
+
+\begin{figure}[h]
+\begin{center}
+    \includegraphics[scale=0.75]{figuras/metodologia_4.png}
+\end{center}
+\caption{Diagrama de blocos da quarta etapa.}
+\label{Img:3DRobotWorkspace}
+\end{figure}
+
+
+% Normalizar os textos coletados tal que o valor textual ainda seja o mesmo que o original, mas cuja representação binária está no formato de normalização Unicode especificado,
+
+% Será necessário realizar estudo e análise sobre o tema para obter o conhecimeto
+% necessário para o desenvolvimento e conclusão de todos os objetivos propostos.
 
 \section{Contribuicoes}
 
