@@ -23,7 +23,7 @@ Com crescente volume e variedade de dados disponíveis, o processamento computac
 
 Aplicações de aprendizado de máquina estão presentes na nossa vida cotidiana como, resultados de pesquisa web, análise de sentimento baseado em texto e na detecção de fraudes em operações com cartões de crédito ~\cite{batista1999aplicando}.
 
-As competências exigidas em uma redação podem ser avaliadas por aprendizado de máquina. Diferente de um ser humano um algoritmo de aprendizado de máquina está livre de ansiedade, fadiga, \textit{stress} entre outro fatores emocionais que afetão uma avaliação. Isto representaria a classificação de um texto imparcial a opinião do autor classificando todas as competências necessárias para definição de uma nota.
+As competências exigidas em uma redação podem ser avaliadas por aprendizado de máquina, diferente de um ser humano um algoritmo de aprendizado de máquina está livre de ansiedade, fadiga, \textit{stress} entre outro fatores emocionais que afetão uma avaliação imparcial a opinião do autor.
 
 \section{Objetivos Gerais e Específicos}
 
@@ -31,75 +31,28 @@ Este trabalho tem como objetivo geral aplicar aprendizado de máquina na avalia�
 
 \subsection{Objetivos Especificos}
 
-Dentro do escopo geral de forma detalhada e refinada as ações que se prentende executar para alcançar o objetivo geral acima, são particularizadas como os seguintes objetivos específicos:
+O método de construção do conhecimento deste trabalho terá como fundamentos processos de pesquisas relacionadas às áreas descritas. O mesmo será dividido em etapas dentro do escopo geral de forma detalhada e refinada para alcançar o objetivo geral acima, são particularizadas como os seguintes objetivos específicos:
 
 \begin{itemize}
- \item Percorrer o banco de redações UOL ~\cite{uol_banco_redacoes:2017}, filtrar e coletar redações avaliadas;
- \item Normalizar os textos coletados separar o tema, título, texto e competências avaliadas em uma estrura no formato JSON e armazenar;
- \item Montar um fluxo de trabalho utilizando a ferramenta de \textit{Data Mining} Orange3 com modelos  classificadores de multiplas classes;
+ \item Percorrer o banco de redações UOL ~\cite{uol_banco_redacoes:2017} em páginas HTML, filtrar e coletar redações avaliadas;
+ \item Normalizar os textos coletados, separar o tema, título, texto e competências avaliadas em uma estrura no formato JSON e armazenar;
+ \item Montar um fluxo de trabalho utilizando a ferramenta para mineração de dados \textit{Orange} ~\cite{orange_3:2017} com modelos classificadores de multiplas classes;
  \item Ajustar e treinar os modelos classificadores com o corpus de redações; 
- \item Realizar testes de acurácia, \textit{overfitting} e \textit{noise};
-  \begin{itemize}
-   \item Acurácia ou taxa de erro;
-   \item \textit{Overfitting} ou super-ajustamento;
-   \item \textit{Noise} ou ruído;
-  \end{itemize}
- \item Representar graficamente os resultados obtidos. 
+ \item Realizar testes de acurácia, \textit{overfitting} e \textit{noise} sobre os classificadores;
+ \item Representar e comparar graficamente os resultados obtidos. 
 \end{itemize}
 
-\section{Metodologia}
+\section{Contribuições}
 
-Para concluir com êxito os objetivos propostos o método utilizado para solução do problema tem os seguintes passo:
+O presente estudo contribuirá na área do aprendizado de máquina e diretamente no processo de avaliação de um texto em prosa do tipo dissertativo argumentativo.
 
-\begin{figure}[h]
-\begin{center}
-    \includegraphics[scale=0.75]{figuras/metodologia_1.png}
-\end{center}
-\caption{Diagrama de blocos da primeira etapa.}
-\label{Img:3DRobotWorkspace}
-\end{figure}
+\section{Organização do trabalho}
 
-\begin{figure}[h]
-\begin{center}
-    \includegraphics[scale=0.75]{figuras/metodologia_2.png}
-\end{center}
-\caption{Diagrama de blocos da segunda etapa.}
-\label{Img:3DRobotWorkspace}
-\end{figure}
+\noindent \textbf{Capitulo \ref{trab_rela}}: Trabalhos Relacionados cita alguns dos trabalhos lidos para  embasamento teórico que serviram de base para solucionar o problema proposto.
 
-\begin{figure}[h]
-\begin{center}
-    \includegraphics[scale=0.75]{figuras/metodologia_3.png}
-\end{center}
-\caption{Diagrama de blocos da terceira etapa.}
-\label{Img:3DRobotWorkspace}
-\end{figure}
+\noindent \textbf{Capitulo \ref{meto}}: Método proposto apresenta as etapas passo a passo para desenvolver e resolver o problema proposto deste trabalho.
 
-\begin{figure}[h]
-\begin{center}
-    \includegraphics[scale=0.75]{figuras/metodologia_4.png}
-\end{center}
-\caption{Diagrama de blocos da quarta etapa.}
-\label{Img:3DRobotWorkspace}
-\end{figure}
+\noindent \textbf{Capitulo \ref{desen}}: Desenvolvimento descreve cada procedimento metodológico que será
+utilizado para a realização da pesquisa.
 
-
-% Normalizar os textos coletados tal que o valor textual ainda seja o mesmo que o original, mas cuja representação binária está no formato de normalização Unicode especificado,
-
-% Será necessário realizar estudo e análise sobre o tema para obter o conhecimeto
-% necessário para o desenvolvimento e conclusão de todos os objetivos propostos.
-
-\section{Contribuicoes}
-
-
-
-
-\section{Organizacao do trabalho}
-
-\noindent \textbf{Capitulo \ref{trab_rela}}: descricao...
-
-\noindent \textbf{Capitulo \ref{meto}}: descricaoo...
-
-\noindent \textbf{Capitulo \ref{desen}}: descricao...
-
-\noindent \textbf{Capitulo \ref{result}}: descricao...
+\noindent \textbf{Capitulo \ref{result}}: Resultados Experimentais apresenta os resultados obtidos do trabalho desta pesquisa.

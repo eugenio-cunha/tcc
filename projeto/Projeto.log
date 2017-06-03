@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.5.4)  2 JUN 2017 16:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.5.4)  3 JUN 2017 18:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -855,17 +855,8 @@ Writing index file Projeto.idx
 (/home/genio/Workspace/TCC/projeto/pre-textuais/epigrafe.aux)
 (/home/genio/Workspace/TCC/projeto/pre-textuais/resumo.aux)
 (/home/genio/Workspace/TCC/projeto/pre-textuais/abstract.aux)
-(/home/genio/Workspace/TCC/projeto/textuais/Introducao.aux
-
-LaTeX Warning: Label `Img:3DRobotWorkspace' multiply defined.
-
-
-LaTeX Warning: Label `Img:3DRobotWorkspace' multiply defined.
-
-
-LaTeX Warning: Label `Img:3DRobotWorkspace' multiply defined.
-
-) (/home/genio/Workspace/TCC/projeto/textuais/TrabalhosRelacionados.aux)
+(/home/genio/Workspace/TCC/projeto/textuais/Introducao.aux)
+(/home/genio/Workspace/TCC/projeto/textuais/TrabalhosRelacionados.aux)
 (/home/genio/Workspace/TCC/projeto/textuais/Fundamentacao.aux)
 (/home/genio/Workspace/TCC/projeto/textuais/Metodologia.aux)
 (/home/genio/Workspace/TCC/projeto/textuais/Desenvolvimento.aux)
@@ -1132,15 +1123,20 @@ LaTeX Font Info:    Font shape `T1/phv/b/it' in size <12> not available
 \openout4 = `Projeto.toc'.
 
  [7]
-(/home/genio/Workspace/TCC/projeto/Projeto.lof)
+(/home/genio/Workspace/TCC/projeto/Projeto.lof
+Underfull \hbox (badness 4846) in paragraph at lines 3--3
+ [][] []\T1/phv/m/n/12 Os tex-tos são sub-me-ti-dos aos al-go-rit-mos de nor-ma
+-li-za-ção e 
+ []
+
+)
 \tf@lof=\write5
 \openout5 = `Projeto.lof'.
 
  [8
 
 
-]
-(/home/genio/Workspace/TCC/projeto/Projeto.lot)
+] (/home/genio/Workspace/TCC/projeto/Projeto.lot)
 \tf@lot=\write6
 \openout6 = `Projeto.lot'.
 
@@ -1188,64 +1184,18 @@ File: omsphv.fd
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 37.
 
-<figuras/metodologia_1.png, id=67, 376.40625pt x 116.68594pt>
-File: figuras/metodologia_1.png Graphic file (type png)
+Underfull \hbox (badness 4479) in paragraph at lines 51--52
+\T1/phv/b/n/12 Capitulo 2[]\T1/phv/m/n/12 : Tra-ba-lhos Re-la-ci-o-na-dos cita 
+al-guns dos tra-ba-lhos li-dos para
+ []
 
-<use figuras/metodologia_1.png>
-Package pdftex.def Info: figuras/metodologia_1.png used on input line 55.
-(pdftex.def)             Requested size: 282.30399pt x 87.51422pt.
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 57.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 57.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 57.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 57.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figuras/metodologia_2.png, id=69, 376.40625pt x 116.68594pt>
-File: figuras/metodologia_2.png Graphic file (type png)
-
-<use figuras/metodologia_2.png>
-Package pdftex.def Info: figuras/metodologia_2.png used on input line 63.
-(pdftex.def)             Requested size: 282.30399pt x 87.51422pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figuras/metodologia_3.png, id=70, 376.40625pt x 116.68594pt>
-File: figuras/metodologia_3.png Graphic file (type png)
-
-<use figuras/metodologia_3.png>
-Package pdftex.def Info: figuras/metodologia_3.png used on input line 71.
-(pdftex.def)             Requested size: 282.30399pt x 87.51422pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figuras/metodologia_4.png, id=71, 376.40625pt x 116.68594pt>
-File: figuras/metodologia_4.png Graphic file (type png)
-
-<use figuras/metodologia_4.png>
-Package pdftex.def Info: figuras/metodologia_4.png used on input line 79.
-(pdftex.def)             Requested size: 282.30399pt x 87.51422pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[14]) [15 </home/genio/Workspace/TCC/projeto/figuras/metodologia_1.png> </home/
-genio/Workspace/TCC/projeto/figuras/metodologia_2.png>] [16 </home/genio/Worksp
-ace/TCC/projeto/figuras/metodologia_3.png> </home/genio/Workspace/TCC/projeto/f
-iguras/metodologia_4.png>]
+[14]) [15]
 \openout2 = `textuais/TrabalhosRelacionados.aux'.
 
 
 (/home/genio/Workspace/TCC/projeto/textuais/TrabalhosRelacionados.tex
 Cap\'{\i }tulo 2.
-) [17
+) [16
 
 
 
@@ -1254,84 +1204,69 @@ Cap\'{\i }tulo 2.
 
  (/home/genio/Workspace/TCC/projeto/textuais/Fundamentacao.tex
 Cap\'{\i }tulo 3.
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
-[]\T1/phv/m/n/12 Diversos pro-ble-mas po-dem ser re-sol-vi-dos uti-li-zando est
-a abor-da-gem,
- []
+) [17
 
 
-Underfull \hbox (badness 1924) in paragraph at lines 12--13
-\T1/phv/m/n/12 ca-te-go-ri-za-ção de tex-tos, aná-lise de sequên-cias de DNA, r
-e-co-nhe-ci-mento de
+
+]
+\openout2 = `textuais/Metodologia.aux'.
+
+ (/home/genio/Workspace/TCC/projeto/textuais/Metodologia.tex
+Cap\'{\i }tulo 4.
+<figuras/metodologia_1.png, id=80, 376.40625pt x 116.68594pt>
+File: figuras/metodologia_1.png Graphic file (type png)
+
+<use figuras/metodologia_1.png>
+Package pdftex.def Info: figuras/metodologia_1.png used on input line 9.
+(pdftex.def)             Requested size: 282.30399pt x 87.51422pt.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 11.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
+
+<figuras/metodologia_2.png, id=82, 376.40625pt x 116.68594pt>
+File: figuras/metodologia_2.png Graphic file (type png)
+
+<use figuras/metodologia_2.png>
+Package pdftex.def Info: figuras/metodologia_2.png used on input line 19.
+(pdftex.def)             Requested size: 282.30399pt x 87.51422pt.
+
+Underfull \hbox (badness 1052) in paragraph at lines 21--21
+[][]|\T1/phv/m/n/10.95 Os tex-tos são sub-me-ti-dos aos al-go-rit-mos de nor-ma
+-li-za-ção e pos-te-ri-or-mente
  []
 
 [18
 
 
 
-]
+ </home/genio/Workspace/TCC/projeto/figuras/metodologia_1.png>]
+<figuras/metodologia_3.png, id=88, 376.40625pt x 116.68594pt>
+File: figuras/metodologia_3.png Graphic file (type png)
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+<use figuras/metodologia_3.png>
+Package pdftex.def Info: figuras/metodologia_3.png used on input line 29.
+(pdftex.def)             Requested size: 282.30399pt x 87.51422pt.
 
-Package epstopdf Info: Source file: <figuras/fig1.eps>
-(epstopdf)                    date: 2016-10-13 09:48:58
-(epstopdf)                    size: 120513 bytes
-(epstopdf)             Output file: <figuras/fig1-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-10-13 09:48:58
-(epstopdf)                    size: 53997 bytes
-(epstopdf)             Command: <repstopdf --outfile=figuras/fig1-eps-converted
--to.pdf figuras/fig1.eps>
-(epstopdf)             \includegraphics on input line 83.
-Package epstopdf Info: Output file is already uptodate.
-<figuras/fig1-eps-converted-to.pdf, id=93, 530.98375pt x 428.60126pt>
-File: figuras/fig1-eps-converted-to.pdf Graphic file (type pdf)
+<figuras/metodologia_4.png, id=89, 376.40625pt x 116.68594pt>
+File: figuras/metodologia_4.png Graphic file (type png)
 
-<use figuras/fig1-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/fig1-eps-converted-to.pdf used on input line 8
-3.
-(pdftex.def)             Requested size: 345.13533pt x 278.58751pt.
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 83.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 83.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 83.
-Package epstopdf Info: Source file: <figuras/fig2.eps>
-(epstopdf)                    date: 2016-10-13 09:49:00
-(epstopdf)                    size: 119855 bytes
-(epstopdf)             Output file: <figuras/fig2-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-10-13 10:01:06
-(epstopdf)                    size: 39068 bytes
-(epstopdf)             Command: <repstopdf --outfile=figuras/fig2-eps-converted
--to.pdf figuras/fig2.eps>
-(epstopdf)             \includegraphics on input line 84.
-Package epstopdf Info: Output file is already uptodate.
-
-<figuras/fig2-eps-converted-to.pdf, id=94, 530.98375pt x 428.60126pt>
-File: figuras/fig2-eps-converted-to.pdf Graphic file (type pdf)
-
-<use figuras/fig2-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/fig2-eps-converted-to.pdf used on input line 8
-4.
-(pdftex.def)             Requested size: 345.13533pt x 278.58751pt.
-) [19] [20] [21 </home/genio/Workspace/TCC/projeto/figuras/fig1-eps-converted-t
-o.pdf> </home/genio/Workspace/TCC/projeto/figuras/fig2-eps-converted-to.pdf>]
-\openout2 = `textuais/Metodologia.aux'.
-
-
-(/home/genio/Workspace/TCC/projeto/textuais/Metodologia.tex
-Cap\'{\i }tulo 4.
-) [22
-
-
-
-]
+<use figuras/metodologia_4.png>
+Package pdftex.def Info: figuras/metodologia_4.png used on input line 38.
+(pdftex.def)             Requested size: 282.30399pt x 87.51422pt.
+) [19 </home/genio/Workspace/TCC/projeto/figuras/metodologia_2.png> </home/geni
+o/Workspace/TCC/projeto/figuras/metodologia_3.png>] [20 </home/genio/Workspace/
+TCC/projeto/figuras/metodologia_4.png>]
 \openout2 = `textuais/Desenvolvimento.aux'.
 
- (/home/genio/Workspace/TCC/projeto/textuais/Desenvolvimento.tex
+
+(/home/genio/Workspace/TCC/projeto/textuais/Desenvolvimento.tex
 Cap\'{\i }tulo 5.
-) [23
+) [21
 
 
 
@@ -1340,7 +1275,7 @@ Cap\'{\i }tulo 5.
 
  (/home/genio/Workspace/TCC/projeto/textuais/Resultados.tex
 Cap\'{\i }tulo 6.
-) [24
+) [22
 
 
 
@@ -1349,7 +1284,7 @@ Cap\'{\i }tulo 6.
 
  (/home/genio/Workspace/TCC/projeto/textuais/Conclusao.tex
 Cap\'{\i }tulo 7.
-) [25
+) [23
 
 
 
@@ -1358,7 +1293,7 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 24.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)) [26
+)) [24
 
 
 ]
@@ -1376,12 +1311,12 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 
 Apendice A.
-[27
+[25
 
 
 ]
 Apendice B.
-) [28
+) [26
 
 ]
 +-------------------------------------------------------------------+
@@ -1404,39 +1339,33 @@ Apendice B.
 (/home/genio/Workspace/TCC/projeto/textuais/Desenvolvimento.aux)
 (/home/genio/Workspace/TCC/projeto/textuais/Resultados.aux)
 (/home/genio/Workspace/TCC/projeto/textuais/Conclusao.aux)
-(/home/genio/Workspace/TCC/projeto/pos-textuais/appendices.aux))
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+(/home/genio/Workspace/TCC/projeto/pos-textuais/appendices.aux)) ) 
 Here is how much of TeX's memory you used:
- 7270 strings out of 493013
- 108382 string characters out of 6135683
- 188193 words of memory out of 5000000
- 10378 multiletter control sequences out of 15000+600000
- 111994 words of font info for 158 fonts, out of 8000000 for 9000
+ 7232 strings out of 493013
+ 107734 string characters out of 6135683
+ 184167 words of memory out of 5000000
+ 10350 multiletter control sequences out of 15000+600000
+ 100542 words of font info for 134 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,11n,51p,727b,564s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/
-fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.p
-fb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helve
-tic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
-/times/utmri8a.pfb>
-Output written on /home/genio/Workspace/TCC/projeto/Projeto.pdf (29 pages, 3942
-62 bytes).
+ 40i,10n,45p,727b,564s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/t
+exlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvips
+/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/h
+elvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on /home/genio/Workspace/TCC/projeto/Projeto.pdf (27 pages, 2891
+34 bytes).
 PDF statistics:
- 213 PDF objects out of 1000 (max. 8388607)
- 143 compressed objects within 2 object streams
+ 167 PDF objects out of 1000 (max. 8388607)
+ 110 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
