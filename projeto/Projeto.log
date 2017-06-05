@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.5.4)  3 JUN 2017 18:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.5.4)  5 JUN 2017 13:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1341,10 +1341,10 @@ Apendice B.
 (/home/genio/Workspace/TCC/projeto/textuais/Conclusao.aux)
 (/home/genio/Workspace/TCC/projeto/pos-textuais/appendices.aux)) ) 
 Here is how much of TeX's memory you used:
- 7232 strings out of 493013
- 107734 string characters out of 6135683
- 184167 words of memory out of 5000000
- 10350 multiletter control sequences out of 15000+600000
+ 7237 strings out of 493013
+ 107816 string characters out of 6135683
+ 185200 words of memory out of 5000000
+ 10355 multiletter control sequences out of 15000+600000
  100542 words of font info for 134 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,10n,45p,727b,564s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1361,8 +1361,8 @@ elvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /home/genio/Workspace/TCC/projeto/Projeto.pdf (27 pages, 2891
-34 bytes).
+Output written on /home/genio/Workspace/TCC/projeto/Projeto.pdf (27 pages, 2890
+69 bytes).
 PDF statistics:
  167 PDF objects out of 1000 (max. 8388607)
  110 compressed objects within 2 object streams

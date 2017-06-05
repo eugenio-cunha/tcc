@@ -11,9 +11,6 @@
 \contentsline {section}{\numberline {1.4}Contribui\IeC {\c c}\IeC {\~o}es}{14}
 \contentsline {section}{\numberline {1.5}Organiza\IeC {\c c}\IeC {\~a}o do trabalho}{14}
 \contentsline {chapter}{\numberline {2}Trabalhos Relacionados}{16}
-\contentsline {section}{\numberline {2.1}Compet\IeC {\^e}ncias de uma reda\IeC {\c c}\IeC {\~a}o}{16}
-\contentsline {section}{\numberline {2.2}Ferramentas para minera\IeC {\c c}\IeC {\~a}o de dados}{16}
-\contentsline {section}{\numberline {2.3}Modelo adaboost}{16}
 \contentsline {chapter}{\numberline {3}Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica}{17}
 \contentsline {chapter}{\numberline {4}M\IeC {\'e}todo Proposto}{18}
 \contentsline {chapter}{\numberline {5}Desenvolvimento}{21}

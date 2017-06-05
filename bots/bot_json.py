@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import re
-import unicodedata
+# import unicodedata
 
 from os import walk
 from json import dumps
@@ -25,6 +25,7 @@ def main():
                         'title': get_title(html),
                         'text': get_text(html),
                     }
+                    wording['score'] = sum([c['value'] for c in wording['competencies']])
                     result['data'].append(wording)
                     print(name)
 
@@ -85,12 +86,15 @@ def get_html(html):
 
 
 def normalize(string):
-    string = str(string or '').strip().lower()
-    norm = unicodedata.normalize('NFD', string)
-    shaved = ''.join(c for c in norm if not unicodedata.combining(c))
-    string = unicodedata.normalize('NFC', shaved)
+    # string = str(string or '').strip().lower()
+    # norm = unicodedata.normalize('NFD', string)
+    # shaved = ''.join(c for c in norm if not unicodedata.combining(c))
+    # string = unicodedata.normalize('NFC', shaved)
 
-    return re.sub(r' +', ' ', string)
+    string = re.sub(r' "', ' “', string)
+    string = re.sub(r'"', '”', string)
+    string = re.sub(r' +', ' ', string)
+    return string.strip()
 
 
 if __name__ == '__main__':
