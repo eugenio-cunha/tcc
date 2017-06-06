@@ -28,6 +28,8 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: abnt-options.bib
 Database file #2: bibliografia/bib.bib
+Warning--entry type for "edital_enem:2016" isn't style-file defined
+--line 116 of file bibliografia/bib.bib
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
@@ -38,44 +40,45 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 17 entries,
+You've used 18 entries,
             6480 wiz_defined-function locations,
-            1237 strings with 11459 characters,
-and the built_in function-call counts, 9859 in all, are:
-= -- 876
-> -- 202
+            1246 strings with 12054 characters,
+and the built_in function-call counts, 10441 in all, are:
+= -- 924
+> -- 234
 < -- 8
-+ -- 123
-- -- 65
-* -- 564
-:= -- 1322
-add.period$ -- 55
-call.type$ -- 20
-change.case$ -- 95
-chr.to.int$ -- 21
-cite$ -- 11
-duplicate$ -- 389
-empty$ -- 1009
-format.name$ -- 305
-if$ -- 2473
++ -- 135
+- -- 75
+* -- 617
+:= -- 1417
+add.period$ -- 58
+call.type$ -- 21
+change.case$ -- 106
+chr.to.int$ -- 22
+cite$ -- 12
+duplicate$ -- 414
+empty$ -- 1020
+format.name$ -- 352
+if$ -- 2590
 int.to.chr$ -- 6
 int.to.str$ -- 1
-missing$ -- 248
-newline$ -- 70
-num.names$ -- 55
-pop$ -- 284
+missing$ -- 266
+newline$ -- 79
+num.names$ -- 60
+pop$ -- 296
 preamble$ -- 1
-purify$ -- 53
+purify$ -- 57
 quote$ -- 0
-skip$ -- 808
+skip$ -- 835
 stack$ -- 1
-substring$ -- 376
-swap$ -- 158
+substring$ -- 379
+swap$ -- 169
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2
+type$ -- 5
 warning$ -- 0
-while$ -- 74
+while$ -- 79
 width$ -- 0
-write$ -- 179
+write$ -- 197
+(There was 1 warning)

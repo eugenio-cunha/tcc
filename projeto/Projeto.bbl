@@ -5,6 +5,13 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{1.45.2.1 }
 
+\bibitem[Alves 2010]{alexandra_alves:2010}
+\abntrefinfo{Alves}{ALVES}{2010}
+{ALVES, Alexandra Isabel~Magalhães.
+\textbf{Modelo de representação de texto mais adequado à classificação}.
+Disserta{\c c}{\~a}o (Mestrado) --- Instituto Superior de Engenharia do Porto,
+  11 2010. Online; acessado 06 Junho 2017.}
+
 \bibitem[Batista \textit{et al.} 1999]{batista1999aplicando}
 \abntrefinfo{Batista \textit{et al.}}{BATISTA \textit{et al.}}{1999}
 {BATISTA, GEAPA; CARVALHO, ACPLF; MONARD, Maria~C; BRASIL, Silicon~Graphics.
@@ -40,16 +47,12 @@ Dispon{\'\i}vel em:
 
 \bibitem[INEP 2016]{edital_enem:2016}
 \abntrefinfo{INEP}{INEP}{2016}
-{INEP. \textbf{{EDITAIS}}. 2016.
-{Online; acessado 07 Abril 2017}.
+{INEP.
+Edital anual do exame nacional do ensino médio, \textbf{EDITAL No 10, DE 14 DE
+  ABRIL DE 2016}. 2016.
+{Online; acessado 05 Junho 2017}.
 Dispon{\'\i}vel em:
   $<$\url{http://download.inep.gov.br/educacao_basica/enem/edital/2016/edital_enem_2016.pdf}$>$.}
-
-\bibitem[Lara 1995]{lara:1995}
-\abntrefinfo{Lara}{LARA}{1995}
-{LARA, Glaucia Muniz~Proença. {A redação como tema de pesquisa}. In:
-  \textbf{Leitura: Teoria e Prática}. [S.l.]: 1994, 1995. v.~13, n.~24, p.
-  62--82.}
 
 \bibitem[Ljubljana 2017]{orange_3:2017}
 \abntrefinfo{Ljubljana}{LJUBLJANA}{2017}
@@ -63,6 +66,16 @@ Dispon{\'\i}vel em: $<$\url{https://orange.biolab.si/}$>$.}
 {MITCHELL, Tom M.~Mitchell. \textbf{{Machine Learning}}. [S.l.]: Book News,
   Inc., 1997.
 ISBN 0070428077.}
+
+\bibitem[Silva \& Carvalho 2017]{silvio_taynan:2017}
+\abntrefinfo{Silva \& Carvalho}{SILVA; CARVALHO}{2017}
+{SILVA, Sílvio~Ribeiro da; CARVALHO, Taynan~Lima. Produção de texto escrito
+  no ensino médio: Competências requeridas pela avaliação de redação do
+  enem em (des)uso no livro didático de português.
+\textbf{Caminhos em linguística aplicada}, 1o sem 2017, v.~16, n.~1, p. 1--25,
+  2017.
+Dispon{\'\i}vel em:
+  $<$http://periodicos.unitau.br/ojs-2.2/index.php/caminhoslinguistica$>$.}
 
 \bibitem[SISU 2017]{sisu:2017}
 \abntrefinfo{SISU}{SISU}{2017}

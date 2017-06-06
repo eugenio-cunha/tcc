@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.5.4)  5 JUN 2017 13:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.5.4)  6 JUN 2017 16:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -835,6 +835,17 @@ Package: icomma 2002/03/10 v2.0 (WaS)
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip86
+\multirow@cntb=\count142
+\multirow@dima=\skip87
+\bigstrutjot=\dimen155
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks37
 ))
 \@input{configuracao/comandos.aux}
 \openout2 = `configuracao/comandos.aux'.
@@ -884,17 +895,17 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count142
-\scratchdimen=\dimen155
+\scratchcounter=\count143
+\scratchdimen=\dimen156
 \scratchbox=\box61
-\nofMPsegments=\count143
-\nofMParguments=\count144
-\everyMPshowfont=\toks37
-\MPscratchCnt=\count145
-\MPscratchDim=\dimen156
-\MPnumerator=\count146
-\makeMPintoPDFobject=\count147
-\everyMPtoPDFconversion=\toks38
+\nofMPsegments=\count144
+\nofMParguments=\count145
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count146
+\MPscratchDim=\dimen157
+\MPnumerator=\count147
+\makeMPintoPDFobject=\count148
+\everyMPtoPDFconversion=\toks39
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -1195,16 +1206,39 @@ al-guns dos tra-ba-lhos li-dos para
 
 (/home/genio/Workspace/TCC/projeto/textuais/TrabalhosRelacionados.tex
 Cap\'{\i }tulo 2.
-) [16
+
+Underfull \hbox (badness 3168) in paragraph at lines 4--4
+[]\T1/phv/b/n/17.28 Produção de texto es-crito no en-sino mé-dio:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+\T1/phv/b/n/17.28 Com-pe-tên-cias re-que-ri-das pela ava-li-a-ção de
+ []
+
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 9.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
+
+Underfull \vbox (badness 10000) detected at line 38
+ []
+
+[16
 
 
 
-]
+] [17] [18]) [19]
 \openout2 = `textuais/Fundamentacao.aux'.
 
- (/home/genio/Workspace/TCC/projeto/textuais/Fundamentacao.tex
+
+(/home/genio/Workspace/TCC/projeto/textuais/Fundamentacao.tex
 Cap\'{\i }tulo 3.
-) [17
+) [20
 
 
 
@@ -1213,22 +1247,14 @@ Cap\'{\i }tulo 3.
 
  (/home/genio/Workspace/TCC/projeto/textuais/Metodologia.tex
 Cap\'{\i }tulo 4.
-<figuras/metodologia_1.png, id=80, 376.40625pt x 116.68594pt>
+<figuras/metodologia_1.png, id=90, 376.40625pt x 116.68594pt>
 File: figuras/metodologia_1.png Graphic file (type png)
 
 <use figuras/metodologia_1.png>
 Package pdftex.def Info: figuras/metodologia_1.png used on input line 9.
 (pdftex.def)             Requested size: 282.30399pt x 87.51422pt.
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 11.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
 
-<figuras/metodologia_2.png, id=82, 376.40625pt x 116.68594pt>
+<figuras/metodologia_2.png, id=92, 376.40625pt x 116.68594pt>
 File: figuras/metodologia_2.png Graphic file (type png)
 
 <use figuras/metodologia_2.png>
@@ -1240,33 +1266,33 @@ Underfull \hbox (badness 1052) in paragraph at lines 21--21
 -li-za-ção e pos-te-ri-or-mente
  []
 
-[18
+[21
 
 
 
  </home/genio/Workspace/TCC/projeto/figuras/metodologia_1.png>]
-<figuras/metodologia_3.png, id=88, 376.40625pt x 116.68594pt>
+<figuras/metodologia_3.png, id=97, 376.40625pt x 116.68594pt>
 File: figuras/metodologia_3.png Graphic file (type png)
 
 <use figuras/metodologia_3.png>
 Package pdftex.def Info: figuras/metodologia_3.png used on input line 29.
 (pdftex.def)             Requested size: 282.30399pt x 87.51422pt.
 
-<figuras/metodologia_4.png, id=89, 376.40625pt x 116.68594pt>
+<figuras/metodologia_4.png, id=98, 376.40625pt x 116.68594pt>
 File: figuras/metodologia_4.png Graphic file (type png)
 
 <use figuras/metodologia_4.png>
 Package pdftex.def Info: figuras/metodologia_4.png used on input line 38.
 (pdftex.def)             Requested size: 282.30399pt x 87.51422pt.
-) [19 </home/genio/Workspace/TCC/projeto/figuras/metodologia_2.png> </home/geni
-o/Workspace/TCC/projeto/figuras/metodologia_3.png>] [20 </home/genio/Workspace/
+) [22 </home/genio/Workspace/TCC/projeto/figuras/metodologia_2.png> </home/geni
+o/Workspace/TCC/projeto/figuras/metodologia_3.png>] [23 </home/genio/Workspace/
 TCC/projeto/figuras/metodologia_4.png>]
 \openout2 = `textuais/Desenvolvimento.aux'.
 
 
 (/home/genio/Workspace/TCC/projeto/textuais/Desenvolvimento.tex
 Cap\'{\i }tulo 5.
-) [21
+) [24
 
 
 
@@ -1275,7 +1301,7 @@ Cap\'{\i }tulo 5.
 
  (/home/genio/Workspace/TCC/projeto/textuais/Resultados.tex
 Cap\'{\i }tulo 6.
-) [22
+) [25
 
 
 
@@ -1284,19 +1310,19 @@ Cap\'{\i }tulo 6.
 
  (/home/genio/Workspace/TCC/projeto/textuais/Conclusao.tex
 Cap\'{\i }tulo 7.
-) [23
+) [26
 
 
 
 ] (/home/genio/Workspace/TCC/projeto/Projeto.bbl
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 24.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 31.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)) [24
+) [27
 
 
-]
+]) [28]
 \openout2 = `pos-textuais/appendices.aux'.
 
 
@@ -1311,12 +1337,12 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 
 Apendice A.
-[25
+[29
 
 
 ]
 Apendice B.
-) [26
+) [30
 
 ]
 +-------------------------------------------------------------------+
@@ -1341,13 +1367,13 @@ Apendice B.
 (/home/genio/Workspace/TCC/projeto/textuais/Conclusao.aux)
 (/home/genio/Workspace/TCC/projeto/pos-textuais/appendices.aux)) ) 
 Here is how much of TeX's memory you used:
- 7237 strings out of 493013
- 107816 string characters out of 6135683
- 185200 words of memory out of 5000000
- 10355 multiletter control sequences out of 15000+600000
+ 7306 strings out of 493013
+ 109021 string characters out of 6135683
+ 202260 words of memory out of 5000000
+ 10418 multiletter control sequences out of 15000+600000
  100542 words of font info for 134 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,10n,45p,727b,564s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,10n,48p,742b,564s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/t
 exlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvips
 /cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/ams
@@ -1361,11 +1387,11 @@ elvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /home/genio/Workspace/TCC/projeto/Projeto.pdf (27 pages, 2890
-69 bytes).
+Output written on /home/genio/Workspace/TCC/projeto/Projeto.pdf (31 pages, 2991
+94 bytes).
 PDF statistics:
- 167 PDF objects out of 1000 (max. 8388607)
- 110 compressed objects within 2 object streams
+ 180 PDF objects out of 1000 (max. 8388607)
+ 119 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
