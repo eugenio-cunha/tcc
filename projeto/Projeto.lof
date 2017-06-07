@@ -1,5 +1,5 @@
 \select@language {brazilian}
-\contentsline {figure}{\numberline {1}{\ignorespaces Um \textit {Web Crawler}, navega entre as p\IeC {\'a}ginas HTML do banco de reda\IeC {\c c}\IeC {\~o}es UOL de forma met\IeC {\'o}dica e automatizada indexando textos de reda\IeC {\c c}\IeC {\~o}es que posteriomente ser\IeC {\~a}o filtrados e coletados.\relax }}{21}
-\contentsline {figure}{\numberline {2}{\ignorespaces Os textos s\IeC {\~a}o submetidos aos algoritmos de normaliza\IeC {\c c}\IeC {\~a}o e posteriormente estruturados e armazenados no padr\IeC {\~a}o JSON.\relax }}{22}
-\contentsline {figure}{\numberline {3}{\ignorespaces O \textit {corpus} ser\IeC {\'a} utilizado em um fluxo de trabalho da ferramenta \textit {Orange} para treinar os modelos classificadores.\relax }}{22}
-\contentsline {figure}{\numberline {4}{\ignorespaces O modelos ajustados e treinados ser\IeC {\~a}o submetidos a testes, e os resultados comparados graficamente.\relax }}{23}
+\contentsline {figure}{\numberline {1}{\ignorespaces Um \textit {Web Crawler}, navega entre as p\IeC {\'a}ginas HTML do banco de reda\IeC {\c c}\IeC {\~o}es UOL de forma met\IeC {\'o}dica e automatizada indexando textos de reda\IeC {\c c}\IeC {\~o}es que posteriomente ser\IeC {\~a}o filtrados e coletados.\relax }}{22}
+\contentsline {figure}{\numberline {2}{\ignorespaces Os textos s\IeC {\~a}o submetidos aos algoritmos de normaliza\IeC {\c c}\IeC {\~a}o e posteriormente estruturados e armazenados no padr\IeC {\~a}o JSON.\relax }}{23}
+\contentsline {figure}{\numberline {3}{\ignorespaces O \textit {corpus} ser\IeC {\'a} utilizado em um fluxo de trabalho da ferramenta \textit {Orange} para treinar os modelos classificadores.\relax }}{23}
+\contentsline {figure}{\numberline {4}{\ignorespaces O modelos ajustados e treinados ser\IeC {\~a}o submetidos a testes, e os resultados comparados graficamente.\relax }}{24}

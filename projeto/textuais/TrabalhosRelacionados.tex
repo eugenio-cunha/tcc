@@ -1,12 +1,12 @@
 \chapter{Trabalhos Relacionados}\label{trab_rela}
 
 
-\section{Produção de texto escrito no ensino médio: Competências requeridas pela avaliação de redação do enem em (des)uso no livro didático de português}
+\section{Competências requeridas pela avaliação de redação do enem}
 
-De acordo com ~\cite{silvio_taynan:2017} a prova de Redação do ENEM é avaliada levando em conta uma matriz de referência. Essa matriz, desenvolvida pelo ~\cite{edital_enem:2016}, com a colaboração de especialistas, foi elaborada com o objetivo de operacionalizar o exame. A matriz apresenta cinco competências, para cada competência expressa para Redação existem níveis de conhecimento associados de 0 a 5. Isso pode ser visto na tabela abaixo.
+De acordo com ~\cite{silvio_taynan:2017} a prova de Redação do ENEM é avaliada levando em conta uma matriz de referência. Essa matriz, desenvolvida pelo ~\cite{edital_enem:2016}, com a colaboração de especialistas, foi elaborada com o objetivo de operacionalizar o exame. A matriz apresenta cinco competências, para cada competência expressa para redação existem níveis de conhecimento associados de 0 a 5. Isso pode ser visto na tabela abaixo.
 
 \begin{longtable}{|c|l|l|}
-    \caption{Matriz de referência.}
+    \caption{Matriz de referência elaborada pelo INEP.}
     \endfirsthead
     \multicolumn{3}{l}%
     {Tabela \thetable{} (continuação)}
@@ -19,7 +19,7 @@ De acordo com ~\cite{silvio_taynan:2017} a prova de Redação do ENEM é avaliad
     \multirow{7}{*}{\textbf{I}} & \multicolumn{2}{l|}{\textbf{Demonstrar domínio da norma padrão da língua escrita.}} \\ \cline{2-3} 
      & 0 & \begin{tabular}[c]{@{}l@{}}Demonstra desconhecimento da modalidade escrita formal da \\ língua portuguesa.\end{tabular} \\ \cline{2-3} 
      & 1 & \begin{tabular}[c]{@{}l@{}}Demonstra domínio precário da modalidade escrita formal da \\ língua por-tuguesa, de forma sistemática, com diversificados e \\ frequentes desvios gramaticais, de escolha de registro e de \\ convenções da escrita.\end{tabular} \\ \cline{2-3} 
-     & 2 & \begin{tabular}[c]{@{}l@{}}Demonstra domínio insuficiente da modalidade escrita formal \\ da língua portuguesa, com muitosdesvios gramaticais, de \\ escolha de registro e de convenções da escrita.\end{tabular} \\ \cline{2-3} 
+     & 2 & \begin{tabular}[c]{@{}l@{}}Demonstra domínio insuficiente da modalidade escrita formal \\ da língua portuguesa, com muitos desvios gramaticais, de \\ escolha de registro e de convenções da escrita.\end{tabular} \\ \cline{2-3} 
      & 3 & \begin{tabular}[c]{@{}l@{}}Demonstra domínio mediano da modalidade escrita formal da \\ língua portuguesa e de escolha deregistro, com alguns desvios \\ gramaticais e de convenções da escrita.\end{tabular} \\ \cline{2-3} 
      & 4 & \begin{tabular}[c]{@{}l@{}}Demonstra bom domínio da modalidade escrita formal da língua \\ portuguesa e de escolha de registro,com poucos desvios \\ gramaticais e de convenções da escrita.\end{tabular} \\ \cline{2-3} 
      & 5 & \begin{tabular}[c]{@{}l@{}}Demonstra excelente domínio da modalidade escrita formal da \\ língua portuguesa e de escolha deregistro. Desvios gramaticais \\ ou de convenções da escrita serão aceitos somente como \\ excepcionalidade equando não caracterizem reincidência.\end{tabular} \\ \hline
@@ -58,16 +58,46 @@ De acordo com ~\cite{silvio_taynan:2017} a prova de Redação do ENEM é avaliad
 % 2) classificadores de textos
 \section{Modelo de representação de texto mais adequado à classificação}
 
-Segundo a autora ~\cite{alexandra_alves:2010} o BOW é o modelo mais utilizado em aplicações de classificação de texto. Este modelo transforma a cadeia de caracteres de um documento num conjunto de palavras, registando além da presença de uma palavra, a sua frequência. com baixo custo em termos de processamento.
+Segundo a autora ~\cite{alexandra_alves:2010} o BOW (\textit{Bag of Words}) é o modelo mais utilizado em aplicações de classificação de texto. Com baixo custo em termos de processamento este modelo transforma a cadeia de caracteres de um documento num conjunto de palavras, registando além da presença de uma palavra, a sua frequência.
 
-Entretanto propriedades básicas do texto, como a ordem em que as palavras ocorrem e a pontuação, são ignoradas.
+Entretanto propriedades básicas do texto, como a ordem em que as palavras ocorrem e a pontuação, são ignoradas, alem da incapacidade em capturar a semântica do texto, isto é, há palavras com significados distintos que apesar de serem exactamente iguais têm significados diferentes, dependendo do contexto em que são utilizadas.
 
-incapacidade em capturar a semântica do texto,
-isto é, há palavras com significados distintos que apesar de serem exactamente iguais têm
-significados diferentes, dependendo do contexto em que são utilizadas. Com este modelo,
-essas palavras serão consideradas como iguais.
+% falar de stop words
+% As stop-words são os termos considerados irrelevantes e somente desempenham um papel
+% funcional no texto. São palavras que dependem do idioma e podem também depender do
+% tópico de interesse. São normalmente removidas para melhorar os métodos de
+% processamento. Em vários casos a remoção das stop-words não traz consequências
+% nefastas, palavras como: de, o, a, para, não são úteis dado que têm uma semântica fraca.
 
-% 3) classificadores usados Adaboost e Naive Bayes
+Na Tabela 2, \textbf{w}\textsubscript{i} representa uma palavra, \textbf{d}\textsubscript{j} representa um documento e \textbf{p}\textsubscript{ij} o peso atribuido a cada palavra no documento.
+
+\begin{longtable}{|c|c|c|c|c|c|}
+    \caption{Modelo \textit{Bag of Words}}
+    \endfirsthead
+    \multicolumn{6}{l}%
+    {Tabela \thetable{} (continuação)}
+    \endhead
+    \multicolumn{6}{l}%
+    {Continua na próxima página}\\
+    \endfoot
+    \endlastfoot
+    \hline  & \textbf{w}\textsubscript{1} & \textbf{w}\textsubscript{2} & \textbf{w}\textsubscript{3} & \textbf{w}\textsubscript{...} & \textbf{w}\textsubscript{n} \\
+    \hline \textbf{d}\textsubscript{1} & p\textsubscript{11} & p\textsubscript{12} & p\textsubscript{13} & p\textsubscript{...} & p\textsubscript{1n} \\
+    \hline \textbf{d}\textsubscript{2} & p\textsubscript{21} & p\textsubscript{22} & p\textsubscript{23} & p\textsubscript{...} & p\textsubscript{2n} \\
+    \hline \textbf{d}\textsubscript{3} & p\textsubscript{31} & p\textsubscript{32} & p\textsubscript{33} & p\textsubscript{...} & p\textsubscript{3n} \\
+    \hline \textbf{d}\textsubscript{4} & p\textsubscript{41} & p\textsubscript{42} & p\textsubscript{43} & p\textsubscript{...} & p\textsubscript{4n} \\
+    \hline \textbf{d}\textsubscript{n} & p\textsubscript{n1} & p\textsubscript{n2} & p\textsubscript{n3} & p\textsubscript{...} & p\textsubscript{nn} \\
+    \hline
+\end{longtable}
+
+Ainda segunda a autora existem várias medidas para calcular os valores dos pesos de p\textsubscript{ij}. Essas medidas podem ser classificadas em dois tipos distintos: baseadas em frequências e binárias. Os pesos baseados em frequência visam contabilizar o número de ocorrências de um dado termo num determinado documento, servindo como base para diversas medidas estatísticas e os pesos binários indicam a ocorrência ou não de um dado termo num determinado documento.
+
+\section{Classificadores}
+
+De acordo com ~\cite{porthos_motta:2016} classificadores são utilizados para a predição de classes de objetos e pode ser dita como o processo de generalização dos dados a partir de instâncias diferentes. Existe
+uma tendência de se referir a problemas com uma resposta qualitativa (classe) como problemas de classificação e aqueles com uma resposta quantitativas como problemas de
+regressão, apesar de nem sempre ser tão simples distinguir isso, pois podemos ter classes
+que retornam valores e não dados qualitativos.
 % 4) Orange mineração de dados
 
 
