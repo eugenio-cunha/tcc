@@ -3,10 +3,11 @@
 
 \section{Competências requeridas pela avaliação de redação do enem}
 
-De acordo com ~\cite{silvio_taynan:2017} a prova de Redação do ENEM é avaliada levando em conta uma matriz de referência. Essa matriz, desenvolvida pelo ~\cite{edital_enem:2016}, com a colaboração de especialistas, foi elaborada com o objetivo de operacionalizar o exame. A matriz apresenta cinco competências, para cada competência expressa para redação existem níveis de conhecimento associados de 0 a 5. Isso pode ser visto na tabela abaixo.
+De acordo com ~\cite{silvio_taynan:2017} a prova de Redação do ENEM é avaliada levando em conta uma matriz de referência. Essa matriz, desenvolvida pelo ~\cite{edital_enem:2016}, com a colaboração de especialistas, foi elaborada com o objetivo de operacionalizar o exame. A matriz apresenta cinco competências, para cada competência expressa para redação existem níveis de conhecimento associados de 0 a 5. Isso pode ser visto na Tabela ~\ref{tab:matriz_referencia}.
 
 \begin{longtable}{|c|l|l|}
     \caption{Matriz de referência elaborada pelo INEP.}
+    \label{tab:matriz_referencia}
     \endfirsthead
     \multicolumn{3}{l}%
     {Tabela \thetable{} (continuação)}
@@ -58,21 +59,17 @@ De acordo com ~\cite{silvio_taynan:2017} a prova de Redação do ENEM é avaliad
 % 2) classificadores de textos
 \section{Modelo de representação de texto mais adequado à classificação}
 
-Segundo a autora ~\cite{alexandra_alves:2010} o BOW (\textit{Bag of Words}) é o modelo mais utilizado em aplicações de classificação de texto. Com baixo custo em termos de processamento este modelo transforma a cadeia de caracteres de um documento num conjunto de palavras, registando além da presença de uma palavra, a sua frequência.
+Segundo a autora ~\cite{alexandra_alves:2010} o BOW (\textit{Bag of Words}) é o modelo mais utilizado em aplicações de classificação de texto. Com baixo custo em termos de processamento este modelo transforma a cadeia de caracteres de um documento num conjunto de palavras, registrando além da presença de uma palavra, a sua frequência.
 
-Entretanto propriedades básicas do texto, como a ordem em que as palavras ocorrem e a pontuação, são ignoradas, alem da incapacidade em capturar a semântica do texto, isto é, há palavras com significados distintos que apesar de serem exactamente iguais têm significados diferentes, dependendo do contexto em que são utilizadas.
+Entretanto propriedades básicas do texto, como a ordem em que as palavras ocorrem e a pontuação, são ignoradas, além da incapacidade em capturar a semântica do texto, isto é, há palavras com significados distintos que apesar de serem exactamente iguais têm significados diferentes, dependendo do contexto em que são utilizadas.
 
-% falar de stop words
-% As stop-words são os termos considerados irrelevantes e somente desempenham um papel
-% funcional no texto. São palavras que dependem do idioma e podem também depender do
-% tópico de interesse. São normalmente removidas para melhorar os métodos de
-% processamento. Em vários casos a remoção das stop-words não traz consequências
-% nefastas, palavras como: de, o, a, para, não são úteis dado que têm uma semântica fraca.
+Obviamente, termos que aparecem em todos os documentos não serão analisados, geralmente são os pronomes, artigos e as preposições. Estes termos são chamados de \textit{stop-words}, não são úteis dado que têm uma semântica fraca e somente desempenham um papel funcional no texto. Para melhorar os métodos de processamento normalmente são removidas, em vários casos a remoção das stop-words não traz consequências graves.
 
-Na Tabela 2, \textbf{w}\textsubscript{i} representa uma palavra, \textbf{d}\textsubscript{j} representa um documento e \textbf{p}\textsubscript{ij} o peso atribuido a cada palavra no documento.
+Na Tabela ~\ref{tab:bow}, \textbf{w}\textsubscript{i} representa uma palavra, \textbf{d}\textsubscript{j} representa um documento e \textbf{p}\textsubscript{ij} o peso atribuído a cada palavra no documento.
 
 \begin{longtable}{|c|c|c|c|c|c|}
     \caption{Modelo \textit{Bag of Words}}
+    \label{tab:bow}
     \endfirsthead
     \multicolumn{6}{l}%
     {Tabela \thetable{} (continuação)}
@@ -92,26 +89,41 @@ Na Tabela 2, \textbf{w}\textsubscript{i} representa uma palavra, \textbf{d}\text
 
 Ainda segunda a autora existem várias medidas para calcular os valores dos pesos de p\textsubscript{ij}. Essas medidas podem ser classificadas em dois tipos distintos: baseadas em frequências e binárias. Os pesos baseados em frequência visam contabilizar o número de ocorrências de um dado termo num determinado documento, servindo como base para diversas medidas estatísticas e os pesos binários indicam a ocorrência ou não de um dado termo num determinado documento.
 
-\section{Classificadores}
+\section{Aprendizado de máquina}
 
-De acordo com ~\cite{porthos_motta:2016} classificadores são utilizados para a predição de classes de objetos e pode ser dita como o processo de generalização dos dados a partir de instâncias diferentes. Existe
-uma tendência de se referir a problemas com uma resposta qualitativa (classe) como problemas de classificação e aqueles com uma resposta quantitativas como problemas de
-regressão, apesar de nem sempre ser tão simples distinguir isso, pois podemos ter classes
-que retornam valores e não dados qualitativos.
+Segundo ~\cite{monard_baranauskas:2003} ``A indução é a forma de inferência lógica que permite obter conclusões genéricas sobre um conjunto particular de exemplos.'' Na indução, um conceito é aprendido efetuando-se inferência indutiva sobre os exemplos apresentados. O aprendizado indutivo pode ser dividido em supervisionado e não-supervisionado como ilustrado na Figura ~\ref{fig:aprendizado_maquina}.  
+
+No aprendizado não-supervisionado, o algoritmo de aprendizado analisa os exemplos fornecidos e tenta determinar se alguns deles podem ser agrupados de alguma maneira, formando clusters ou agrupamentos. Já no aprendizado supervisionado é fornecido ao algoritmo de aprendizado um conjunto de exemplos de treinamento para os quais o rótulo da classe associada é conhecido.
+
+\begin{figure}[H]
+\begin{center}
+    \includegraphics[scale=0.75]{figuras/aprendizado_maquina.png}
+\end{center}
+\caption{A hierarquia do aprendizado}
+\label{fig:aprendizado_maquina}
+\end{figure}
+
+De acordo com ~\cite{porthos_motta:2016} classificadores são utilizados para a predição de classes de objetos e pode ser dita como o processo de generalização dos dados a partir de diferentes instâncias. Existe uma tendência de se referir a problemas com uma resposta quantitativas como problemas de regressão e aqueles com uma resposta qualitativa como problemas de classificação.
+
+Dado um conjunto de exemplos como ilustrado na Figura ~\ref{fig:processo_classificacao}, os classificadores devem encontrar uma função geral capaz de prever adequadamente as saídas para novos exemplos, após o treinamento, o classificador é avaliado e se necessário o processo de classificação pode ser ajustado usando o conhecimento sobre o domínio do problema para escolher os dados de entrada ao algoritmo de aprendizado. 
+
+% processo de classificação
+
+\begin{figure}[H]
+\begin{center}
+    \includegraphics[scale=0.75]{figuras/processo_classificacao.png}
+\end{center}
+\caption{Processo de Classificação}
+\label{fig:processo_classificacao}
+\end{figure}
+
 % 4) Orange mineração de dados
 
+\section{Data Miner}
 
 % A produção escrita treinada em ambiente escolar está concentrada na elaboração de um
 % texto conhecido como redação
 
 % A produção textos no ambiente escolar está concentrada na elaboração de redação. Segundo ~\cite{lara:1994}
 % foi na segunda metade da década de 70 que se deu o início do processo de redemocratização e a conseqüente crítica da ideologia subjacente à utilização da tecnologia instrucional que restituíram a palavra ao estudante. Nessa mesma época, o decreto de no. 79.298, de 24.02.77 determinou a volta da redação à escola através da``inclusão obrigatória da prova ou questão de redação em língua portuguesa'' nos concursos vestibulares (Art. 1o, alínea d). Assim, para fazer face à nova exigência, a escola passou a enfatizar a produção de textos nas aulas de língua portuguesa, chegando até mesmo a criar disciplinas com o objetivo específico de ensinar a redigir.
-
-% \section{Ferramentas para mineração de dados}
-
-% \section{Modelo emsemble}
-
-% \section{Modelo boost}
-
-% \section{Modelo adaboost}
 

@@ -12,14 +12,6 @@
 Disserta{\c c}{\~a}o (Mestrado) --- Instituto Superior de Engenharia do Porto,
   11 2010. Online; acessado 06 Junho 2017.}
 
-\bibitem[Alves 2016]{porthos_motta:2016}
-\abntrefinfo{Alves}{ALVES}{2016}
-{ALVES, Alexandra Isabel~Magalhães.
-\textbf{Estudo Exploratório do Uso de Classificadores para a Predição de
-  Desempenho e Abandono em Universidades}.
-Disserta{\c c}{\~a}o (Mestrado) --- Universidade Federal de Goiás Instituto de
-  Informática, 11 2016. Online; acessado 06 Junho 2017.}
-
 \bibitem[Batista \textit{et al.} 1999]{batista1999aplicando}
 \abntrefinfo{Batista \textit{et al.}}{BATISTA \textit{et al.}}{1999}
 {BATISTA, GEAPA; CARVALHO, ACPLF; MONARD, Maria~C; BRASIL, Silicon~Graphics.
@@ -74,6 +66,21 @@ Dispon{\'\i}vel em: $<$\url{https://orange.biolab.si/}$>$.}
 {MITCHELL, Tom M.~Mitchell. \textbf{{Machine Learning}}. [S.l.]: Book News,
   Inc., 1997.
 ISBN 0070428077.}
+
+\bibitem[Monard \& Baranauskas 2003]{monard_baranauskas:2003}
+\abntrefinfo{Monard \& Baranauskas}{MONARD; BARANAUSKAS}{2003}
+{MONARD, Maria~Carolina; BARANAUSKAS, Jos{\'e}~Augusto. Conceitos sobre
+  aprendizado de m{\'a}quina.
+\textbf{Sistemas Inteligentes-Fundamentos e Aplica{\c{c}}{\~o}es}, v.~1, n.~1,
+  2003.}
+
+\bibitem[Motta 2016]{porthos_motta:2016}
+\abntrefinfo{Motta}{MOTTA}{2016}
+{MOTTA, Porthos Ribeiro de~Albuquerque.
+\textbf{Estudo Exploratório do Uso de Classificadores para a Predição de
+  Desempenho e Abandono em Universidades}.
+Disserta{\c c}{\~a}o (Mestrado) --- Universidade Federal de Goiás Instituto de
+  Informática, 11 2016. Online; acessado 06 Junho 2017.}
 
 \bibitem[Silva \& Carvalho 2017]{silvio_taynan:2017}
 \abntrefinfo{Silva \& Carvalho}{SILVA; CARVALHO}{2017}

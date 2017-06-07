@@ -13,12 +13,13 @@
 \contentsline {chapter}{\numberline {2}Trabalhos Relacionados}{16}
 \contentsline {section}{\numberline {2.1}Compet\IeC {\^e}ncias requeridas pela avalia\IeC {\c c}\IeC {\~a}o de reda\IeC {\c c}\IeC {\~a}o do enem}{16}
 \contentsline {section}{\numberline {2.2}Modelo de representa\IeC {\c c}\IeC {\~a}o de texto mais adequado \IeC {\`a} classifica\IeC {\c c}\IeC {\~a}o}{19}
-\contentsline {section}{\numberline {2.3}Classificadores}{20}
-\contentsline {chapter}{\numberline {3}Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica}{21}
-\contentsline {chapter}{\numberline {4}M\IeC {\'e}todo Proposto}{22}
-\contentsline {chapter}{\numberline {5}Desenvolvimento}{25}
-\contentsline {chapter}{\numberline {6}Resultados Experimentais}{26}
-\contentsline {chapter}{\numberline {7}Conclus\IeC {\~a}o e Trabalhos Futuros}{27}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{28}
-\contentsline {chapter}{Ap\^endice{} A{} -$\tmspace -\thinmuskip {.1667em}$-{} T\IeC {\'\i }tulo do Ap\IeC {\^e}ndice}{30}
-\contentsline {chapter}{Ap\^endice{} B{} -$\tmspace -\thinmuskip {.1667em}$-{} Exemplo do pacote Algorithm}{31}
+\contentsline {section}{\numberline {2.3}Aprendizado de m\IeC {\'a}quina}{20}
+\contentsline {section}{\numberline {2.4}Data Miner}{22}
+\contentsline {chapter}{\numberline {3}Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica}{23}
+\contentsline {chapter}{\numberline {4}M\IeC {\'e}todo Proposto}{24}
+\contentsline {chapter}{\numberline {5}Desenvolvimento}{27}
+\contentsline {chapter}{\numberline {6}Resultados Experimentais}{28}
+\contentsline {chapter}{\numberline {7}Conclus\IeC {\~a}o e Trabalhos Futuros}{29}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{30}
+\contentsline {chapter}{Ap\^endice{} A{} -$\tmspace -\thinmuskip {.1667em}$-{} T\IeC {\'\i }tulo do Ap\IeC {\^e}ndice}{32}
+\contentsline {chapter}{Ap\^endice{} B{} -$\tmspace -\thinmuskip {.1667em}$-{} Exemplo do pacote Algorithm}{33}
