@@ -1,21 +1,21 @@
 \chapter{Introdução}\label{CAP:introducao}
 
-\noindent O desenvolvimento de uma redação e uma atividade prática presente na cultura civilizada desde a invenção da escrita.
-Já faz pelo menos uma década que um bom desempenho na redação do Exame Nacional de Ensino Médio - ENEM  virou sinônimo de chances maiores para ser aprovado no processo seletivo de acesso a inúmeras universidades públicas ~\cite{sisu:2017} e a importantes programas de governo como Ciência sem fronteiras ~\cite{csf:2017}.
+\noindent O desenvolvimento de uma redação e uma atividade prática presente na cultura civilizada desde a invenção da escrita. ~\cite{lara:1995} cita que na década de 70 iniciou-se processo de redemocratização que consequentemente restitui a palavra ao estudante. O decreto 79.298, de 24 de Fevereiro de 1977 definiu a volta da redação à escola pela ``inclusão obrigatória da prova ou questão de redação em língua portuguesa'' nos concursos e vestibulares (Art. 1º, alínea d).
 
-Em todo processo seletivo é comum o uso de marcações em gabaritos afim de automatizar o processo de correção, uma alternativa rápida e segura, até mesmo aplicações de provas eletrônicas são cada vez mais comum. Um exemplo seria o processo seletivo para avaliador das redações do ENEM que durante a ``FASE II'' respondem uma prova eletrônica eliminatória ~\cite{paq_a:2016}. É notável que todo o processo evoluiu com objetivo de agilidade, confiança e segurança do resultado, entretanto a avaliação das competências de uma redação ainda depende exclusivamente da supervisão de duas ou mais pessoas envolvidas ~\cite{edital_enem:2016}.
+Um bom desempenho em redação no Exame Nacional de Ensino Médio - ENEM é um requisito para ser aprovado no processo seletivo de acesso a inúmeras universidades públicas ~\cite{sisu:2017} e a importantes programas de governo como Ciência Sem Fronteiras ~\cite{csf:2017}.
 
-A redação é aplicada no ENEM desde a primeira edição 1998, hoje o maior exame do Brasil, que na edição de 2016 teve 8.627.195 escritos confirmados, e a participação direta de 11.360 profissionais externos na correção de 5.825.134 redações, entre eles, 378 supervisores e 10.982 avaliadores de acordo com a CEBRASPE ~\cite{relatorio_de_gestao:2016}. 
+Em todo processo seletivo é comum o uso de marcações em gabaritos afim de automatizar o processo de correção, uma alternativa rápida e segura, até mesmo aplicações de provas eletrônicas são cada vez mais comum. É notável que todo o processo evoluiu com objetivo de agilidade, confiança e segurança do resultado, entretanto a avaliação das competências de uma redação definidas na Tabela ~\ref{tab:matriz_referencia}, ainda depende exclusivamente da supervisão de duas ou mais pessoas envolvidas ~\cite{edital_enem:2016}.
 
-Segundo o edital do ENEM 2016 ~\cite{edital_enem:2016} cada redação foi avaliada por, pelo menos, dois avaliadores, de forma independente, contabilizando um número mínimo de 11.650.268 avaliações manuais, das competências exigidas em um texto de redação pelo ENEM.
+A redação é aplicada no ENEM desde a primeira edição 1998, hoje o maior exame do Brasil, que na edição de 2016 contou com 8.627.195 escritos confirmados, e a participação direta de 11.360 profissionais externos na correção de 5.825.134 redações, entre eles, 378 supervisores e 10.982 avaliadores de acordo com a ~\cite{relatorio_de_gestao:2016}. 
 
-\textit{Machine Learning} ou aprendizado de máquina é uma área de IA cujo objetivo é o desenvolvimento de técnicas computacionais sobre o aprendizado bem como a construção de sistemas capazes de adquirir conhecimento de forma automática. Os algoritmos de aprendizado de máquina procuram padrões dentro de um conjunto de dados~\cite{machine_learning:1997}. Esses algoritmos existem há bastante tempo, uma ciência que não é nova, mas que está ganhando um novo impulso enquanto o processamento computacional cresce e fica mais barato.
+Segundo o edital do ENEM 2016, cada redação foi avaliada por, pelo menos, dois avaliadores, de forma independente, contabilizando um número mínimo de 11.650.268 avaliações manuais, das competências exigidas em um texto de redação pelo ENEM ~\cite{edital_enem:2016}.
 
-A hipótese desta monografia é que um ou mais modelos de aprendizado de máquina na valoração das competências de uma redação pode ser tão eficiênte quanto o processo de avaliação manual.
+A hipótese desta monografia é que a classificação das competências de uma redação por aprendizado de máquina 
+pode ser tão eficiênte e seguro quanto o processo de avaliação manual.
 
 \section{Definição do Problema de Pesquisa}
 
-Dado um corpus de redações avaliar as competências exigidas em um texto de redação do tipo dissertativo-argumentativo substituindo a etapa de avaliação manual.
+Dado um corpus de redações classificar as competências exigidas em um texto de redação do tipo dissertativa-argumentativa.
 
 \section{Motivação}
 
@@ -23,28 +23,26 @@ Com crescente volume e variedade de dados disponíveis, o processamento computac
 
 Aplicações de aprendizado de máquina estão presentes na nossa vida cotidiana como, resultados de pesquisa web, análise de sentimento baseado em texto e na detecção de fraudes em operações com cartões de crédito ~\cite{batista1999aplicando}.
 
-As competências exigidas em uma redação podem ser avaliadas por aprendizado de máquina, diferente de um ser humano um algoritmo de aprendizado de máquina está livre de ansiedade, fadiga, \textit{stress} entre outro fatores emocionais que afetão uma avaliação imparcial a opinião do autor.
-
 \section{Objetivos Gerais e Específicos}
 
-Este trabalho tem como objetivo geral aplicar aprendizado de máquina na avaliação das competências exigidas em um texto de redação do tipo dissertativo-argumentativo.
+Este trabalho tem como objetivo geral aplicar aprendizado de máquina na classificação das competências exigidas em um texto de redação do tipo dissertativa-argumentativa.
 
 \subsection{Objetivos Especificos}
 
 O método de construção do conhecimento deste trabalho terá como fundamentos processos de pesquisas relacionadas às áreas descritas. O mesmo será dividido em etapas dentro do escopo geral de forma detalhada e refinada para alcançar o objetivo geral acima, são particularizadas como os seguintes objetivos específicos:
 
 \begin{itemize}
- \item Percorrer o banco de redações UOL ~\cite{uol_banco_redacoes:2017} em páginas HTML, filtrar e coletar redações avaliadas;
- \item Normalizar os textos coletados, separar o tema, título, texto e competências avaliadas em uma estrura no formato JSON;
- \item Montar um fluxo de trabalho utilizando a ferramenta para mineração de dados \textit{Orange} ~\cite{JMLR:demsar13a} com modelos classificadores de multiplas classes;
+ \item Percorrer o banco de redações, filtrar e coletar redações avaliadas;
+ \item Normalizar os textos coletados, separar o tema, título, texto e competências avaliadas em uma estrura de dados;
+ \item Montar um fluxo de trabalho utilizando a ferramenta para mineração de dados \textit{Orange} ~\cite{JMLR:demsar13a};
  \item Ajustar e treinar os modelos classificadores com o corpus de redações; 
  \item Realizar testes de acurácia, \textit{overfitting} e \textit{noise} sobre os classificadores;
- \item Representar e comparar graficamente os resultados obtidos. 
+ \item Representar e comparar graficamente os resultados obtidos;
 \end{itemize}
 
 \section{Contribuições}
 
-O presente estudo contribuirá na área do aprendizado de máquina e diretamente no processo de avaliação de um texto em prosa do tipo dissertativo argumentativo.
+O presente estudo contribuirá na área do aprendizado de máquina e diretamente no processo de classificação de um texto em prosa do tipo dissertativa-argumentativa.
 
 \section{Organização do trabalho}
 

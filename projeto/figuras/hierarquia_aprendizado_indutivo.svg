@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297.00001"
+   version="1.1"
+   id="svg5042"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="hierarquia_aprendizado_indutivo.svg"
+   inkscape:export-filename="/home/genio/Workspace/TCC/projeto/figuras/aprendizado_indutivo.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs5036">
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path7628"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path7607"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend-7"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path7628-0"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend-3"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path7628-6"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend-3-6"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path7628-6-2"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.24748737"
+     inkscape:cx="-156.15079"
+     inkscape:cy="788.57288"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="704"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     units="mm" />
+  <metadata
+     id="metadata5039">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,2.6e-5)">
+    <g
+       id="g9838">
+      <circle
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-opacity:1"
+         r="11.038231"
+         cy="80.615364"
+         cx="70.147858"
+         id="path3860-3-6-9" />
+      <g
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         transform="translate(-91.457289,-254.34404)"
+         id="g5036">
+        <g
+           id="g4782"
+           transform="translate(125.20646,-54.128649)">
+          <image
+             y="316.20361"
+             x="64.853287"
+             id="image5190"
+             xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAD90lEQVRogcWaW3XjMBCGPwiGIAhh UDFoGawZbBjUDFoGMYOWQc0gYZAwSBjsPkhTjR3r5tjtf45eopE0v6S5aBx4HM/AG/AFXIF/vh2B VyX36n+T/qsf8+bn+DX8Ac4ExWLt4FtO7uzn/DE0uJ0UBS7AO2B9n8ACNyV387/peawfe1FyX5N5 NkFDuB43oM3I7wkK5mRbAvEjG5ORkzgVLrQjENkVyDd+bjmZTdASrlLNbgmRUjSEq9ZWjMviGWes 4pFs5fhaIvg1xLMdeNCr7RgbtZxGLZYQgbEDkKtWcj1HaBkrvwfMAmVgORH8mnvGpNrSwa0a1C1U QOMRIhodFWQMwRaywhMcfZtiLSIQNvlK5oZ8eMG+cgFDiC1TrEkE4NPP91GijKmcPLUBOSKxk4zB EAKnmROQKDynTGxCnW/FNiBHRPprYlPvx+znOgff+ZKZRGew2rPFXGOOiKzbZtbVaP2YITVhzldL CnHB3decAjkiolTWgBUk9RmWLLgUJfMOhFS+NOhF5/1NIjpZlDfMM+kTis57i3U8iNINanBvk7lH 19SrNcTd/ffx2iXaJlB70gbnjQZCanKayFgSNiK7MevSHsAWV1ZCxftc54vv/FS/GUJhQRSSosFf ynz/FkQkus+GCrl3EjHfmL+v0/ZKmtDaRLSe0XV7wq6LcM/YbixuJz6VTCrFWJuImECfErJq4Qt5 w9/hDHHWe3isScSo+WxKsCN4ibWqGGsR0RWc5FupIVyp6idlAmsQsQQSOnCaOeHa7LcUS4gY4Ann GbXHlJvSk3C/A2XZby1qiMxl1hLBOyVnWSH7rUUNEZ1ZD7idf2HeXqPzDsS9gcHZzxmX0M3JxLBF QNSx5A498RTFMC5I/8MFzN+K7C33Wchd5zkxwQ5nYELqq2DRLYiILbUxgYHwHkjBEMh0Gdm1iRyY z4hH0A+cI+maq660m4TcWkSeGX/SyDqlhnAyctVsRLYnn/o/SmTH+MvYQGW5qiO4whgk9R8SMjEi NfWsC2XXeBY9GYMiJHHXhEyMSM1JdSQieQ4DmZy/UKFYf7JaOIHYY01F8huXiAJTnEh7kBgRec+0 hfostrWBdXKvmAIt5btsydtrFJINlwS9FFI7eSEft/Q7pFuigP4oeWD5QytFZMf4k7RVaz/h0iB5 I10e0GG00BX3PqjNjnN3e8f998JpG1jhxWoYB0hpKZerUWqkusp48mt2rP+s+E4YB8Ip2cyYotKN RzYR3AKWcK9TCuq/cMTSmIbwxSuZCG4FiQNnnO08qb7G/6brY2JjQnxqzEs++a2ChnGRLtZ6QrqT Mmbzc6rPw+IU1WUaeb3pYDqtTp64r2Iuxn9NkRTPpYFuzQAAAABJRU5ErkJggg== "
+             preserveAspectRatio="none"
+             height="13.229167"
+             width="13.229167" />
+          <circle
+             style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-opacity:1"
+             r="11.038231"
+             cy="322.81821"
+             cx="71.467873"
+             id="path3860-3-6-2" />
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           x="196.57184"
+           y="286.46527"
+           id="text4981"><tspan
+             sodipodi:role="line"
+             x="196.57184"
+             y="286.46527"
+             style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+             id="tspan4983">Aprendizado Indutivo</tspan></text>
+      </g>
+      <image
+         transform="scale(-1,1)"
+         y="150.42049"
+         x="-113.05663"
+         id="image5245"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAACBElEQVRoge2Y23HCMBBFTwkugRJc wnaQdBB1AB1AB6QD6IB0kHQAHeAOSAfOh6zRAwyWXxpPdGb2CyPvtaTV6kImkwkQ4NqEJM1kIFeg buKaOJfelFgRNVAlzaYnJXDDFyEJ8+mFK+ICFGnT6YfCzsJx7pcL41QWRUIRME5lUSQWIfiVpQYO xK3rg/NfNW563VjjC/htokZv1nWHMZKKKICTk8Am+O2Iv9SkZZykIkrgjJ0BaXlO0KXTJHoCVs1v RTBGOVWybbzj1/fV06c1G/zl5h5ySURs8atKzGYOl5uJ2US4M/BoP8RiZmbWvqngXoQMHFPQAqoR xnpJgV5GoYhq6hePxQrY4wu4oJdDxQI6zxV+Pa+BHxaQuEGAb3wBR7qV1KQI+pS9YQ8jU8s/WYAA g9uhGgE7FnhpCWv44gQYBC3gWX+UyfwjhOw0xiNM89Vmdxqn+GqzO42C/9Vqhp9RszuNoYti4jzg 5Qor4jg4wxe0uSgF1nDoI0bhN7CT8spF6StG0VGEYLvf946Dh3R1UWLF7Inwt9zKckMvjS3wRjc3 I9ZF6Som2qRzu9+2uKIvW1v0Rv7gvv2PcVFeienlNArWwVBNQjv0tbZ6IOpRSIQIwyMxBfZ2OolJ V6L3wQ74YjwfyhUTXu5mMekU47koBQmdxrFJ4jROgTCj05jJZBbMHziiIbsF3FVrAAAAAElFTkSu QmCC "
+         preserveAspectRatio="none"
+         height="13.229167"
+         width="13.229167" />
+      <text
+         id="text4993"
+         y="99.181709"
+         x="69.597565"
+         style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           id="tspan4995"
+           style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+           y="99.181709"
+           x="70.383736"
+           sodipodi:role="line">Aprendizado </tspan><tspan
+           id="tspan7539"
+           style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+           y="105.35532"
+           x="69.597565"
+           sodipodi:role="line">Supervisionado</tspan></text>
+      <circle
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-opacity:1"
+         r="11.038231"
+         cy="157.03508"
+         cx="31.952663"
+         id="path3860-3-6-9-3" />
+      <circle
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-opacity:1"
+         r="11.038231"
+         cy="157.03506"
+         cx="106.44205"
+         id="path3860-3-6-9-3-6" />
+      <circle
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-opacity:1"
+         r="11.038231"
+         cy="80.615364"
+         cx="139.62454"
+         id="path3860-3-6-9-3-6-7" />
+      <image
+         width="13.229167"
+         height="13.229167"
+         preserveAspectRatio="none"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAACC0lEQVRoge2Z4ZHCIBCFXwmWcCVY
+AiVcCXZw14GUYAfawdnB0YF2IB0kHXg/ZAckS47IYjDjN8NMSOLuPrLAJgJvlscvgGthOz09aoZS
+EdRmpzSQtxBpuEBO4POeO9+0kLNrMdz5poU88/diLE7Iyy+/Z5SL4OZTczQz4iWs4YWsZ46liAu8
+kMvMsbCsAGwBdJCb7B2AvbNdjS1uI9q5Y4mKN9VO8IN0ccci7BIOLQAl5QTAB9IroJZwQOmzxv3k
+3UgYj/gM7If+ROaXZQxfnVNpFHghvYTxVGppCeMRKuFrJ+WADPbwT0hLGQ9QgZ8+8CsC5a11/Y3r
+H6QcBChn27i+dX0lYZxSix5v7EySDe4HKfZdBO3OVGIo1BOicZ+2YqsWGbLBuRXqFYIaw/lnIVCr
+pR7tM4WIpFecVgStKNJ1kcZQSHF6cWlFGAiuJgE0+t/ReYuC9Bp7pAZ1hKTsPpxeYYm+Z64fwI9c
+KQa8kB/4Uj+7Gtb4v0Sge/TkUMcxGArhSqQsv1y120X36CkGJ2AwFJITD0v8NZD7OqhQZ1M0GArJ
+iedhaGSk/9eg1Kn6uhtDe8mXgK0VbotKrdJnlPBtTrLN8tlIwed1SesBHNHYt6+cOqxWrSZKPNq5
+15pjcUJK75mdxQlZTGq9vBDa8VN7wtgLW1No5G2Cep7wpqHhX0/jZvEiIt6U8AdmZbippaabDgAA
+AABJRU5ErkJggg==
+"
+         id="image7297"
+         x="133.00995"
+         y="74.000778" />
+      <image
+         width="13.229167"
+         height="13.229167"
+         preserveAspectRatio="none"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAACBUlEQVRoge2Y/W3DIBDF3wgZISN4
+hBshI3iDeIN4g3aDdoRsYDZINog3aDZI/wgISsAGfGcrKk86qeHjuF8f2MhA1XuKAAwAHjoG3VYq
+k2dV9c7CfvSFOVcHIb3gHUAHYKej020P/HUmBiwVl1QQpSd0gb5O96kNQZJdNYN3gb59bjJm/U8Q
+hfmtdWYpK19ZIKQH/wA4wh72o5OIuCtMVPZu6BE/aD1vbVkq2tYEu83Mk4r4airSlueTVbMgewBf
+eJ6LqRfPBfEtNxc3AB+SIOQBuNE649oFEFxnLAqydyDOABqv6Jsz9oZXuBwdAjlzFQX5Rvy9MMIW
+3uq/xwVFNAw5oiDGjSbQ18L+B303lpyVXgJk7ikwOmPGwLycGLH8HVQM0jpj2ox5UkoGueD1sXvV
+kZRQWMkgqQVWkIWqINkJhVVBshMKq4JkJxRWBclOKKzouqPuOMBes98S5NPpfEwNnElYchteEkH1
+eH6cvkcGhi6SW4L4F9igQiCpbVManDlDxrxiSYCQHqtgv5NRYX3JkgAxbhAslLgr3CAE64aRwgqu
+cIO4bhgRVnCFE4Tw6oaRgrArnCAhN4wIwq5wgRDibhgpCLrCBTLlhhFB0BUOEMK8G0YKQq5wgKS4
+YUQQcuWqE5/07xNs0X6b4l6cU+bTf0rQNiWmi2D3roK9WvhtVVWefgFy9yjv0QQJGwAAAABJRU5E
+rkJggg==
+"
+         id="image7362"
+         x="63.533279"
+         y="74.000778" />
+      <image
+         width="13.229167"
+         height="13.229167"
+         preserveAspectRatio="none"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAqElEQVRoge2WwQ3AIAzE2H/pdoS0
+wsghOks8sXwvWGufBzo644ZY9zEyBLqPkSHQfYwMge5jjBsy5kG8fkjFNaEVGdKNDOlGhnQjQ7qh
+D6G+HvTJkF10jx5AefQAyqMHUB49gPLoAZRHD6A8egDl0QMojx5AefSAvx7qz6N79AB6yFeqAM2j
+B1AePYDy6AGURw+gPHoA5dEDKI8eQHn0h4zy6AGHPCEQvE8VEA05BOmnAAAAAElFTkSuQmCC
+"
+         id="image7524"
+         x="25.338081"
+         y="150.42049" />
+      <text
+         id="text4993-5"
+         y="99.181709"
+         x="139.5956"
+         style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           id="tspan4995-3"
+           style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+           y="99.181709"
+           x="140.38176"
+           sodipodi:role="line">Aprendizado </tspan><tspan
+           id="tspan7562"
+           style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+           y="105.35532"
+           x="139.5956"
+           sodipodi:role="line">Não</tspan><tspan
+           id="tspan7539-5"
+           style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+           y="111.52893"
+           x="139.5956"
+           sodipodi:role="line">Supervisionado</tspan></text>
+      <text
+         id="text4993-6"
+         y="175.30574"
+         x="31.947842"
+         style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           id="tspan7539-9"
+           style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+           y="175.30574"
+           x="31.947842"
+           sodipodi:role="line">Classificação</tspan></text>
+      <text
+         id="text4993-6-1"
+         y="175.30574"
+         x="106.33353"
+         style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           id="tspan7539-9-2"
+           style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+           y="175.30574"
+           x="106.33353"
+           sodipodi:role="line">Regressão</tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         id="path7605"
+         d="m 95.401188,35.888249 -15.875,28.726191"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend)" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path7605-9"
+         d="m 55.500583,111.76474 -15.875,28.7262"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend-7)" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path7605-0"
+         d="m 81.207219,111.769 15.875,28.72619"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend-3)" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path7605-0-6"
+         d="m 115.44414,35.892509 15.875,28.72619"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend-3-6)" />
+    </g>
+  </g>
+</svg>

@@ -21,17 +21,17 @@ Disserta{\c c}{\~a}o (Mestrado) --- Instituto Superior de Engenharia do Porto,
   APRENDIZAGEM NA SOCIEDADE DA INFORMA{\c{C}}{\~A}O}. [S.l.: s.n.], 1999.
   v.~20, p. 327--340.}
 
-\bibitem[CEBRASPE 2016]{paq_a:2016}
-\abntrefinfo{CEBRASPE}{CEBRASPE}{2016a}
-{CEBRASPE. \textbf{{CENTRO BRASILEIRO DE PESQUISA EM AVALIAÇÃO E SELEÇÃO E
-  DE PROMOÇÃO DE EVENTOS (CEBRASPE) PROGRAMA DE ATUALIZAÇÃO, QUALIFICAÇÃO
-  E SELEÇÃO DE AVALIADORES DAS REDAÇÕES DO ENEM 2016 }}. 2016.
-{Online; acessado 07 Abril 2017}.
-Dispon{\'\i}vel em:
-  $<$\url{http://www.cespe.unb.br/colaboradores/ENEM_16_AVALIADOR_REDACAO/arquivos/ENEM_REDA____ES_2016___AVALIADOR___REGULAMENTO.PDF}$>$.}
+\bibitem[Boscarioli, Viterbo \& Teixeira 2014]{boscarioli2014avaliaccao}
+\abntrefinfo{Boscarioli, Viterbo \& Teixeira}{BOSCARIOLI; VITERBO;
+  TEIXEIRA}{2014}
+{BOSCARIOLI, Clodis; VITERBO, Jos{\'e}; TEIXEIRA, Mateus~Felipe.
+  Avalia{\c{c}}{\~a}o de aspectos de usabilidade em ferramentas para
+  minera{\c{c}}{\~a}o de dados.
+\textbf{Anais da I Escola Regional de Sistemas de Informa{\c{c}}{\~a}o do Rio
+  de Janeiro}, v.~1, n.~1, p. 107--114, 2014.}
 
 \bibitem[CEBRASPE 2016]{relatorio_de_gestao:2016}
-\abntrefinfo{CEBRASPE}{CEBRASPE}{2016b}
+\abntrefinfo{CEBRASPE}{CEBRASPE}{2016}
 {CEBRASPE, CESPE~UNB. \textbf{{Relatório de Gestão CEBRASPE}}. 2016.
 1--20~p.
 {Online; acessado 07 Abril 2017}.
@@ -64,11 +64,11 @@ Edital anual do exame nacional do ensino médio, \textbf{EDITAL No 10, DE 14 DE
 Dispon{\'\i}vel em:
   $<$\url{http://download.inep.gov.br/educacao_basica/enem/edital/2016/edital_enem_2016.pdf}$>$.}
 
-\bibitem[Mitchell 1997]{machine_learning:1997}
-\abntrefinfo{Mitchell}{MITCHELL}{1997}
-{MITCHELL, Tom M.~Mitchell. \textbf{{Machine Learning}}. [S.l.]: Book News,
-  Inc., 1997.
-ISBN 0070428077.}
+\bibitem[Lara 1994]{lara:1995}
+\abntrefinfo{Lara}{LARA}{1994}
+{LARA, Glaucia Muniz~Proença. {A redação como tema de pesquisa}. In:
+  \textbf{Leitura: Teoria e Prática}. [S.l.]: 1994, 1994. v.~13, n.~24, p.
+  62--82.}
 
 \bibitem[Monard \& Baranauskas 2003]{monard_baranauskas:2003}
 \abntrefinfo{Monard \& Baranauskas}{MONARD; BARANAUSKAS}{2003}
@@ -84,6 +84,19 @@ ISBN 0070428077.}
   Desempenho e Abandono em Universidades}.
 Disserta{\c c}{\~a}o (Mestrado) --- Universidade Federal de Goiás Instituto de
   Informática, 11 2016. Online; acessado 06 Junho 2017.}
+
+\bibitem[Pedregosa \textit{et al.} 2011]{scikit-learn}
+\abntrefinfo{Pedregosa \textit{et al.}}{PEDREGOSA \textit{et al.}}{2011}
+{PEDREGOSA, F.; VAROQUAUX, G.; GRAMFORT, A.; MICHEL, V.; THIRION, B.; GRISEL,
+  O.; BLONDEL, M.; PRETTENHOFER, P.; WEISS, R.; DUBOURG, V.; VANDERPLAS, J.;
+  PASSOS, A.; COURNAPEAU, D.; BRUCHER, M.; PERROT, M.; DUCHESNAY, E.
+  Scikit-learn: Machine learning in {P}ython.
+\textbf{Journal of Machine Learning Research}, v.~12, p. 2825--2830, 2011.}
+
+\bibitem[Rossum \& Drake 2003]{van2003python}
+\abntrefinfo{Rossum \& Drake}{ROSSUM; DRAKE}{2003}
+{ROSSUM, Guido Van; DRAKE, Fred~L. \textbf{Python language reference manual}.
+  [S.l.]: Network Theory, 2003.}
 
 \bibitem[Silva \& Carvalho 2017]{silvio_taynan:2017}
 \abntrefinfo{Silva \& Carvalho}{SILVA; CARVALHO}{2017}
@@ -101,11 +114,13 @@ Dispon{\'\i}vel em:
 {Online; acessado 07 Abril 2017}.
 Dispon{\'\i}vel em: $<$\url{http://sisu.mec.gov.br/}$>$.}
 
-\bibitem[UOL 2017]{uol_banco_redacoes:2017}
-\abntrefinfo{UOL}{UOL}{2017}
-{UOL. \textbf{{Banco de redações}}. 2017.
-{Online; acessado 01 Junho 2017}.
-Dispon{\'\i}vel em: $<$\url{https://educacao.uol.com.br/bancoderedacoes/}$>$.}
+\bibitem[Wahbeh \textit{et al.} 2011]{wahbeh2011comparison}
+\abntrefinfo{Wahbeh \textit{et al.}}{WAHBEH \textit{et al.}}{2011}
+{WAHBEH, Abdullah~H; AL-RADAIDEH, Qasem~A; AL-KABI, Mohammed~N; AL-SHAWAKFA,
+  Emad~M. A comparison study between data mining tools over some classification
+  methods.
+\textbf{International Journal of Advanced Computer Science and Applications},
+  v.~8, n.~2, p. 18--26, 2011.}
 
 \bibitem[waymo 2017]{waymo:2017}
 \abntrefinfo{waymo}{WAYMO}{2017}
