@@ -29,7 +29,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: abnt-options.bib
 Database file #2: bibliografia/bib.bib
 Warning--entry type for "edital_enem:2016" isn't style-file defined
---line 116 of file bibliografia/bib.bib
+--line 122 of file bibliografia/bib.bib
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
@@ -42,43 +42,43 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 +---------------------------------------------------------+
 You've used 20 entries,
             6480 wiz_defined-function locations,
-            1255 strings with 12452 characters,
-and the built_in function-call counts, 11670 in all, are:
-= -- 1007
-> -- 282
-< -- 11
-+ -- 152
-- -- 90
-* -- 712
-:= -- 1594
-add.period$ -- 65
+            1260 strings with 12837 characters,
+and the built_in function-call counts, 12684 in all, are:
+= -- 1052
+> -- 365
+< -- 14
++ -- 191
+- -- 111
+* -- 827
+:= -- 1697
+add.period$ -- 64
 call.type$ -- 23
-change.case$ -- 124
-chr.to.int$ -- 27
+change.case$ -- 146
+chr.to.int$ -- 30
 cite$ -- 14
-duplicate$ -- 477
-empty$ -- 1104
-format.name$ -- 422
-if$ -- 2865
+duplicate$ -- 526
+empty$ -- 1125
+format.name$ -- 558
+if$ -- 3078
 int.to.chr$ -- 6
 int.to.str$ -- 1
-missing$ -- 300
+missing$ -- 316
 newline$ -- 90
 num.names$ -- 70
-pop$ -- 332
+pop$ -- 348
 preamble$ -- 1
-purify$ -- 64
+purify$ -- 66
 quote$ -- 0
-skip$ -- 901
+skip$ -- 947
 stack$ -- 1
-substring$ -- 404
-swap$ -- 196
-text.length$ -- 7
+substring$ -- 435
+swap$ -- 241
+text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 9
 warning$ -- 0
-while$ -- 90
+while$ -- 92
 width$ -- 0
-write$ -- 229
+write$ -- 231
 (There was 1 warning)

@@ -45,6 +45,16 @@ Dispon{\'\i}vel em:
 Dispon{\'\i}vel em:
   $<$\url{http://www.cienciasemfronteiras.gov.br/web/csf/estudante}$>$.}
 
+\bibitem[Dem{\v{s}}ar \textit{et al.} 2013]{JMLR:demsar13a}
+\abntrefinfo{Dem{\v{s}}ar \textit{et al.}}{DEM{\v{S}}AR \textit{et al.}}{2013}
+{DEM{\v{S}}AR, Janez; CURK, Toma{\v{z}}; ERJAVEC, Ale{\v{s}}; GORUP, {\v{C}}rt;
+  HO{\v{C}}EVAR, Toma{\v{z}}; MILUTINOVI{\v{C}}, Mitar; MO{\v{Z}}INA, Martin;
+  POLAJNAR, Matija; TOPLAK, Marko; STARI{\v{C}}, An{\v{z}}e; {\v{S}}TAJDOHAR,
+  Miha; UMEK, Lan; {\v{Z}}AGAR, Lan; {\v{Z}}BONTAR, Jure; {\v{Z}}ITNIK,
+  Marinka; ZUPAN, Bla{\v{z}}. Orange: Data mining toolbox in python.
+\textbf{Journal of Machine Learning Research}, v.~14, p. 2349--2353, 2013.
+Dispon{\'\i}vel em: $<$http://jmlr.org/papers/v14/demsar13a.html$>$.}
+
 \bibitem[INEP 2016]{edital_enem:2016}
 \abntrefinfo{INEP}{INEP}{2016}
 {INEP.
@@ -53,13 +63,6 @@ Edital anual do exame nacional do ensino médio, \textbf{EDITAL No 10, DE 14 DE
 {Online; acessado 05 Junho 2017}.
 Dispon{\'\i}vel em:
   $<$\url{http://download.inep.gov.br/educacao_basica/enem/edital/2016/edital_enem_2016.pdf}$>$.}
-
-\bibitem[Ljubljana 2017]{orange_3:2017}
-\abntrefinfo{Ljubljana}{LJUBLJANA}{2017}
-{LJUBLJANA, Bioinformatics~Lab at~University~of. \textbf{{Orange: Data Mining
-  Toolbox in Python}}. 2017.
-{Online; acessado 01 Junho 2017}.
-Dispon{\'\i}vel em: $<$\url{https://orange.biolab.si/}$>$.}
 
 \bibitem[Mitchell 1997]{machine_learning:1997}
 \abntrefinfo{Mitchell}{MITCHELL}{1997}

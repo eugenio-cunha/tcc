@@ -16,7 +16,10 @@
    version="1.1"
    id="svg432"
    inkscape:version="0.92.1 r15371"
-   sodipodi:docname="aprendizado_maquina.svg">
+   sodipodi:docname="aprendizado_maquina.svg"
+   inkscape:export-filename="/home/genio/Workspace/TCC/projeto/figuras/processo_classificacao.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
   <defs
      id="defs426">
     <marker
@@ -218,7 +221,9 @@
        inkscape:connector-curvature="0"
        style="fill:#000000;fill-opacity:0;fill-rule:evenodd;stroke:none;stroke-width:0.26458332;stroke-linecap:square;stroke-miterlimit:10" />
     <g
-       id="g9494">
+       id="g9494"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <image
          width="9.2355661"
          height="9.2355661"

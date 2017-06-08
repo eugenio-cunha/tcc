@@ -1,5 +1,5 @@
 \select@language {brazilian}
-\contentsline {figure}{\numberline {1}{\ignorespaces A hierarquia do aprendizado\relax }}{21}
+\contentsline {figure}{\numberline {1}{\ignorespaces A hierarquia do aprendizado indutivo\relax }}{21}
 \contentsline {figure}{\numberline {2}{\ignorespaces Processo de Classifica\IeC {\c c}\IeC {\~a}o\relax }}{22}
 \contentsline {figure}{\numberline {3}{\ignorespaces Um \textit {Web Crawler}, navega entre as p\IeC {\'a}ginas HTML do banco de reda\IeC {\c c}\IeC {\~o}es UOL de forma met\IeC {\'o}dica e automatizada indexando textos de reda\IeC {\c c}\IeC {\~o}es que posteriomente ser\IeC {\~a}o filtrados e coletados.\relax }}{24}
 \contentsline {figure}{\numberline {4}{\ignorespaces Os textos s\IeC {\~a}o submetidos aos algoritmos de normaliza\IeC {\c c}\IeC {\~a}o e posteriormente estruturados e armazenados no padr\IeC {\~a}o JSON.\relax }}{25}

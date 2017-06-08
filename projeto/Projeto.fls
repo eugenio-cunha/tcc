@@ -413,6 +413,9 @@ INPUT /home/genio/Workspace/TCC/projeto/figuras/aprendizado_maquina.png
 INPUT /home/genio/Workspace/TCC/projeto/figuras/processo_classificacao.png
 INPUT /home/genio/Workspace/TCC/projeto/figuras/processo_classificacao.png
 INPUT /home/genio/Workspace/TCC/projeto/figuras/processo_classificacao.png
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvbo8t.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/helvetic/phvbo8t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvbo8r.tfm
 OUTPUT /home/genio/Workspace/TCC/projeto/textuais/Fundamentacao.aux
 INPUT /home/genio/Workspace/TCC/projeto/textuais/Fundamentacao.tex
 INPUT /home/genio/Workspace/TCC/projeto/textuais/Fundamentacao.tex

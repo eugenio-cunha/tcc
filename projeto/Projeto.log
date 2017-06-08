@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.5.4)  7 JUN 2017 18:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.5.4)  7 JUN 2017 21:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1252,8 +1252,12 @@ File: figuras/processo_classificacao.png Graphic file (type png)
 Package pdftex.def Info: figuras/processo_classificacao.png used on input line 
 114.
 (pdftex.def)             Requested size: 395.7902pt x 267.62418pt.
- [21 </home/genio/Workspace/TCC/projeto/figuras/aprendizado_maquina.png>]) [22 
-</home/genio/Workspace/TCC/projeto/figuras/processo_classificacao.png>]
+ [21 </home/genio/Workspace/TCC/projeto/figuras/aprendizado_maquina.png>]
+LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <17.28> not available
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 122.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <17.28> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 122.
+) [22 </home/genio/Workspace/TCC/projeto/figuras/processo_classificacao.png>]
 \openout2 = `textuais/Fundamentacao.aux'.
 
 
@@ -1268,14 +1272,14 @@ Cap\'{\i }tulo 3.
 
  (/home/genio/Workspace/TCC/projeto/textuais/Metodologia.tex
 Cap\'{\i }tulo 4.
-<figuras/metodologia_1.png, id=104, 376.40625pt x 116.68594pt>
+<figuras/metodologia_1.png, id=105, 376.40625pt x 116.68594pt>
 File: figuras/metodologia_1.png Graphic file (type png)
 
 <use figuras/metodologia_1.png>
 Package pdftex.def Info: figuras/metodologia_1.png used on input line 9.
 (pdftex.def)             Requested size: 282.30399pt x 87.51422pt.
 
-<figuras/metodologia_2.png, id=105, 376.40625pt x 116.68594pt>
+<figuras/metodologia_2.png, id=106, 376.40625pt x 116.68594pt>
 File: figuras/metodologia_2.png Graphic file (type png)
 
 <use figuras/metodologia_2.png>
@@ -1292,14 +1296,14 @@ Underfull \hbox (badness 1052) in paragraph at lines 21--21
 
 
  </home/genio/Workspace/TCC/projeto/figuras/metodologia_1.png>]
-<figuras/metodologia_3.png, id=111, 376.40625pt x 116.68594pt>
+<figuras/metodologia_3.png, id=112, 376.40625pt x 116.68594pt>
 File: figuras/metodologia_3.png Graphic file (type png)
 
 <use figuras/metodologia_3.png>
 Package pdftex.def Info: figuras/metodologia_3.png used on input line 29.
 (pdftex.def)             Requested size: 282.30399pt x 87.51422pt.
 
-<figuras/metodologia_4.png, id=112, 376.40625pt x 116.68594pt>
+<figuras/metodologia_4.png, id=113, 376.40625pt x 116.68594pt>
 File: figuras/metodologia_4.png Graphic file (type png)
 
 <use figuras/metodologia_4.png>
@@ -1388,13 +1392,13 @@ Apendice B.
 (/home/genio/Workspace/TCC/projeto/textuais/Conclusao.aux)
 (/home/genio/Workspace/TCC/projeto/pos-textuais/appendices.aux)) ) 
 Here is how much of TeX's memory you used:
- 7333 strings out of 493013
- 109758 string characters out of 6135683
- 202509 words of memory out of 5000000
- 10442 multiletter control sequences out of 15000+600000
- 103432 words of font info for 136 fonts, out of 8000000 for 9000
+ 7336 strings out of 493013
+ 109805 string characters out of 6135683
+ 202545 words of memory out of 5000000
+ 10444 multiletter control sequences out of 15000+600000
+ 106288 words of font info for 138 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,10n,48p,742b,564s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,11n,48p,742b,564s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/t
 exlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvips
 /cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/ams
@@ -1408,8 +1412,8 @@ elvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /home/genio/Workspace/TCC/projeto/Projeto.pdf (34 pages, 3493
-74 bytes).
+Output written on /home/genio/Workspace/TCC/projeto/Projeto.pdf (34 pages, 3521
+88 bytes).
 PDF statistics:
  193 PDF objects out of 1000 (max. 8388607)
  125 compressed objects within 2 object streams
