@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.5.4)  8 JUN 2017 16:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.5.4)  9 JUN 2017 15:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1178,30 +1178,30 @@ LaTeX Font Info:    Font shape `T1/phv/bx/sc' in size <24.88> not available
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 16.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 15.
 
-Underfull \hbox (badness 3815) in paragraph at lines 28--29
+Underfull \hbox (badness 3815) in paragraph at lines 27--28
 []\T1/phv/m/n/12 Este tra-ba-lho tem como ob-je-tivo ge-ral apli-car apren-di-z
 ado de má-quina
  []
 
 
-Underfull \hbox (badness 1314) in paragraph at lines 28--29
+Underfull \hbox (badness 1314) in paragraph at lines 27--28
 \T1/phv/m/n/12 na clas-si-fi-ca-ção das com-pe-tên-cias exi-gi-das em um texto 
 de re-da-ção do tipo
  []
 
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 35.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 34.
 [13]
-LaTeX Font Info:    Try loading font information for OMS+phv on input line 35.
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 34.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsphv.fd
 File: omsphv.fd 
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 35.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 34.
 
-Underfull \hbox (badness 4479) in paragraph at lines 49--50
+Underfull \hbox (badness 4479) in paragraph at lines 48--49
 \T1/phv/b/n/12 Capitulo 2[]\T1/phv/m/n/12 : Tra-ba-lhos Re-la-ci-o-na-dos cita 
 al-guns dos tra-ba-lhos li-dos para
  []
@@ -1217,15 +1217,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--4
  []
 
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 9.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 11.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
 
-Underfull \vbox (badness 10000) detected at line 39
+Underfull \vbox (badness 10000) detected at line 41
  []
 
 [15
@@ -1233,21 +1233,21 @@ Underfull \vbox (badness 10000) detected at line 39
 
 
 ] [16] [17]
-Underfull \hbox (badness 2409) in paragraph at lines 64--65
+Underfull \hbox (badness 2409) in paragraph at lines 66--67
 []\T1/phv/m/n/12 Obviamente, ter-mos que apa-re-cem em to-dos os do-cu-men-tos 
 não se-rão
  []
 
 
-Underfull \vbox (badness 10000) detected at line 86
+Underfull \vbox (badness 10000) detected at line 88
  []
 
 [18] <figuras/aprendizado_indutivo.png, id=83, 404.26031pt x 492.33937pt>
 File: figuras/aprendizado_indutivo.png Graphic file (type png)
 
 <use figuras/aprendizado_indutivo.png>
-Package pdftex.def Info: figuras/aprendizado_indutivo.png used on input line 98
-.
+Package pdftex.def Info: figuras/aprendizado_indutivo.png used on input line 10
+0.
 (pdftex.def)             Requested size: 303.19449pt x 369.2536pt.
  [19]
 <figuras/processo_classificacao.png, id=88, 527.72156pt x 356.83313pt>
@@ -1255,7 +1255,7 @@ File: figuras/processo_classificacao.png Graphic file (type png)
 
 <use figuras/processo_classificacao.png>
 Package pdftex.def Info: figuras/processo_classificacao.png used on input line 
-112.
+114.
 (pdftex.def)             Requested size: 395.7902pt x 267.62418pt.
  [20 </home/genio/Workspace/TCC/projeto/figuras/aprendizado_indutivo.png>] [21 
 </home/genio/Workspace/TCC/projeto/figuras/processo_classificacao.png>]
@@ -1263,7 +1263,7 @@ Package pdftex.def Info: figuras/processo_classificacao.png used on input line
 File: figuras/orange_canvas.png Graphic file (type png)
 
 <use figuras/orange_canvas.png>
-Package pdftex.def Info: figuras/orange_canvas.png used on input line 132.
+Package pdftex.def Info: figuras/orange_canvas.png used on input line 134.
 (pdftex.def)             Requested size: 411.33992pt x 223.13535pt.
 ) [22 </home/genio/Workspace/TCC/projeto/figuras/orange_canvas.png>]
 \openout2 = `textuais/Fundamentacao.aux'.
@@ -1348,7 +1348,7 @@ Cap\'{\i }tulo 7.
 
 
 ] (/home/genio/Workspace/TCC/projeto/Projeto.bbl
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 39.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 48.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -1400,10 +1400,10 @@ Apendice B.
 (/home/genio/Workspace/TCC/projeto/textuais/Conclusao.aux)
 (/home/genio/Workspace/TCC/projeto/pos-textuais/appendices.aux)) ) 
 Here is how much of TeX's memory you used:
- 7350 strings out of 493013
- 110137 string characters out of 6135683
- 202784 words of memory out of 5000000
- 10458 multiletter control sequences out of 15000+600000
+ 7355 strings out of 493013
+ 110224 string characters out of 6135683
+ 203820 words of memory out of 5000000
+ 10463 multiletter control sequences out of 15000+600000
  103432 words of font info for 136 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,10n,48p,649b,564s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1420,8 +1420,8 @@ elvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /home/genio/Workspace/TCC/projeto/Projeto.pdf (34 pages, 4869
-89 bytes).
+Output written on /home/genio/Workspace/TCC/projeto/Projeto.pdf (34 pages, 4873
+27 bytes).
 PDF statistics:
  194 PDF objects out of 1000 (max. 8388607)
  125 compressed objects within 2 object streams

@@ -3,7 +3,9 @@
 
 \section{Competências requeridas pela avaliação de redação do enem}
 
-De acordo com ~\cite{silvio_taynan:2017} a prova de Redação do ENEM é avaliada levando em conta uma matriz de referência. Essa matriz, desenvolvida pelo ~\cite{edital_enem:2016}, com a colaboração de especialistas, foi elaborada com o objetivo de operacionalizar o exame. A matriz apresenta cinco competências, para cada competência expressa para redação existem níveis de conhecimento associados de 0 a 5. Isso pode ser visto na Tabela ~\ref{tab:matriz_referencia}.
+De acordo com ~\cite{silvio_taynan:2017} a prova de redação do ENEM é avaliada levando em conta uma matriz de referência listada na Tabela ~\ref{tab:matriz_referencia}. Essa matriz, desenvolvida pelo ~\cite{edital_enem:2016}, com a colaboração de especialistas, foi elaborada com o objetivo de operacionalizar o exame. A matriz apresenta cinco competências, para cada competência expressa para redação existem níveis de conhecimento associados de 0 a 5.
+
+De acordo com ~\cite{braga:2015}, no texto de redação, o candidato defenderá uma opinião a respeito do tema proposto, de forma coerente e coesa, embasado em argumentos consistentes. O texto será redigido respeitando a escrita formal da Língua Portuguesa. Ao fim, o candidato elabora uma proposta de intervenção social para o problema apresentado no desenvolvimento do texto que respeite os direitos humanos.
 
 \begin{longtable}{|c|l|l|}
     \caption{Matriz de referência elaborada pelo INEP.}
@@ -21,7 +23,7 @@ De acordo com ~\cite{silvio_taynan:2017} a prova de Redação do ENEM é avaliad
      & 0 & \begin{tabular}[c]{@{}l@{}}Demonstra desconhecimento da modalidade escrita formal da \\ língua portuguesa.\end{tabular} \\ \cline{2-3} 
      & 1 & \begin{tabular}[c]{@{}l@{}}Demonstra domínio precário da modalidade escrita formal da \\ língua por-tuguesa, de forma sistemática, com diversificados e \\ frequentes desvios gramaticais, de escolha de registro e de \\ convenções da escrita.\end{tabular} \\ \cline{2-3} 
      & 2 & \begin{tabular}[c]{@{}l@{}}Demonstra domínio insuficiente da modalidade escrita formal \\ da língua portuguesa, com muitos desvios gramaticais, de \\ escolha de registro e de convenções da escrita.\end{tabular} \\ \cline{2-3} 
-     & 3 & \begin{tabular}[c]{@{}l@{}}Demonstra domínio mediano da modalidade escrita formal da \\ língua portuguesa e de escolha deregistro, com alguns desvios \\ gramaticais e de convenções da escrita.\end{tabular} \\ \cline{2-3} 
+     & 3 & \begin{tabular}[c]{@{}l@{}}Demonstra domínio mediano da modalidade escrita formal da \\ língua portuguesa e de escolha de registro, com alguns desvios \\ gramaticais e de convenções da escrita.\end{tabular} \\ \cline{2-3} 
      & 4 & \begin{tabular}[c]{@{}l@{}}Demonstra bom domínio da modalidade escrita formal da língua \\ portuguesa e de escolha de registro,com poucos desvios \\ gramaticais e de convenções da escrita.\end{tabular} \\ \cline{2-3} 
      & 5 & \begin{tabular}[c]{@{}l@{}}Demonstra excelente domínio da modalidade escrita formal da \\ língua portuguesa e de escolha deregistro. Desvios gramaticais \\ ou de convenções da escrita serão aceitos somente como \\ excepcionalidade equando não caracterizem reincidência.\end{tabular} \\ \hline
     \multirow{7}{*}{\textbf{II}} & \multicolumn{2}{l|}{\textbf{\begin{tabular}[c]{@{}l@{}}Compreender a proposta de redação e aplicar conceitos \\ das varias áreas de conhecimento paradesenvolver o tema, \\ dentro dos limites estruturais do texto \\ dissertativo-argumentativo em prosa.\end{tabular}}} \\ \cline{2-3} 
@@ -52,14 +54,14 @@ De acordo com ~\cite{silvio_taynan:2017} a prova de Redação do ENEM é avaliad
      & 3 & \begin{tabular}[c]{@{}l@{}}Elabora, de forma mediana, proposta de intervenção relacionada ao \\ tema e articulada à discussãodesenvolvida no texto.\end{tabular} \\ \cline{2-3} 
      & 4 & \begin{tabular}[c]{@{}l@{}}Elabora bem proposta de intervenção relacionada ao tema e \\ articulada à discussão desenvolvida notexto.\end{tabular} \\ \cline{2-3} 
      & 5 & \begin{tabular}[c]{@{}l@{}}Elabora muito bem proposta de intervenção, detalhada, relacionada \\ ao tema e articulada à discussãodesenvolvida no texto.\end{tabular} \\ \hline
-\end{longtable} 
+\end{longtable}
 
 % 2) classificadores de textos
 \section{Modelo de representação de texto mais adequado à classificação}
 
-Segundo a autora ~\cite{alexandra_alves:2010} o BOW (\textit{Bag of Words}) é o modelo mais utilizado em aplicações de classificação de texto. Com baixo custo em termos de processamento este modelo transforma a cadeia de caracteres de um documento num conjunto de palavras, registrando além da presença de uma palavra, a sua frequência.
+Segundo ~\cite{alexandra_alves:2010} o BOW (\textit{Bag of Words}) é o modelo mais utilizado em aplicações de classificação de texto. Com baixo custo em termos de processamento este modelo transforma a cadeia de caracteres de um documento num conjunto de palavras, registrando além da presença de uma palavra, a sua frequência.
 
-Entretanto propriedades básicas do texto, como a ordem em que as palavras ocorrem e a pontuação, são ignoradas, além da incapacidade em capturar a semântica do texto, isto é, há palavras com significados distintos que apesar de serem exactamente iguais têm significados diferentes, dependendo do contexto em que são utilizadas.
+Entretanto propriedades básicas do texto, como a ordem em que as palavras ocorrem e a pontuação, são ignoradas, além da incapacidade em capturar a semântica do texto, isto é, há palavras com significados distintos que apesar de serem exatamente iguais têm significados diferentes, dependendo do contexto em que são utilizadas.
 
 Obviamente, termos que aparecem em todos os documentos não serão analisados, geralmente são os pronomes, artigos e as preposições. Estes termos são chamados de \textit{stop words}, não são úteis dado que têm uma semântica fraca e somente desempenham um papel funcional no texto. Para melhorar os métodos de processamento normalmente são removidas, em vários casos a remoção das \textit{stop words} não traz consequências graves.
 
@@ -85,7 +87,7 @@ Na Tabela ~\ref{tab:bow}, \textbf{w}\textsubscript{i} representa uma palavra, \t
     \hline
 \end{longtable}
 
-Ainda segunda a autora existem várias medidas para calcular os valores dos pesos de p\textsubscript{ij}. Essas medidas podem ser classificadas em dois tipos distintos: baseadas em frequências e binárias. Os pesos baseados em frequência visam contabilizar o número de ocorrências de um dado termo num determinado documento, servindo como base para diversas medidas estatísticas e os pesos binários indicam a ocorrência ou não de um dado termo num determinado documento.
+Ainda segundo ~\cite{alexandra_alves:2010} existem várias medidas para calcular os valores dos pesos de p\textsubscript{ij}. Essas medidas podem ser classificadas em dois tipos distintos: baseadas em frequências e binárias. Os pesos baseados em frequência visam contabilizar o número de ocorrências de um dado termo num determinado documento, servindo como base para diversas medidas estatísticas e os pesos binários indicam a ocorrência ou não de um dado termo num determinado documento.
 
 \section{Aprendizado de máquina}
 
