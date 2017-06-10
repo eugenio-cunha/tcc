@@ -212,6 +212,8 @@ INPUT /home/genio/Workspace/TCC/projeto/textuais/Metodologia.aux
 INPUT /home/genio/Workspace/TCC/projeto/textuais/Metodologia.aux
 INPUT /home/genio/Workspace/TCC/projeto/textuais/Desenvolvimento.aux
 INPUT /home/genio/Workspace/TCC/projeto/textuais/Desenvolvimento.aux
+INPUT /home/genio/Workspace/TCC/projeto/textuais/Plano.aux
+INPUT /home/genio/Workspace/TCC/projeto/textuais/Plano.aux
 INPUT /home/genio/Workspace/TCC/projeto/textuais/Resultados.aux
 INPUT /home/genio/Workspace/TCC/projeto/textuais/Resultados.aux
 INPUT /home/genio/Workspace/TCC/projeto/textuais/Conclusao.aux
@@ -348,6 +350,8 @@ INPUT /home/genio/Workspace/TCC/projeto/pre-textuais/nomenclatura.tex
 INPUT /home/genio/Workspace/TCC/projeto/pre-textuais/nomenclatura.tex
 INPUT /home/genio/Workspace/TCC/projeto/pre-textuais/abreviacoes.tex
 INPUT /home/genio/Workspace/TCC/projeto/pre-textuais/abreviacoes.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/helvetic/phvbo8t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvbo8r.tfm
 OUTPUT /home/genio/Workspace/TCC/projeto/textuais/Introducao.aux
 INPUT /home/genio/Workspace/TCC/projeto/textuais/Introducao.tex
 INPUT /home/genio/Workspace/TCC/projeto/textuais/Introducao.tex
@@ -415,6 +419,9 @@ INPUT /home/genio/Workspace/TCC/projeto/figuras/orange_canvas.png
 OUTPUT /home/genio/Workspace/TCC/projeto/textuais/Fundamentacao.aux
 INPUT /home/genio/Workspace/TCC/projeto/textuais/Fundamentacao.tex
 INPUT /home/genio/Workspace/TCC/projeto/textuais/Fundamentacao.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvbo8t.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/helvetic/phvbo8t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvbo8r.tfm
 OUTPUT /home/genio/Workspace/TCC/projeto/textuais/Metodologia.aux
 INPUT /home/genio/Workspace/TCC/projeto/textuais/Metodologia.tex
 INPUT /home/genio/Workspace/TCC/projeto/textuais/Metodologia.tex
@@ -433,6 +440,9 @@ INPUT /home/genio/Workspace/TCC/projeto/figuras/metodologia_4.png
 OUTPUT /home/genio/Workspace/TCC/projeto/textuais/Desenvolvimento.aux
 INPUT /home/genio/Workspace/TCC/projeto/textuais/Desenvolvimento.tex
 INPUT /home/genio/Workspace/TCC/projeto/textuais/Desenvolvimento.tex
+OUTPUT /home/genio/Workspace/TCC/projeto/textuais/Plano.aux
+INPUT /home/genio/Workspace/TCC/projeto/textuais/Plano.tex
+INPUT /home/genio/Workspace/TCC/projeto/textuais/Plano.tex
 OUTPUT /home/genio/Workspace/TCC/projeto/textuais/Resultados.aux
 INPUT /home/genio/Workspace/TCC/projeto/textuais/Resultados.tex
 INPUT /home/genio/Workspace/TCC/projeto/textuais/Resultados.tex
@@ -519,6 +529,8 @@ INPUT /home/genio/Workspace/TCC/projeto/textuais/Metodologia.aux
 INPUT /home/genio/Workspace/TCC/projeto/textuais/Metodologia.aux
 INPUT /home/genio/Workspace/TCC/projeto/textuais/Desenvolvimento.aux
 INPUT /home/genio/Workspace/TCC/projeto/textuais/Desenvolvimento.aux
+INPUT /home/genio/Workspace/TCC/projeto/textuais/Plano.aux
+INPUT /home/genio/Workspace/TCC/projeto/textuais/Plano.aux
 INPUT /home/genio/Workspace/TCC/projeto/textuais/Resultados.aux
 INPUT /home/genio/Workspace/TCC/projeto/textuais/Resultados.aux
 INPUT /home/genio/Workspace/TCC/projeto/textuais/Conclusao.aux

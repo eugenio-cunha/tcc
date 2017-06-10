@@ -56,39 +56,6 @@ De acordo com ~\cite{braga:2015}, no texto de redação, o candidato defenderá 
      & 5 & \begin{tabular}[c]{@{}l@{}}Elabora muito bem proposta de intervenção, detalhada, relacionada \\ ao tema e articulada à discussãodesenvolvida no texto.\end{tabular} \\ \hline
 \end{longtable}
 
-% 2) classificadores de textos
-\section{Modelo de representação de texto mais adequado à classificação}
-
-Segundo ~\cite{alexandra_alves:2010} o BOW (\textit{Bag of Words}) é o modelo mais utilizado em aplicações de classificação de texto. Com baixo custo em termos de processamento este modelo transforma a cadeia de caracteres de um documento num conjunto de palavras, registrando além da presença de uma palavra, a sua frequência.
-
-Entretanto propriedades básicas do texto, como a ordem em que as palavras ocorrem e a pontuação, são ignoradas, além da incapacidade em capturar a semântica do texto, isto é, há palavras com significados distintos que apesar de serem exatamente iguais têm significados diferentes, dependendo do contexto em que são utilizadas.
-
-Obviamente, termos que aparecem em todos os documentos não serão analisados, geralmente são os pronomes, artigos e as preposições. Estes termos são chamados de \textit{stop words}, não são úteis dado que têm uma semântica fraca e somente desempenham um papel funcional no texto. Para melhorar os métodos de processamento normalmente são removidas, em vários casos a remoção das \textit{stop words} não traz consequências graves.
-
-Na Tabela ~\ref{tab:bow}, \textbf{w}\textsubscript{i} representa uma palavra, \textbf{d}\textsubscript{j} representa um documento e \textbf{p}\textsubscript{ij} o peso atribuído a cada palavra no documento.
-
-\begin{longtable}{|c|c|c|c|c|c|}
-    \caption{Modelo \textit{Bag of Words}}
-    \label{tab:bow}
-    \endfirsthead
-    \multicolumn{6}{l}%
-    {Tabela \thetable{} (continuação)}
-    \endhead
-    \multicolumn{6}{l}%
-    {Continua na próxima página}\\
-    \endfoot
-    \endlastfoot
-    \hline  & \textbf{w}\textsubscript{1} & \textbf{w}\textsubscript{2} & \textbf{w}\textsubscript{3} & \textbf{w}\textsubscript{...} & \textbf{w}\textsubscript{n} \\
-    \hline \textbf{d}\textsubscript{1} & p\textsubscript{11} & p\textsubscript{12} & p\textsubscript{13} & p\textsubscript{...} & p\textsubscript{1n} \\
-    \hline \textbf{d}\textsubscript{2} & p\textsubscript{21} & p\textsubscript{22} & p\textsubscript{23} & p\textsubscript{...} & p\textsubscript{2n} \\
-    \hline \textbf{d}\textsubscript{3} & p\textsubscript{31} & p\textsubscript{32} & p\textsubscript{33} & p\textsubscript{...} & p\textsubscript{3n} \\
-    \hline \textbf{d}\textsubscript{4} & p\textsubscript{41} & p\textsubscript{42} & p\textsubscript{43} & p\textsubscript{...} & p\textsubscript{4n} \\
-    \hline \textbf{d}\textsubscript{n} & p\textsubscript{n1} & p\textsubscript{n2} & p\textsubscript{n3} & p\textsubscript{...} & p\textsubscript{nn} \\
-    \hline
-\end{longtable}
-
-Ainda segundo ~\cite{alexandra_alves:2010} existem várias medidas para calcular os valores dos pesos de p\textsubscript{ij}. Essas medidas podem ser classificadas em dois tipos distintos: baseadas em frequências e binárias. Os pesos baseados em frequência visam contabilizar o número de ocorrências de um dado termo num determinado documento, servindo como base para diversas medidas estatísticas e os pesos binários indicam a ocorrência ou não de um dado termo num determinado documento.
-
 \section{Aprendizado de máquina}
 
 Segundo ~\cite{monard_baranauskas:2003} ``A indução é a forma de inferência lógica que permite obter conclusões genéricas sobre um conjunto particular de exemplos.'' Na indução, um conceito é aprendido efetuando-se inferência indutiva sobre os exemplos apresentados. O aprendizado indutivo pode ser dividido em supervisionado e não-supervisionado como ilustrado na Figura ~\ref{fig:aprendizado_indutivo}.  
@@ -125,7 +92,7 @@ Diversas ferramentas disponíveis para exploração de dados dispõem de soluç�
 
 Em um estudo que comparou quatro ferramentas (KMINE, \textit{Orange}, Tanagra, Weka), todas de código aberto, gratuitas e muito utilizadas na pesquisa e na academia, ~\cite{wahbeh2011comparison} concluiu que a ferramenta Weka apresentou o melhor desempenho, seguido pelo \textit{Orange}, e, depois, pelo KMINE e Tanagra.
 
-Para este trabalho, foi escolhida a ferramenta \textit{Orange} ~\cite{JMLR:demsar13a} por ser muito utilizada no meio acadêmico, ter sido bem avaliada quando comparada a outras, ser utilizada como uma biblioteca na linguagem Python ~\cite{van2003python} e utiliza a conceituada biblioteca \textit{Scikit-learn} ~\cite{scikit-learn} internamente para aprendizado de máquina. 
+Para este trabalho, foi escolhida a ferramenta \textit{Orange} ~\cite{JMLR:demsar13a} por ser muito utilizada no meio acadêmico, ter sido bem avaliada quando comparada a outras, ser utilizada como uma biblioteca na linguagem Python ~\cite{van2003python} e utiliza a conceituada biblioteca \textit{Scikit-learn} ~\cite{scikit-learn} internamente para Aprendizado de Máquina. 
 
 A ferramenta \textit{Orange} na atual versão 3.4 desenvolvida pelo laboratório de Inteligência Artificial da Faculdade de Computação e Ciência da Informação da Universidade de Ljubljana na Eslovênia sob a licença GPL, possui uma interface gráfica denominada \textit{Orange Canvas}. Por meio de sua interface ilustrada na Figura ~\ref{fig:orange_canvas} é possível conectar e interligar os objetos montando um fluxo de trabalho para o desenvolvimento de modelos de classificação, incluindo Adaboost, Naive Bayes, Regras de Decisão, Árvores de Decisão, etc..
 

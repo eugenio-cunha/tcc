@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.5.4)  9 JUN 2017 15:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.5.4)  10 JUN 2017 17:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -871,6 +871,7 @@ Writing index file Projeto.idx
 (/home/genio/Workspace/TCC/projeto/textuais/Fundamentacao.aux)
 (/home/genio/Workspace/TCC/projeto/textuais/Metodologia.aux)
 (/home/genio/Workspace/TCC/projeto/textuais/Desenvolvimento.aux)
+(/home/genio/Workspace/TCC/projeto/textuais/Plano.aux)
 (/home/genio/Workspace/TCC/projeto/textuais/Resultados.aux)
 (/home/genio/Workspace/TCC/projeto/textuais/Conclusao.aux)
 (/home/genio/Workspace/TCC/projeto/pos-textuais/appendices.aux))
@@ -1180,9 +1181,9 @@ LaTeX Font Info:    Font shape `T1/phv/bx/sc' in size <24.88> not available
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 15.
 
-Underfull \hbox (badness 3815) in paragraph at lines 27--28
-[]\T1/phv/m/n/12 Este tra-ba-lho tem como ob-je-tivo ge-ral apli-car apren-di-z
-ado de má-quina
+Underfull \hbox (badness 3568) in paragraph at lines 27--28
+[]\T1/phv/m/n/12 Este tra-ba-lho tem como ob-je-tivo ge-ral apli-car Apren-di-z
+ado de Má-quina
  []
 
 
@@ -1233,61 +1234,78 @@ Underfull \vbox (badness 10000) detected at line 41
 
 
 ] [16] [17]
-Underfull \hbox (badness 2409) in paragraph at lines 66--67
-[]\T1/phv/m/n/12 Obviamente, ter-mos que apa-re-cem em to-dos os do-cu-men-tos 
-não se-rão
- []
-
-
-Underfull \vbox (badness 10000) detected at line 88
- []
-
-[18] <figuras/aprendizado_indutivo.png, id=83, 404.26031pt x 492.33937pt>
+<figuras/aprendizado_indutivo.png, id=80, 404.26031pt x 492.33937pt>
 File: figuras/aprendizado_indutivo.png Graphic file (type png)
 
 <use figuras/aprendizado_indutivo.png>
-Package pdftex.def Info: figuras/aprendizado_indutivo.png used on input line 10
-0.
+Package pdftex.def Info: figuras/aprendizado_indutivo.png used on input line 67
+.
 (pdftex.def)             Requested size: 303.19449pt x 369.2536pt.
- [19]
-<figuras/processo_classificacao.png, id=88, 527.72156pt x 356.83313pt>
+ [18]
+<figuras/processo_classificacao.png, id=86, 527.72156pt x 356.83313pt>
 File: figuras/processo_classificacao.png Graphic file (type png)
 
 <use figuras/processo_classificacao.png>
 Package pdftex.def Info: figuras/processo_classificacao.png used on input line 
-114.
+81.
 (pdftex.def)             Requested size: 395.7902pt x 267.62418pt.
- [20 </home/genio/Workspace/TCC/projeto/figuras/aprendizado_indutivo.png>] [21 
+ [19 </home/genio/Workspace/TCC/projeto/figuras/aprendizado_indutivo.png>] [20 
 </home/genio/Workspace/TCC/projeto/figuras/processo_classificacao.png>]
-<figuras/orange_canvas.png, id=97, 1371.1225pt x 743.77875pt>
+<figuras/orange_canvas.png, id=95, 1371.1225pt x 743.77875pt>
 File: figuras/orange_canvas.png Graphic file (type png)
 
 <use figuras/orange_canvas.png>
-Package pdftex.def Info: figuras/orange_canvas.png used on input line 134.
+Package pdftex.def Info: figuras/orange_canvas.png used on input line 101.
 (pdftex.def)             Requested size: 411.33992pt x 223.13535pt.
-) [22 </home/genio/Workspace/TCC/projeto/figuras/orange_canvas.png>]
+) [21 </home/genio/Workspace/TCC/projeto/figuras/orange_canvas.png>]
 \openout2 = `textuais/Fundamentacao.aux'.
 
 
 (/home/genio/Workspace/TCC/projeto/textuais/Fundamentacao.tex
 Cap\'{\i }tulo 3.
-) [23
+LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <17.28> not available
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 12.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <17.28> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 12.
+[22
 
 
 
 ]
+Underfull \vbox (badness 10000) detected at line 40
+ []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 46--47
+\T1/phv/m/n/12 ta-re-fas lin-guís-ti-cas, que de ou-tro ma-neira se-ria im-pos-
+sí-vel de-vido à enorme
+ []
+
+[23]
+Underfull \hbox (badness 1062) in paragraph at lines 48--49
+[]\T1/phv/m/n/12 Segundo o tra-ba-lho de  (BA-TISTA \T1/phv/m/sl/12 et al.\T1/p
+hv/m/n/12 , 2003), na área de Apren-di-zado
+ []
+
+
+Underfull \hbox (badness 1845) in paragraph at lines 56--58
+\T1/phv/m/n/12 sim-pli-fi-cam seu uso e im-ple-men-ta-ção: a pri-meira se re-fe
+re aos pa-râ-me-tros
+ []
+
+) [24]
 \openout2 = `textuais/Metodologia.aux'.
 
  (/home/genio/Workspace/TCC/projeto/textuais/Metodologia.tex
 Cap\'{\i }tulo 4.
-<figuras/metodologia_1.png, id=104, 376.40625pt x 116.68594pt>
+<figuras/metodologia_1.png, id=109, 376.40625pt x 116.68594pt>
 File: figuras/metodologia_1.png Graphic file (type png)
 
 <use figuras/metodologia_1.png>
 Package pdftex.def Info: figuras/metodologia_1.png used on input line 9.
 (pdftex.def)             Requested size: 282.30399pt x 87.51422pt.
 
-<figuras/metodologia_2.png, id=105, 376.40625pt x 116.68594pt>
+<figuras/metodologia_2.png, id=110, 376.40625pt x 116.68594pt>
 File: figuras/metodologia_2.png Graphic file (type png)
 
 <use figuras/metodologia_2.png>
@@ -1299,33 +1317,42 @@ Underfull \hbox (badness 1052) in paragraph at lines 21--21
 -li-za-ção e pos-te-ri-or-mente
  []
 
-[24
+[25
 
 
 
  </home/genio/Workspace/TCC/projeto/figuras/metodologia_1.png>]
-<figuras/metodologia_3.png, id=111, 376.40625pt x 116.68594pt>
+<figuras/metodologia_3.png, id=115, 376.40625pt x 116.68594pt>
 File: figuras/metodologia_3.png Graphic file (type png)
 
 <use figuras/metodologia_3.png>
 Package pdftex.def Info: figuras/metodologia_3.png used on input line 29.
 (pdftex.def)             Requested size: 282.30399pt x 87.51422pt.
 
-<figuras/metodologia_4.png, id=112, 376.40625pt x 116.68594pt>
+<figuras/metodologia_4.png, id=116, 376.40625pt x 116.68594pt>
 File: figuras/metodologia_4.png Graphic file (type png)
 
 <use figuras/metodologia_4.png>
 Package pdftex.def Info: figuras/metodologia_4.png used on input line 38.
 (pdftex.def)             Requested size: 282.30399pt x 87.51422pt.
-) [25 </home/genio/Workspace/TCC/projeto/figuras/metodologia_2.png> </home/geni
-o/Workspace/TCC/projeto/figuras/metodologia_3.png>] [26 </home/genio/Workspace/
+) [26 </home/genio/Workspace/TCC/projeto/figuras/metodologia_2.png> </home/geni
+o/Workspace/TCC/projeto/figuras/metodologia_3.png>] [27 </home/genio/Workspace/
 TCC/projeto/figuras/metodologia_4.png>]
 \openout2 = `textuais/Desenvolvimento.aux'.
 
 
 (/home/genio/Workspace/TCC/projeto/textuais/Desenvolvimento.tex
 Cap\'{\i }tulo 5.
-) [27
+) [28
+
+
+
+]
+\openout2 = `textuais/Plano.aux'.
+
+ (/home/genio/Workspace/TCC/projeto/textuais/Plano.tex
+Cap\'{\i }tulo 6.
+) [29
 
 
 
@@ -1333,8 +1360,8 @@ Cap\'{\i }tulo 5.
 \openout2 = `textuais/Resultados.aux'.
 
  (/home/genio/Workspace/TCC/projeto/textuais/Resultados.tex
-Cap\'{\i }tulo 6.
-) [28
+Cap\'{\i }tulo 7.
+) [30
 
 
 
@@ -1342,20 +1369,20 @@ Cap\'{\i }tulo 6.
 \openout2 = `textuais/Conclusao.aux'.
 
  (/home/genio/Workspace/TCC/projeto/textuais/Conclusao.tex
-Cap\'{\i }tulo 7.
-) [29
+Cap\'{\i }tulo 8.
+) [31
 
 
 
 ] (/home/genio/Workspace/TCC/projeto/Projeto.bbl
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 48.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 55.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [30
+) [32
 
 
-]) [31]
+] [33]) [34]
 \openout2 = `pos-textuais/appendices.aux'.
 
 
@@ -1370,12 +1397,12 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 
 Apendice A.
-[32
+[35
 
 
 ]
 Apendice B.
-) [33
+) [36
 
 ]
 +-------------------------------------------------------------------+
@@ -1396,17 +1423,18 @@ Apendice B.
 (/home/genio/Workspace/TCC/projeto/textuais/Fundamentacao.aux)
 (/home/genio/Workspace/TCC/projeto/textuais/Metodologia.aux)
 (/home/genio/Workspace/TCC/projeto/textuais/Desenvolvimento.aux)
+(/home/genio/Workspace/TCC/projeto/textuais/Plano.aux)
 (/home/genio/Workspace/TCC/projeto/textuais/Resultados.aux)
 (/home/genio/Workspace/TCC/projeto/textuais/Conclusao.aux)
 (/home/genio/Workspace/TCC/projeto/pos-textuais/appendices.aux)) ) 
 Here is how much of TeX's memory you used:
- 7355 strings out of 493013
- 110224 string characters out of 6135683
- 203820 words of memory out of 5000000
- 10463 multiletter control sequences out of 15000+600000
- 103432 words of font info for 136 fonts, out of 8000000 for 9000
+ 7405 strings out of 493013
+ 111487 string characters out of 6135683
+ 204830 words of memory out of 5000000
+ 10504 multiletter control sequences out of 15000+600000
+ 107448 words of font info for 139 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,10n,48p,649b,564s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,10n,48p,729b,564s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/t
 exlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvips
 /cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/ams
@@ -1420,11 +1448,11 @@ elvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /home/genio/Workspace/TCC/projeto/Projeto.pdf (34 pages, 4873
-27 bytes).
+Output written on /home/genio/Workspace/TCC/projeto/Projeto.pdf (37 pages, 4961
+21 bytes).
 PDF statistics:
- 194 PDF objects out of 1000 (max. 8388607)
- 125 compressed objects within 2 object streams
+ 206 PDF objects out of 1000 (max. 8388607)
+ 134 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

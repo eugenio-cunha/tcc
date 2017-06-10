@@ -21,6 +21,13 @@ Disserta{\c c}{\~a}o (Mestrado) --- Instituto Superior de Engenharia do Porto,
   APRENDIZAGEM NA SOCIEDADE DA INFORMA{\c{C}}{\~A}O}. [S.l.: s.n.], 1999.
   v.~20, p. 327--340.}
 
+\bibitem[Batista \textit{et al.} 2003]{batista2003pre}
+\abntrefinfo{Batista \textit{et al.}}{BATISTA \textit{et al.}}{2003}
+{BATISTA, Gustavo Enrique de Almeida~Prado \textit{et al.}
+\textbf{Pr{\'e}-processamento de dados em aprendizado de m{\'a}quina
+  supervisionado}.
+Tese (Doutorado) --- Universidade de S{\~a}o Paulo, 2003.}
+
 \bibitem[Boscarioli, Viterbo \& Teixeira 2014]{boscarioli2014avaliaccao}
 \abntrefinfo{Boscarioli, Viterbo \& Teixeira}{BOSCARIOLI; VITERBO;
   TEIXEIRA}{2014}
@@ -64,6 +71,20 @@ Dispon{\'\i}vel em:
 \textbf{Journal of Machine Learning Research}, v.~14, p. 2349--2353, 2013.
 Dispon{\'\i}vel em: $<$http://jmlr.org/papers/v14/demsar13a.html$>$.}
 
+\bibitem[Duarte 2009]{duarte2009algoritmo}
+\abntrefinfo{Duarte}{DUARTE}{2009}
+{DUARTE, J.
+\textbf{O Algoritmo Boosting at Start e suas aplica{\c{c}}{\~o}es}.
+Tese (Doutorado) --- PUC-Rio, 2009.}
+
+\bibitem[Freitas \textit{et al.} 2005]{de2005anotaccao}
+\abntrefinfo{Freitas \textit{et al.}}{FREITAS \textit{et al.}}{2005}
+{FREITAS, Maria~Claudia de; UZEDA-GARR{\~A}O, Milena; OLIVEIRA, Claudia;
+  SANTOS, C{\'\i}cero~Nogueira dos; SILVEIRA, Maria~C{\^a}ndida. A
+  anota{\c{c}}ao de um corpus para o aprendizado supervisionado de um modelo de
+  sn. In:  \textbf{Proceedings of the III TIL/XXV Congresso da SBC}. [S.l.:
+  s.n.], 2005.}
+
 \bibitem[INEP 2016]{edital_enem:2016}
 \abntrefinfo{INEP}{INEP}{2016}
 {INEP.
@@ -78,6 +99,13 @@ Dispon{\'\i}vel em:
 {LARA, Glaucia Muniz~Proença. {A redação como tema de pesquisa}. In:
   \textbf{Leitura: Teoria e Prática}. [S.l.]: 1994, 1994. v.~13, n.~24, p.
   62--82.}
+
+\bibitem[Merjildo \textit{et al.} 2013]{merjildo2013algoritmo}
+\abntrefinfo{Merjildo \textit{et al.}}{MERJILDO \textit{et al.}}{2013}
+{MERJILDO, Diego Alonso~Fernandez \textit{et al.} Algoritmo adaboost robusto ao
+  ru{\'\i}do: aplica{\c{c}}{\~a}o {\`a} detec{\c{c}}{\~a}o de faces em imagens
+  de baixa resolu{\c{c}}{\~a}o.
+Campinas, SP, 2013.}
 
 \bibitem[Monard \& Baranauskas 2003]{monard_baranauskas:2003}
 \abntrefinfo{Monard \& Baranauskas}{MONARD; BARANAUSKAS}{2003}
@@ -122,6 +150,20 @@ Dispon{\'\i}vel em:
 {SISU, Sistema de seleção~unificada. \textbf{{O que é o Sisu}}. 2017.
 {Online; acessado 07 Abril 2017}.
 Dispon{\'\i}vel em: $<$\url{http://sisu.mec.gov.br/}$>$.}
+
+\bibitem[Teixeira \& Azevedo 2011]{teixeira2011analise}
+\abntrefinfo{Teixeira \& Azevedo}{TEIXEIRA; AZEVEDO}{2011}
+{TEIXEIRA, Diogo; AZEVEDO, Isabel. An{\'a}lise de opini{\~o}es expressas nas
+  redes sociais.
+\textbf{RISTI-Revista Ib{\'e}rica de Sistemas e Tecnologias de
+  Informa{\c{c}}{\~a}o}, Associa{\c{c}}{\~a}o Ib{\'e}rica de Sistemas e
+  Tecnologias de Informa{\c{c}}{\~a}o (AISTI), n.~8, p. 53--65, 2011.}
+
+\bibitem[Vieira \& Lopes 2010]{vieira2010processamento}
+\abntrefinfo{Vieira \& Lopes}{VIEIRA; LOPES}{2010}
+{VIEIRA, Renata; LOPES, Lucelene. Processamento de linguagem natural e o
+  tratamento computacional de linguagens cient{\'i}ficas.
+\textbf{EM CORPORA}, p.~183, 2010.}
 
 \bibitem[Wahbeh \textit{et al.} 2011]{wahbeh2011comparison}
 \abntrefinfo{Wahbeh \textit{et al.}}{WAHBEH \textit{et al.}}{2011}

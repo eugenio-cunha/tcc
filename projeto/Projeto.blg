@@ -14,6 +14,7 @@ A level-1 auxiliary file: textuais/TrabalhosRelacionados.aux
 A level-1 auxiliary file: textuais/Fundamentacao.aux
 A level-1 auxiliary file: textuais/Metodologia.aux
 A level-1 auxiliary file: textuais/Desenvolvimento.aux
+A level-1 auxiliary file: textuais/Plano.aux
 A level-1 auxiliary file: textuais/Resultados.aux
 A level-1 auxiliary file: textuais/Conclusao.aux
 The style file: configuracao/abnt-alf.bst
@@ -29,7 +30,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: abnt-options.bib
 Database file #2: bibliografia/bib.bib
 Warning--entry type for "edital_enem:2016" isn't style-file defined
---line 122 of file bibliografia/bib.bib
+--line 83 of file bibliografia/bib.bib
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
@@ -40,45 +41,45 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 23 entries,
+You've used 29 entries,
             6480 wiz_defined-function locations,
-            1280 strings with 13583 characters,
-and the built_in function-call counts, 16638 in all, are:
-= -- 1297
-> -- 583
-< -- 29
-+ -- 281
-- -- 171
-* -- 1191
-:= -- 2166
-add.period$ -- 71
-call.type$ -- 26
-change.case$ -- 211
-chr.to.int$ -- 46
-cite$ -- 17
-duplicate$ -- 723
-empty$ -- 1333
-format.name$ -- 886
-if$ -- 3967
+            1310 strings with 14815 characters,
+and the built_in function-call counts, 21108 in all, are:
+= -- 1600
+> -- 779
+< -- 32
++ -- 357
+- -- 231
+* -- 1537
+:= -- 2785
+add.period$ -- 90
+call.type$ -- 32
+change.case$ -- 277
+chr.to.int$ -- 52
+cite$ -- 23
+duplicate$ -- 935
+empty$ -- 1644
+format.name$ -- 1179
+if$ -- 4990
 int.to.chr$ -- 5
 int.to.str$ -- 1
-missing$ -- 390
-newline$ -- 102
-num.names$ -- 85
-pop$ -- 432
+missing$ -- 496
+newline$ -- 133
+num.names$ -- 115
+pop$ -- 558
 preamble$ -- 1
-purify$ -- 82
+purify$ -- 106
 quote$ -- 0
-skip$ -- 1142
+skip$ -- 1384
 stack$ -- 1
-substring$ -- 587
-swap$ -- 373
-text.length$ -- 20
+substring$ -- 720
+swap$ -- 467
+text.length$ -- 23
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 14
+type$ -- 19
 warning$ -- 0
-while$ -- 121
+while$ -- 161
 width$ -- 0
-write$ -- 284
+write$ -- 375
 (There was 1 warning)

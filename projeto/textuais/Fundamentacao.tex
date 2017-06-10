@@ -1,13 +1,59 @@
 \chapter{Fundamentação Teórica}\label{fund_teo}
 
+Este capítulo irá abordar alguns conceitos que serão necessários durante o desenvolvimento
+deste trabalho para que o projeto tenha fundamentos concretos.
+
 \section{Processamento de linguagem natural}
-% Como explicado na secção anterior, existem diversas técnicas de processamento de linguagem natural, umas mais específicas e outras mais genéricas. Neste projecto foram implementados dois processos considerados relevantes, tokenization e o POS Tagger (Part of Speech Tagger). O processo de tokenization realiza a divisão do texto em tokens, de modo a facilitar o tratamento posterior de cada token de forma independente. Para a realização desta operação é necessário importar os modelos treinados da ferramenta OpenNLP, que contêm as regras necessárias para a correcta execução dos diversos métodos de processamento.
 
-% Também é determinada a classe gramatical de cada componente das frases analisadas (POS Tagger), sendo necessária a importação do modelo treinado do OpenNLP para uma correta avaliação. Desta forma é possível identificar elementos importantes na frase, como os substantivos e adjectivos, para posteriormente estabelecer a correta polaridade da frase. Segue-se um exemplo5 do resultado deste processo aplicado à uma mensagem específica:
+O desenvolvimento de modelos computacionais para a realização de tarefas que dependem de informações expressas em uma língua natural também conhecido como processamento de linguagem natural, cresce desde o início da década de 1990, segundo ~\cite{vieira2010processamento} "o crescimento da internet e a profusão de textos disponíveis direcionaram os esforços do PLN para o tratamento de textos mais do que para o discurso falado". Ainda segundo o autor neste mesmo período iniciou as pesquisas sobre conjuntos de textos sobre um domínio de conhecimento onde cada uma das suas palavras foram identificadas segundo sua função sintática.
 
-\section{Tokenizer}
-\section{Bag of words}
-\section{Aprendizado de máquina}
-\section{Adaboost}
-\section{Naive Bayes}
-\section{Testes Scores}
+O processamento de linguagem natural segundo o trabalho de ~\cite{teixeira2011analise} pode envolver diversas etapas: \textit{tokenizer} ou divisão do texto em termos mais simples, \textit{phrase chunking} ou análise sintática e \textit{part-of-speech tagging} ou identificação da classe gramatical das palavras. Existem também outras etapas mais específicas, como a identificação de entidades (datas, nomes, número, etc), entretanto algumas destas etapas são essenciais para o processamento correto do texto, como o \textit{tokenizer}.    
+
+\section{\textit{Bag of words}}
+
+Segundo ~\cite{alexandra_alves:2010} o BOW (\textit{Bag of Words}) é o modelo mais utilizado em aplicações de classificação de texto. Com baixo custo em termos de processamento este modelo transforma a cadeia de caracteres de um documento num conjunto de palavras, registrando além da presença de uma palavra, a sua frequência.
+
+Entretanto ainda segundo o autor, propriedades básicas do texto, como a ordem em que as palavras ocorrem e a pontuação, são ignoradas, além da incapacidade em capturar a semântica do texto, isto é, há palavras com significados distintos que apesar de serem exatamente iguais têm significados diferentes, dependendo do contexto em que são utilizadas.
+
+Obviamente, termos que aparecem em todos os documentos são denominados \textit{stop words} e não serão analisados, geralmente são os pronomes, artigos e as preposições. Estes termos não são úteis, visto que têm uma semântica fraca e somente desempenham um papel funcional no texto. Para melhorar os métodos de processamento normalmente são removidas, em vários casos a remoção das \textit{stop words} não traz consequências graves segundo o autor.
+
+Na Tabela ~\ref{tab:bow}, \textbf{w}\textsubscript{i} representa uma palavra, \textbf{d}\textsubscript{j} representa um documento e \textbf{p}\textsubscript{ij} o peso atribuído a cada palavra no documento.
+
+\begin{longtable}{|c|c|c|c|c|c|}
+    \caption{Modelo \textit{Bag of Words}}
+    \label{tab:bow}
+    \endfirsthead
+    \multicolumn{6}{l}%
+    {Tabela \thetable{} (continuação)}
+    \endhead
+    \multicolumn{6}{l}%
+    {Continua na próxima página}\\
+    \endfoot
+    \endlastfoot
+    \hline  & \textbf{w}\textsubscript{1} & \textbf{w}\textsubscript{2} & \textbf{w}\textsubscript{3} & \textbf{w}\textsubscript{...} & \textbf{w}\textsubscript{n} \\
+    \hline \textbf{d}\textsubscript{1} & p\textsubscript{11} & p\textsubscript{12} & p\textsubscript{13} & p\textsubscript{...} & p\textsubscript{1n} \\
+    \hline \textbf{d}\textsubscript{2} & p\textsubscript{21} & p\textsubscript{22} & p\textsubscript{23} & p\textsubscript{...} & p\textsubscript{2n} \\
+    \hline \textbf{d}\textsubscript{3} & p\textsubscript{31} & p\textsubscript{32} & p\textsubscript{33} & p\textsubscript{...} & p\textsubscript{3n} \\
+    \hline \textbf{d}\textsubscript{4} & p\textsubscript{41} & p\textsubscript{42} & p\textsubscript{43} & p\textsubscript{...} & p\textsubscript{4n} \\
+    \hline \textbf{d}\textsubscript{n} & p\textsubscript{n1} & p\textsubscript{n2} & p\textsubscript{n3} & p\textsubscript{...} & p\textsubscript{nn} \\
+    \hline
+\end{longtable}
+
+Ainda segundo ~\cite{alexandra_alves:2010} existem várias medidas para calcular os valores dos pesos de p\textsubscript{ij}. Essas medidas podem ser classificadas em dois tipos distintos: baseadas em frequências e binárias. Os pesos baseados em frequência visam contabilizar o número de ocorrências de um dado termo num determinado documento, servindo como base para diversas medidas estatísticas e os pesos binários indicam a ocorrência ou não de um dado termo num determinado documento.
+
+\section{Aprendizado de Máquina supervisionado}
+
+De acordo com ~\cite{de2005anotaccao} no decorrer da última década, o Aprendizado de Máquina tem atestado ser uma ferramenta eficiente para realizar tarefas linguísticas, que de outro maneira seria impossível devido à enorme quantidade de mão-de-obra e tempo necessário. 
+
+Segundo o trabalho de ~\cite{batista2003pre}, na área de Aprendizado de Máquina foram propostos diversos paradigmas aptos a aprender a partir de um conjunto de exemplos. Uma premissa básica para todos os paradigmas de Aprendizado de Máquina supervisionado é que o conceito a ser induzido deve ser referente ao caso observado, ou seja, cada exemplo deve estar denominado com a classe a qual pertence. 
+
+Entretanto o autor cita que ``Se todos os casos são memorizados, o classificador pode se tornar lento e dificil de manusear. O ideal é reter casos prototıpicos que juntos resumem toda uma informação importante.''.
+
+\section{Classificador \textit{Adaboost}}
+
+\textit{Boosting} é um conjunto de métodos e procedimentos de Aprendizado de Máquina que mescla vários classificadores fracos para aperfeiçoar a \textit{acurácia} geral. O algoritmo atualiza os pesos dos exemplos a cada iteração e cria um classificador adicional. Os classificadores são combinados por um esquema simples de votação. O algoritmo mais famoso baseado em Boosting é o Adaboost (Algoritmo Adaptive Boosting) que atualiza os pesos dos exemplos em que os classificadores anteriores cometeram erros, focando o classificador adicional nos exemplos mais difıceis ~\cite {duarte2009algoritmo}.
+
+Durante seu trabalho ~\cite{merjildo2013algoritmo} cita duas propriedades que simplificam seu uso e implementação: a primeira se refere aos parâmetros empregados para analisar dados de grandes proporções,
+e as margens entre as classes podem ser mais precisas do que outros métodos, já a segunda, dado que corresponde a um programa de complexidade linear e evita o uso de componentes computacionais pesados, o custo computacional é baixo.
+
+Por fim, este classificador escolhido para essa pesquisa, tem como objetivo reconhecer padrões complexos a partir de combinações de características simples baseadas em formas que podem estar presentes em textos de redação do tipo dissertativo-argumentativo.

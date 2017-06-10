@@ -12,14 +12,18 @@
 \contentsline {section}{\numberline {1.5}Organiza\IeC {\c c}\IeC {\~a}o do trabalho}{14}
 \contentsline {chapter}{\numberline {2}Trabalhos Relacionados}{15}
 \contentsline {section}{\numberline {2.1}Compet\IeC {\^e}ncias requeridas pela avalia\IeC {\c c}\IeC {\~a}o de reda\IeC {\c c}\IeC {\~a}o do enem}{15}
-\contentsline {section}{\numberline {2.2}Modelo de representa\IeC {\c c}\IeC {\~a}o de texto mais adequado \IeC {\`a} classifica\IeC {\c c}\IeC {\~a}o}{18}
-\contentsline {section}{\numberline {2.3}Aprendizado de m\IeC {\'a}quina}{19}
-\contentsline {section}{\numberline {2.4}Ferramenta para minera\IeC {\c c}\IeC {\~a}o de dados}{21}
-\contentsline {chapter}{\numberline {3}Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica}{23}
-\contentsline {chapter}{\numberline {4}M\IeC {\'e}todo Proposto}{24}
-\contentsline {chapter}{\numberline {5}Desenvolvimento}{27}
-\contentsline {chapter}{\numberline {6}Resultados Experimentais}{28}
-\contentsline {chapter}{\numberline {7}Conclus\IeC {\~a}o e Trabalhos Futuros}{29}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{30}
-\contentsline {chapter}{Ap\^endice{} A{} -$\tmspace -\thinmuskip {.1667em}$-{} T\IeC {\'\i }tulo do Ap\IeC {\^e}ndice}{32}
-\contentsline {chapter}{Ap\^endice{} B{} -$\tmspace -\thinmuskip {.1667em}$-{} Exemplo do pacote Algorithm}{33}
+\contentsline {section}{\numberline {2.2}Aprendizado de m\IeC {\'a}quina}{18}
+\contentsline {section}{\numberline {2.3}Ferramenta para minera\IeC {\c c}\IeC {\~a}o de dados}{20}
+\contentsline {chapter}{\numberline {3}Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica}{22}
+\contentsline {section}{\numberline {3.1}Processamento de linguagem natural}{22}
+\contentsline {section}{\numberline {3.2}\textit {Bag of words}}{22}
+\contentsline {section}{\numberline {3.3}Aprendizado de M\IeC {\'a}quina supervisionado}{23}
+\contentsline {section}{\numberline {3.4}Classificador \textit {Adaboost}}{24}
+\contentsline {chapter}{\numberline {4}M\IeC {\'e}todo Proposto}{25}
+\contentsline {chapter}{\numberline {5}Desenvolvimento}{28}
+\contentsline {chapter}{\numberline {6}Plano de Trabalho}{29}
+\contentsline {chapter}{\numberline {7}Resultados Experimentais}{30}
+\contentsline {chapter}{\numberline {8}Conclus\IeC {\~a}o e Trabalhos Futuros}{31}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{32}
+\contentsline {chapter}{Ap\^endice{} A{} -$\tmspace -\thinmuskip {.1667em}$-{} T\IeC {\'\i }tulo do Ap\IeC {\^e}ndice}{35}
+\contentsline {chapter}{Ap\^endice{} B{} -$\tmspace -\thinmuskip {.1667em}$-{} Exemplo do pacote Algorithm}{36}
