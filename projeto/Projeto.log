@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.5.4)  10 JUN 2017 17:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.5.4)  11 JUN 2017 18:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -846,7 +846,50 @@ Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 (/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks37
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+\everycr=\toks38
+\minrowclearance=\skip88
+)
+LaTeX Info: Redefining \color on input line 709.
+\rownum=\count143
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/x11nam.def
+File: x11nam.def 2016/05/11 v2.12 Predefined colors according to Unix/X11 (UK)
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+)))
 \@input{configuracao/comandos.aux}
 \openout2 = `configuracao/comandos.aux'.
 
@@ -896,17 +939,17 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count143
+\scratchcounter=\count144
 \scratchdimen=\dimen156
 \scratchbox=\box61
-\nofMPsegments=\count144
-\nofMParguments=\count145
-\everyMPshowfont=\toks38
-\MPscratchCnt=\count146
+\nofMPsegments=\count145
+\nofMParguments=\count146
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count147
 \MPscratchDim=\dimen157
-\MPnumerator=\count147
-\makeMPintoPDFobject=\count148
-\everyMPtoPDFconversion=\toks39
+\MPnumerator=\count148
+\makeMPintoPDFobject=\count149
+\everyMPtoPDFconversion=\toks40
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -1142,9 +1185,21 @@ LaTeX Font Info:    Font shape `T1/phv/b/it' in size <12> not available
 
  [7]
 (/home/genio/Workspace/TCC/projeto/Projeto.lof
+Underfull \hbox (badness 1314) in paragraph at lines 2--2
+ [][] []\T1/phv/m/n/12 Árvore hi-e-rár-quica do apren-di-zado in-du-tivo, di-vi
+-dida no al-go-ritmo 
+ []
+
+
 Underfull \hbox (badness 4846) in paragraph at lines 6--6
  [][] []\T1/phv/m/n/12 Os tex-tos são sub-me-ti-dos aos al-go-rit-mos de nor-ma
 -li-za-ção e 
+ []
+
+
+Underfull \hbox (badness 1946) in paragraph at lines 9--9
+ [][] []\T1/phv/m/n/12 No grá-fico ilus-trado os pon-tos ver-des de-mosn-tram a
+s re-da-ções 
  []
 
 )
@@ -1213,20 +1268,20 @@ al-guns dos tra-ba-lhos li-dos para
  (/home/genio/Workspace/TCC/projeto/textuais/TrabalhosRelacionados.tex
 Cap\'{\i }tulo 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--4
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
 []\T1/phv/b/n/17.28 Competências re-que-ri-das pela ava-li-a-ção de
  []
 
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 11.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 12.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
 
-Underfull \vbox (badness 10000) detected at line 41
+Underfull \vbox (badness 10000) detected at line 35
  []
 
 [15
@@ -1238,7 +1293,7 @@ Underfull \vbox (badness 10000) detected at line 41
 File: figuras/aprendizado_indutivo.png Graphic file (type png)
 
 <use figuras/aprendizado_indutivo.png>
-Package pdftex.def Info: figuras/aprendizado_indutivo.png used on input line 67
+Package pdftex.def Info: figuras/aprendizado_indutivo.png used on input line 61
 .
 (pdftex.def)             Requested size: 303.19449pt x 369.2536pt.
  [18]
@@ -1247,7 +1302,7 @@ File: figuras/processo_classificacao.png Graphic file (type png)
 
 <use figuras/processo_classificacao.png>
 Package pdftex.def Info: figuras/processo_classificacao.png used on input line 
-81.
+75.
 (pdftex.def)             Requested size: 395.7902pt x 267.62418pt.
  [19 </home/genio/Workspace/TCC/projeto/figuras/aprendizado_indutivo.png>] [20 
 </home/genio/Workspace/TCC/projeto/figuras/processo_classificacao.png>]
@@ -1255,8 +1310,13 @@ Package pdftex.def Info: figuras/processo_classificacao.png used on input line
 File: figuras/orange_canvas.png Graphic file (type png)
 
 <use figuras/orange_canvas.png>
-Package pdftex.def Info: figuras/orange_canvas.png used on input line 101.
-(pdftex.def)             Requested size: 411.33992pt x 223.13535pt.
+Package pdftex.def Info: figuras/orange_canvas.png used on input line 95.
+(pdftex.def)             Requested size: 685.55957pt x 371.88846pt.
+
+Overfull \hbox (230.31546pt too wide) in paragraph at lines 95--96
+ [] 
+ []
+
 ) [21 </home/genio/Workspace/TCC/projeto/figuras/orange_canvas.png>]
 \openout2 = `textuais/Fundamentacao.aux'.
 
@@ -1272,6 +1332,12 @@ LaTeX Font Info:    Font shape `T1/phv/b/it' in size <17.28> not available
 
 
 ]
+Underfull \hbox (badness 1320) in paragraph at lines 23--23
+[][]|\T1/phv/m/n/10.95 Mo-delo \T1/phv/m/sl/10.95 Bag of Words \T1/phv/m/n/10.9
+5 é ma-neira mais co-mum de re-pre-sen-tar co-le-ções de
+ []
+
+
 Underfull \vbox (badness 10000) detected at line 40
  []
 
@@ -1293,19 +1359,19 @@ Underfull \hbox (badness 1845) in paragraph at lines 56--58
 re aos pa-râ-me-tros
  []
 
-) [24]
+) [24] [25]
 \openout2 = `textuais/Metodologia.aux'.
 
  (/home/genio/Workspace/TCC/projeto/textuais/Metodologia.tex
 Cap\'{\i }tulo 4.
-<figuras/metodologia_1.png, id=109, 376.40625pt x 116.68594pt>
+<figuras/metodologia_1.png, id=112, 376.40625pt x 116.68594pt>
 File: figuras/metodologia_1.png Graphic file (type png)
 
 <use figuras/metodologia_1.png>
 Package pdftex.def Info: figuras/metodologia_1.png used on input line 9.
 (pdftex.def)             Requested size: 282.30399pt x 87.51422pt.
 
-<figuras/metodologia_2.png, id=110, 376.40625pt x 116.68594pt>
+<figuras/metodologia_2.png, id=113, 376.40625pt x 116.68594pt>
 File: figuras/metodologia_2.png Graphic file (type png)
 
 <use figuras/metodologia_2.png>
@@ -1317,33 +1383,33 @@ Underfull \hbox (badness 1052) in paragraph at lines 21--21
 -li-za-ção e pos-te-ri-or-mente
  []
 
-[25
+[26
 
 
 
  </home/genio/Workspace/TCC/projeto/figuras/metodologia_1.png>]
-<figuras/metodologia_3.png, id=115, 376.40625pt x 116.68594pt>
+<figuras/metodologia_3.png, id=118, 376.40625pt x 116.68594pt>
 File: figuras/metodologia_3.png Graphic file (type png)
 
 <use figuras/metodologia_3.png>
 Package pdftex.def Info: figuras/metodologia_3.png used on input line 29.
 (pdftex.def)             Requested size: 282.30399pt x 87.51422pt.
 
-<figuras/metodologia_4.png, id=116, 376.40625pt x 116.68594pt>
+<figuras/metodologia_4.png, id=119, 376.40625pt x 116.68594pt>
 File: figuras/metodologia_4.png Graphic file (type png)
 
 <use figuras/metodologia_4.png>
 Package pdftex.def Info: figuras/metodologia_4.png used on input line 38.
 (pdftex.def)             Requested size: 282.30399pt x 87.51422pt.
-) [26 </home/genio/Workspace/TCC/projeto/figuras/metodologia_2.png> </home/geni
-o/Workspace/TCC/projeto/figuras/metodologia_3.png>] [27 </home/genio/Workspace/
+) [27 </home/genio/Workspace/TCC/projeto/figuras/metodologia_2.png> </home/geni
+o/Workspace/TCC/projeto/figuras/metodologia_3.png>] [28 </home/genio/Workspace/
 TCC/projeto/figuras/metodologia_4.png>]
 \openout2 = `textuais/Desenvolvimento.aux'.
 
 
 (/home/genio/Workspace/TCC/projeto/textuais/Desenvolvimento.tex
 Cap\'{\i }tulo 5.
-) [28
+) [29
 
 
 
@@ -1352,25 +1418,49 @@ Cap\'{\i }tulo 5.
 
  (/home/genio/Workspace/TCC/projeto/textuais/Plano.tex
 Cap\'{\i }tulo 6.
-) [29
+[30
 
 
 
 ]
+Underfull \hbox (badness 1325) in paragraph at lines 23--24
+[]\T1/phv/m/n/12 Defesa do pro-jeto: por fim, a pre-pa-ra-ção fi-nal para a de-
+fesa à banca
+ []
+
+) [31]
 \openout2 = `textuais/Resultados.aux'.
 
  (/home/genio/Workspace/TCC/projeto/textuais/Resultados.tex
 Cap\'{\i }tulo 7.
-) [30
+
+Underfull \hbox (badness 1466) in paragraph at lines 5--6
+[]\T1/phv/m/n/12 Os pri-mei-ros ex-pe-ri-men-tos re-a-li-za-dos na pre-di-ção i
+lus-trado na Fi-gura  8[],
+ []
+
+<figuras/resultados_experimentais.png, id=140, 692.5875pt x 339.51843pt>
+File: figuras/resultados_experimentais.png Graphic file (type png)
+
+<use figuras/resultados_experimentais.png>
+Package pdftex.def Info: figuras/resultados_experimentais.png used on input lin
+e 11.
+(pdftex.def)             Requested size: 484.80794pt x 237.66127pt.
+
+Overfull \hbox (29.56383pt too wide) in paragraph at lines 11--12
+ [] 
+ []
+
+) [32
 
 
 
-]
+ </home/genio/Workspace/TCC/projeto/figuras/resultados_experimentais.png>]
 \openout2 = `textuais/Conclusao.aux'.
 
- (/home/genio/Workspace/TCC/projeto/textuais/Conclusao.tex
+(/home/genio/Workspace/TCC/projeto/textuais/Conclusao.tex
 Cap\'{\i }tulo 8.
-) [31
+) [33
 
 
 
@@ -1379,10 +1469,10 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 55.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [32
+) [34
 
 
-] [33]) [34]
+] [35]) [36]
 \openout2 = `pos-textuais/appendices.aux'.
 
 
@@ -1397,12 +1487,12 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 
 Apendice A.
-[35
+[37
 
 
 ]
 Apendice B.
-) [36
+) [38
 
 ]
 +-------------------------------------------------------------------+
@@ -1428,13 +1518,13 @@ Apendice B.
 (/home/genio/Workspace/TCC/projeto/textuais/Conclusao.aux)
 (/home/genio/Workspace/TCC/projeto/pos-textuais/appendices.aux)) ) 
 Here is how much of TeX's memory you used:
- 7405 strings out of 493013
- 111487 string characters out of 6135683
- 204830 words of memory out of 5000000
- 10504 multiletter control sequences out of 15000+600000
- 107448 words of font info for 139 fonts, out of 8000000 for 9000
+ 8325 strings out of 493013
+ 124344 string characters out of 6135683
+ 241626 words of memory out of 5000000
+ 11397 multiletter control sequences out of 15000+600000
+ 107808 words of font info for 140 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,10n,48p,729b,564s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,12n,48p,729b,564s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/t
 exlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvips
 /cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/ams
@@ -1447,12 +1537,13 @@ exlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf
 elvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /home/genio/Workspace/TCC/projeto/Projeto.pdf (37 pages, 4961
-21 bytes).
+dist/fonts/type1/urw/times/utmri8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/urw/zapfding/uzdr.pfb>
+Output written on /home/genio/Workspace/TCC/projeto/Projeto.pdf (39 pages, 6356
+81 bytes).
 PDF statistics:
- 206 PDF objects out of 1000 (max. 8388607)
- 134 compressed objects within 2 object streams
+ 218 PDF objects out of 1000 (max. 8388607)
+ 141 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

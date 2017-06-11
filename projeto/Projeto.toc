@@ -17,13 +17,15 @@
 \contentsline {chapter}{\numberline {3}Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica}{22}
 \contentsline {section}{\numberline {3.1}Processamento de linguagem natural}{22}
 \contentsline {section}{\numberline {3.2}\textit {Bag of words}}{22}
-\contentsline {section}{\numberline {3.3}Aprendizado de M\IeC {\'a}quina supervisionado}{23}
+\contentsline {section}{\numberline {3.3}Aprendizado de M\IeC {\'a}quina supervisionado}{24}
 \contentsline {section}{\numberline {3.4}Classificador \textit {Adaboost}}{24}
-\contentsline {chapter}{\numberline {4}M\IeC {\'e}todo Proposto}{25}
-\contentsline {chapter}{\numberline {5}Desenvolvimento}{28}
-\contentsline {chapter}{\numberline {6}Plano de Trabalho}{29}
-\contentsline {chapter}{\numberline {7}Resultados Experimentais}{30}
-\contentsline {chapter}{\numberline {8}Conclus\IeC {\~a}o e Trabalhos Futuros}{31}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{32}
-\contentsline {chapter}{Ap\^endice{} A{} -$\tmspace -\thinmuskip {.1667em}$-{} T\IeC {\'\i }tulo do Ap\IeC {\^e}ndice}{35}
-\contentsline {chapter}{Ap\^endice{} B{} -$\tmspace -\thinmuskip {.1667em}$-{} Exemplo do pacote Algorithm}{36}
+\contentsline {chapter}{\numberline {4}M\IeC {\'e}todo Proposto}{26}
+\contentsline {chapter}{\numberline {5}Desenvolvimento}{29}
+\contentsline {chapter}{\numberline {6}Plano de Trabalho}{30}
+\contentsline {section}{\numberline {6.1}Plano de atividade}{30}
+\contentsline {section}{\numberline {6.2}Cronograma gr\IeC {\'a}fico do Plano de Atividades}{31}
+\contentsline {chapter}{\numberline {7}Resultados Experimentais}{32}
+\contentsline {chapter}{\numberline {8}Conclus\IeC {\~a}o e Trabalhos Futuros}{33}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{34}
+\contentsline {chapter}{Ap\^endice{} A{} -$\tmspace -\thinmuskip {.1667em}$-{} T\IeC {\'\i }tulo do Ap\IeC {\^e}ndice}{37}
+\contentsline {chapter}{Ap\^endice{} B{} -$\tmspace -\thinmuskip {.1667em}$-{} Exemplo do pacote Algorithm}{38}

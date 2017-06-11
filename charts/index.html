@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8">
+</head>
+<body>
+  <div id="chart_div"></div>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript">
+    google.charts.load('current', {packages: ['corechart']});
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'texto');
+        data.addColumn('number', 'Manual');
+        data.addColumn('number', 'Adaboost');
+
+        data.addRows([
+            ['Trabalho escravo: um problema da humanidade',1.0,1.0],
+['A cultura do estupro',1.0,1.0],
+['Brasileiros, essencialmente corruptos!',1.0,1.0],
+['Disciplina, ordem e autoridade favorecem a educação?',1.0,1.0],
+['O “padronizado” sacrifício',2.0,1.0],
+['Terceirizar linimentará os problemas.',0.5,1.0],
+['Educação e convívio',0.5,1.0],
+['Acolher á Filantropia',1.0,0.5],
+['Jogo de empurra empurra',1.5,1.0],
+['Dura batalha',0.5,1.0],
+['Uni, Duni, Tê',1.5,1.0],
+['Corrupção, o grande obstáculo brasileiro',0.5,1.0],
+['Será que todas as reformas são positivas?',0.5,0.5],
+['Elas fazem a diferença',1.0,0.5],
+['Negligência trágica em Mariana',1.0,0.5],
+['Só sei que nada sei. Então quero conhecer',1.0,0.5],
+['O método eficaz de melhorar a educação',1.0,1.0],
+['A epidemia do estupro',0.5,1.0],
+['Bandido bom é bandido preso',1.5,1.0],
+['Ensino médio: uma reforma significante para muitos',0.5,1.0],
+['A ditadura da beleza',1.5,1.0],
+['Democracia: o poder está no povo',2.0,0.5],
+['Terceirização e Precarização',1.5,1.0],
+['Filantropia: um ato de caridade aos necessitados',1.0,1.0],
+['Estupro: uma mancha na alma feminina',0.5,0.5],
+['Evolução robótica amedrontando a sociedade',0.5,0.5],
+['Negligência - Qualidade Humana',1.0,1.0],
+['Ser humano: a única máquina pensante',2.0,1.0],
+['A intimidade supera a liberdade de expressão',1.0,1.5],
+['O grande mal da escravidão',1.5,1.0],
+['Um fenômeno comum entre países ricos e pobres',0.5,1.0],
+['Problema coletivo, solução coletiva',1.0,1.0],
+['Impeachment não é solução',1.5,1.0],
+['A validade do impeachment',1.0,1.0],
+['Criação é tudo',1.0,1.0],
+['Um Assunto Para Se Discutir',1.0,1.0],
+['Maldade na Alma',1.0,0.5],
+['As correntes que se arrastam pelos séculos',0.5,1.0],
+['Incalculável perda',1.5,0.5],
+['Qual é o papel do Estado?',1.5,1.0],
+['Justiça e o Estado Democrático de Direito',2.0,1.5],
+['Robôs X Humanos',1.5,1.0],
+['Governo sem virtude',0.0,1.0],
+['Entre a liberdade e a escravidão',1.5,1.0],
+['Liberdade com responsabilidade',1.5,1.0],
+['A Liberação da Fosfoetanolamina',1.5,1.0],
+['Estupro: monstruosidade devastadora',1.0,1.0],
+['Mariana. A fatalidade oriunda da negligência',1.5,1.0],
+['(Sem título 099)',0.5,0.5],
+['O Direito e seu fato gerador',1.5,1.5],
+['A evolução na educação',1.0,1.0],
+['Liberdade de expressão ou violação da privacidade',1.0,0.5],
+['A evolução da concorrência',0.5,1.0],
+['Liberdade de expressão e intimidade/limites pessoais.',0.0,1.0],
+['Mimados no passado e infelizes no futuro',1.5,1.0],
+['A terceirização dará certo no Brasil?',1.5,0.5],
+['Dia 3 de março de 2016',1.5,1.0],
+['Chega de fiu-fiu',0.5,1.0],
+['Tecnorobótica a disposição de serviços...',1.0,1.0],
+['(Sem título 102)',1.0,1.0],
+['(Sem título 097)',0.0,1.0],
+['Direito de liberdade',0.0,0.5],
+['A escravidão moderna',0.0,1.0],
+['Corrupção, um problema cultural',1.5,1.0],
+['Combate a Intolerância',0.0,1.0],
+['Homofobia nas escolas: um assunto a ser discutido',1.0,1.0],
+['Um samba enredo que está por vir',1.5,1.0],
+['(Sem título 100)',1.5,1.0],
+['Filantropia:um exemplo a ser seguido',1.5,1.0],
+['Escravidão no mundo, basta!',0.5,1.0],
+['Negligência ou descaso?',1.0,0.5],
+['Equilíbrio é necessário, até na educação',2.0,1.0],
+['Mais clareza, por favor!',1.5,1.0],
+['Eu, juiz',0.5,1.0],
+['Vamos falar sobre isso até que não aconteça mais',2.0,1.0],
+['Debate: A homofobia dentro da escola',1.5,1.0],
+['Mecanização x Desemprego (novos desafios, novos horizontes)',2.0,1.0],
+['Espelho, espelho meu',1.0,1.0],
+['Inexistência do super ego',0.5,1.0],
+['Motivos da ineficiência no combate contra o Aedes aegypti',0.5,1.0],
+['Os limites da informação',0.5,1.0],
+['Honestidade por trás de reivindicações',1.0,1.0],
+['Reflexos do Patriarcado',1.5,1.5],
+['Corrupção: raízes do Brasil',1.0,1.0],
+['Luta contra o Aedes aegypti.',1.0,0.5],
+['Desde o tempo de Sócrates',0.0,1.0],
+['Um Brasil democrático ainda com marcas da ditadura',1.5,1.0],
+['Caridade ou um Governo Justo?',0.5,0.5],
+['Comício objetivando a convivência pacífica a todos',0.5,1.0],
+['A velha censura ataca novamente',2.0,1.0],
+['Mudar, corrigir e aprender',0.5,0.5],
+['Zelando pelo bem-estar e segurança do trabalhador',1.0,0.5],
+['O bem da terceirização está entre linhas',0.0,0.5],
+['(Sem título 079)',1.0,1.0],
+['É preferível praticar ou sofrer uma injustiça?',1.0,1.0],
+['O poder da escolha',1.0,1.0],
+['Aquele velho crime',0.5,1.0],
+['Justiça: prática e sofrência',0.5,0.5],
+['As chacinas em São Paulo',1.5,1.0],
+['Corrupção é sempre corrupção',1.5,1.0],
+            
+        ]);
+
+        var options = {
+          title: 'Classificação da competência 1',
+          hAxis: {
+            title: 'Redações'
+          },
+          vAxis: {
+            title: 'Pontuação'
+          },
+          width: 1024,
+          height: 500,
+          // pointSize: 3,
+          series: {
+            0: { color: '#34A853', pointSize: 6, lineWidth: 1 },
+            1: { color: '#EA4335', pointSize: 6,lineWidth: 1 },
+          }
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+    }
+  </script>
+</body>
+</html>
