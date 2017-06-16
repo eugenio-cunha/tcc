@@ -1,13 +1,10 @@
 \select@language {brazilian}
 \contentsline {figure}{\numberline {1}{\ignorespaces \IeC {\'A}rvore hier\IeC {\'a}rquica do aprendizado indutivo, dividida no algoritmo supervisionado e n\IeC {\~a}o supervisionado.\relax }}{20}
 \contentsline {figure}{\numberline {2}{\ignorespaces Fluxo do processo de classifica\IeC {\c c}\IeC {\~a}o, o modelo encontra uma fun\IeC {\c c}\IeC {\~a}o geral capaz de prever as sa\IeC {\'\i }das, a especifica\IeC {\c c}\IeC {\~a}o do problema pode ser reajustada com o conhecimento do dom\IeC {\'\i }nio para obter um melhor resultado.\relax }}{21}
-\contentsline {figure}{\numberline {3}{\ignorespaces Interface gr\IeC {\'a}fica \textit {Orange Canvas}\relax }}{22}
-\contentsline {figure}{\numberline {4}{\ignorespaces Um \textit {Web Crawler}, navega entre as p\IeC {\'a}ginas HTML do banco de reda\IeC {\c c}\IeC {\~o}es UOL de forma met\IeC {\'o}dica e automatizada indexando textos de reda\IeC {\c c}\IeC {\~o}es que posteriomente ser\IeC {\~a}o filtrados e coletados.\relax }}{27}
-\contentsline {figure}{\numberline {5}{\ignorespaces Os textos s\IeC {\~a}o submetidos aos algoritmos de normaliza\IeC {\c c}\IeC {\~a}o e posteriormente estruturados e armazenados no padr\IeC {\~a}o JSON.\relax }}{28}
-\contentsline {figure}{\numberline {6}{\ignorespaces O \textit {corpus} ser\IeC {\'a} utilizado em um fluxo de trabalho da ferramenta \textit {Orange} para treinar os modelos classificadores.\relax }}{28}
-\contentsline {figure}{\numberline {7}{\ignorespaces O modelos ajustados e treinados ser\IeC {\~a}o submetidos a testes, e os resultados comparados graficamente.\relax }}{29}
-\contentsline {figure}{\numberline {8}{\ignorespaces \relax }}{35}
-\contentsline {figure}{\numberline {9}{\ignorespaces \relax }}{36}
-\contentsline {figure}{\numberline {10}{\ignorespaces \relax }}{37}
-\contentsline {figure}{\numberline {11}{\ignorespaces \relax }}{38}
-\contentsline {figure}{\numberline {12}{\ignorespaces \relax }}{39}
+\contentsline {figure}{\numberline {3}{\ignorespaces Interface gr\IeC {\'a}fica da ferramenta de Minera\IeC {\c c}\IeC {\~a}o de Dados \textit {Orange Canvas}\relax }}{22}
+\contentsline {figure}{\numberline {4}{\ignorespaces Um \textit {Web Crawler}, navega entre as p\IeC {\'a}ginas HTML do banco de reda\IeC {\c c}\IeC {\~o}es UOL de forma met\IeC {\'o}dica e automatizada indexando textos de reda\IeC {\c c}\IeC {\~o}es que posteriormente ser\IeC {\~a}o filtrados e coletados.\relax }}{28}
+\contentsline {figure}{\numberline {5}{\ignorespaces Os textos s\IeC {\~a}o submetidos aos algoritmos de normaliza\IeC {\c c}\IeC {\~a}o e posteriormente estruturados e armazenados no padr\IeC {\~a}o JSON.\relax }}{29}
+\contentsline {figure}{\numberline {6}{\ignorespaces O \textit {corpus} ser\IeC {\'a} utilizado em um fluxo de trabalho da ferramenta \textit {Orange} para treinar os modelos classificadores.\relax }}{29}
+\contentsline {figure}{\numberline {7}{\ignorespaces O modelos ajustados e treinados ser\IeC {\~a}o submetidos a testes, e os resultados comparados graficamente.\relax }}{30}
+\contentsline {figure}{\numberline {8}{\ignorespaces Distribui\IeC {\c c}\IeC {\~a}o das classes em uma amostra de 131 reda\IeC {\c c}\IeC {\~o}es selecionadas aleatoriamente no \textit {dataset}.\relax }}{35}
+\contentsline {figure}{\numberline {9}{\ignorespaces Representa\IeC {\c c}\IeC {\~a}o gr\IeC {\'a}fica da Curva ROC para cada classe (0.00, 0.50, 1.00, 1.50 e 2.00) induzida no modelo AdaBoost.\relax }}{37}

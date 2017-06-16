@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.5.4)  15 JUN 2017 23:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.5.4)  16 JUN 2017 18:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1289,7 +1289,7 @@ Writing index file Projeto.idx
 (/home/genio/Workspace/TCC/projeto/textuais/Plano.aux)
 (/home/genio/Workspace/TCC/projeto/textuais/Resultados.aux
 
-LaTeX Warning: Label `my-label' multiply defined.
+LaTeX Warning: Label `tab:matrix_confusion' multiply defined.
 
 ) (/home/genio/Workspace/TCC/projeto/textuais/Conclusao.aux)
 (/home/genio/Workspace/TCC/projeto/pos-textuais/appendices.aux))
@@ -1578,6 +1578,12 @@ Underfull \hbox (badness 4846) in paragraph at lines 6--6
 -li-za-ção e 
  []
 
+
+Underfull \hbox (badness 6608) in paragraph at lines 9--9
+ [][] []\T1/phv/m/n/12 Distribuição das clas-ses em uma amos-tra de 131 re-da-ç
+ões 
+ []
+
 )
 \tf@lof=\write6
 \openout6 = `Projeto.lof'.
@@ -1687,12 +1693,7 @@ File: figuras/orange_canvas.png Graphic file (type png)
 
 <use figuras/orange_canvas.png>
 Package pdftex.def Info: figuras/orange_canvas.png used on input line 95.
-(pdftex.def)             Requested size: 685.55957pt x 371.88846pt.
-
-Overfull \hbox (230.31546pt too wide) in paragraph at lines 95--96
- [] 
- []
-
+(pdftex.def)             Requested size: 452.47182pt x 245.44774pt.
 ) [22 </home/genio/Workspace/TCC/projeto/figuras/orange_canvas.png>]
 \openout2 = `textuais/Fundamentacao.aux'.
 
@@ -1735,19 +1736,37 @@ Underfull \hbox (badness 1845) in paragraph at lines 56--58
 re aos pa-râ-me-tros
  []
 
-) [25] [26]
+[25]
+Underfull \hbox (badness 2941) in paragraph at lines 83--84
+[]\T1/phv/b/n/12 Acurácia \T1/phv/m/n/12 - por-cen-ta-gem de amos-tras po-si-ti
+-vas e ne-ga-ti-vas clas-si-fi-ca-das
+ []
+
+
+Underfull \hbox (badness 2689) in paragraph at lines 98--99
+[]\T1/phv/b/sl/12 Specificity \T1/phv/m/n/12 - ou es-pe-ci-fi-ci-dade é a por-c
+en-ta-gem de amos-tras ne-ga-ti-vas
+ []
+
+[26]
+Underfull \hbox (badness 1629) in paragraph at lines 108--109
+[]\T1/phv/b/n/12 Curva ROC \T1/phv/m/n/12 - a Curva ROC é um grá-fico da por-ce
+n-ta-gem de amos-tras
+ []
+
+) [27]
 \openout2 = `textuais/Metodologia.aux'.
 
  (/home/genio/Workspace/TCC/projeto/textuais/Metodologia.tex
 Cap\'{\i }tulo 4.
-<figuras/metodologia_1.png, id=118, 376.40625pt x 116.68594pt>
+<figuras/metodologia_1.png, id=124, 376.40625pt x 116.68594pt>
 File: figuras/metodologia_1.png Graphic file (type png)
 
 <use figuras/metodologia_1.png>
 Package pdftex.def Info: figuras/metodologia_1.png used on input line 9.
 (pdftex.def)             Requested size: 282.30399pt x 87.51422pt.
 
-<figuras/metodologia_2.png, id=119, 376.40625pt x 116.68594pt>
+<figuras/metodologia_2.png, id=125, 376.40625pt x 116.68594pt>
 File: figuras/metodologia_2.png Graphic file (type png)
 
 <use figuras/metodologia_2.png>
@@ -1759,33 +1778,33 @@ Underfull \hbox (badness 1052) in paragraph at lines 21--21
 -li-za-ção e pos-te-ri-or-mente
  []
 
-[27
+[28
 
 
 
  </home/genio/Workspace/TCC/projeto/figuras/metodologia_1.png>]
-<figuras/metodologia_3.png, id=124, 376.40625pt x 116.68594pt>
+<figuras/metodologia_3.png, id=130, 376.40625pt x 116.68594pt>
 File: figuras/metodologia_3.png Graphic file (type png)
 
 <use figuras/metodologia_3.png>
 Package pdftex.def Info: figuras/metodologia_3.png used on input line 29.
 (pdftex.def)             Requested size: 282.30399pt x 87.51422pt.
 
-<figuras/metodologia_4.png, id=125, 376.40625pt x 116.68594pt>
+<figuras/metodologia_4.png, id=131, 376.40625pt x 116.68594pt>
 File: figuras/metodologia_4.png Graphic file (type png)
 
 <use figuras/metodologia_4.png>
 Package pdftex.def Info: figuras/metodologia_4.png used on input line 38.
 (pdftex.def)             Requested size: 282.30399pt x 87.51422pt.
-) [28 </home/genio/Workspace/TCC/projeto/figuras/metodologia_2.png> </home/geni
-o/Workspace/TCC/projeto/figuras/metodologia_3.png>] [29 </home/genio/Workspace/
+) [29 </home/genio/Workspace/TCC/projeto/figuras/metodologia_2.png> </home/geni
+o/Workspace/TCC/projeto/figuras/metodologia_3.png>] [30 </home/genio/Workspace/
 TCC/projeto/figuras/metodologia_4.png>]
 \openout2 = `textuais/Desenvolvimento.aux'.
 
 
 (/home/genio/Workspace/TCC/projeto/textuais/Desenvolvimento.tex
 Cap\'{\i }tulo 5.
-) [30
+) [31
 
 
 
@@ -1794,7 +1813,7 @@ Cap\'{\i }tulo 5.
 
  (/home/genio/Workspace/TCC/projeto/textuais/Plano.tex
 Cap\'{\i }tulo 6.
-[31
+[32
 
 
 
@@ -1804,89 +1823,57 @@ Underfull \hbox (badness 1325) in paragraph at lines 23--24
 fesa à banca
  []
 
-) [32]
+) [33]
 \openout2 = `textuais/Resultados.aux'.
 
  (/home/genio/Workspace/TCC/projeto/textuais/Resultados.tex
 Cap\'{\i }tulo 7.
 
-Underfull \hbox (badness 2941) in paragraph at lines 27--28
-[]\T1/phv/b/n/12 Acurácia \T1/phv/m/n/12 - por-cen-ta-gem de amos-tras po-si-ti
--vas e ne-ga-ti-vas clas-si-fi-ca-das
+Underfull \hbox (badness 3058) in paragraph at lines 44--44
+[][]|\T1/phv/m/n/10.95 Dis-tri-bui-ção das clas-ses em uma amos-tra de 131 re-d
+a-ções se-le-ci-o-na-das
  []
 
-[33
+[34
 
 
 
 ]
-Underfull \hbox (badness 2689) in paragraph at lines 42--43
-[]\T1/phv/b/sl/12 Specificity \T1/phv/m/n/12 - ou es-pe-ci-fi-ci-dade é a por-c
-en-ta-gem de amos-tras ne-ga-ti-vas
+Underfull \hbox (badness 1168) in paragraph at lines 53--54
+[]\T1/phv/m/n/12 Nos re-sul-ta-dos pre-li-mi-na-res, este es-tudo uti-li-zou as
+ prin-ci-pais mé-tri-cas da
+ []
+
+[35] <figuras/roc.png, id=158, 597.73312pt x 621.07031pt>
+File: figuras/roc.png Graphic file (type png)
+
+<use figuras/roc.png>
+Package pdftex.def Info: figuras/roc.png used on input line 80.
+(pdftex.def)             Requested size: 448.29874pt x 465.80159pt.
+ [36]
+Underfull \hbox (badness 1320) in paragraph at lines 88--89
+[]\T1/phv/m/n/12 Por fim a ta-bela de con-tin-gên-cia ou ma-triz de con-fu-são,
+ que atra-vés da
  []
 
 
-Underfull \hbox (badness 1629) in paragraph at lines 52--53
-[]\T1/phv/b/n/12 Curva ROC \T1/phv/m/n/12 - a Curva ROC é um grá-fico da por-ce
-n-ta-gem de amos-tras
+Underfull \hbox (badness 2547) in paragraph at lines 88--89
+\T1/phv/m/n/12 dis-cri-mi-na-ção dos er-ros ou acer-tos pre-di-tos para cada cl
+asse de-mons-tra o
  []
 
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 66.
-
-<figuras/roc_0-0.png, id=151, 382.42876pt x 539.76656pt>
-File: figuras/roc_0-0.png Graphic file (type png)
-
-<use figuras/roc_0-0.png>
-Package pdftex.def Info: figuras/roc_0-0.png used on input line 84.
-(pdftex.def)             Requested size: 382.42781pt x 539.76524pt.
- [34]
-Overfull \vbox (58.56712pt too high) has occurred while \output is active []
-
-
-[35 </home/genio/Workspace/TCC/projeto/figuras/roc_0-0.png>]
-<figuras/roc_0-5.png, id=160, 382.42876pt x 539.76656pt>
-File: figuras/roc_0-5.png Graphic file (type png)
-
-<use figuras/roc_0-5.png>
-Package pdftex.def Info: figuras/roc_0-5.png used on input line 92.
-(pdftex.def)             Requested size: 382.42781pt x 539.76524pt.
-
-<figuras/roc_1-0.png, id=161, 382.42876pt x 539.76656pt>
-File: figuras/roc_1-0.png Graphic file (type png)
-
-<use figuras/roc_1-0.png>
-Package pdftex.def Info: figuras/roc_1-0.png used on input line 100.
-(pdftex.def)             Requested size: 382.42781pt x 539.76524pt.
- [36 </home/genio/Workspace/TCC/projeto/figuras/roc_0-5.png>] <figuras/roc_1-5.
-png, id=167, 382.42876pt x 539.76656pt>
-File: figuras/roc_1-5.png Graphic file (type png)
-
-<use figuras/roc_1-5.png>
-Package pdftex.def Info: figuras/roc_1-5.png used on input line 108.
-(pdftex.def)             Requested size: 382.42781pt x 539.76524pt.
- [37 </home/genio/Workspace/TCC/projeto/figuras/roc_1-0.png>] <figuras/roc_2-0.
-png, id=172, 382.42876pt x 539.76656pt>
-File: figuras/roc_2-0.png Graphic file (type png)
-
-<use figuras/roc_2-0.png>
-Package pdftex.def Info: figuras/roc_2-0.png used on input line 116.
-(pdftex.def)             Requested size: 382.42781pt x 539.76524pt.
- [38 </home/genio/Workspace/TCC/projeto/figuras/roc_1-5.png>] [39 </home/genio/
-Workspace/TCC/projeto/figuras/roc_2-0.png>]
-PGFPlots: reading {data/adaboost_competence_1.dat}
-
-Overfull \hbox (3.9327pt too wide) in paragraph at lines 164--165
- [] 
+[37 </home/genio/Workspace/TCC/projeto/figuras/roc.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
+[]\T1/phv/m/n/12 E no-tá-vel que ad-ver-si-dade de clas-ses des-ba-lan-ce-a-das
+ in-flu-en-ciou
  []
 
-[40]) [41]
+) [38]
 \openout2 = `textuais/Conclusao.aux'.
 
  (/home/genio/Workspace/TCC/projeto/textuais/Conclusao.tex
 Cap\'{\i }tulo 8.
-) [42
+) [39
 
 
 
@@ -1895,10 +1882,10 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 55.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [43
+) [40
 
 
-] [44]) [45]
+] [41]) [42]
 \openout2 = `pos-textuais/appendices.aux'.
 
 
@@ -1913,12 +1900,12 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 
 Apendice A.
-[46
+[43
 
 
 ]
 Apendice B.
-) [47
+) [44
 
 ]
 +-------------------------------------------------------------------+
@@ -1948,13 +1935,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 27501 strings out of 493013
- 663705 string characters out of 6135683
+ 27446 strings out of 493013
+ 662525 string characters out of 6135683
  859540 words of memory out of 5000000
- 30230 multiletter control sequences out of 15000+600000
+ 30182 multiletter control sequences out of 15000+600000
  113920 words of font info for 146 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,19n,105p,734b,2312s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 66i,13n,98p,734b,2033s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/
 fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
@@ -1969,11 +1956,11 @@ fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/times/utmri8a.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/zapfding/uzdr.pfb>
-Output written on /home/genio/Workspace/TCC/projeto/Projeto.pdf (48 pages, 7348
-05 bytes).
+Output written on /home/genio/Workspace/TCC/projeto/Projeto.pdf (45 pages, 6059
+58 bytes).
 PDF statistics:
- 261 PDF objects out of 1000 (max. 8388607)
- 166 compressed objects within 2 object streams
+ 244 PDF objects out of 1000 (max. 8388607)
+ 160 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 83 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 63 words of extra memory for PDF output out of 10000 (max. 10000000)
 
