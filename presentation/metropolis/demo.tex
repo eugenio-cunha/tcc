@@ -51,7 +51,6 @@ Um bom desempenho na prova de redação no Exame Nacional de Ensino Médio - ENE
 \begin{center}
     \includegraphics[scale=0.50]{images/enem_sisu_csf.png}
 \end{center}
-\label{fig:enem_2016}
 \end{figure}
 
 \end{frame}
@@ -64,9 +63,19 @@ Dados da avaliação de redações do ENEM 2016 ~\cite{paq_a:2016}.
 \begin{center}
     \includegraphics[scale=0.52]{images/enem_2016.png}
 \end{center}
-\label{fig:enem_2016}
 \end{figure}
 
+\end{frame}
+
+\begin{frame}[fragile]{Aprendizado de Máquina}
+% O que me fez pensar no assunto?
+\begin{figure}[H]
+\begin{center}
+    \includegraphics[scale=0.52]{images/machine_learn.png}
+\end{center}
+\end{figure}
+
+O Aprendizado de Máquina está no centro de muitos avanços tecnológicos atingindo áreas antes exclusivas de seres humanos. ~\cite{waymo:2017}.
 \end{frame}
 
 \begin{frame}[fragile]{Hipótese do estudo}
@@ -78,7 +87,6 @@ A hipótese deste estudo é que a classificação de uma redação por um algori
 \begin{center}
     \includegraphics[scale=0.52]{images/automatic_essay_system.png}
 \end{center}
-\label{fig:enem_2016}
 \end{figure}
 
 \end{frame}
@@ -87,28 +95,33 @@ A hipótese deste estudo é que a classificação de uma redação por um algori
 
 \begin{frame}[fragile]{Objetivo Geral}
 Este trabalho tem como objetivo induzir um modelo de Aprendizado de Máquina a classificar as competências exigidas em um texto de redação.
-\end{frame}
 
-\begin{frame}[fragile]{Por que eu fiz a pesquisa}
-Por que eu fiz a pesquisa
-\end{frame}
-
-\begin{frame}[fragile]{Quais as hipóteses levantadas}
-Quais as hipóteses levantadas
+\begin{figure}[H]
+\begin{center}
+    \includegraphics[scale=0.52]{images/induction_inference.png}
+\end{center}
+\end{figure}
 \end{frame}
 
 \section{Metodologia}
 
-\begin{frame}[fragile]{Como será feita a pesquisa}
-Como será feita a pesquisa
+\begin{frame}[fragile]{Corpus de redações}
+Percorrer o banco de redações, filtrar e coletar redações avaliadas; 
+Normalizar os textos coletados, separar o tema, título, texto e competências
+avaliadas em uma estrura de dados;
 \end{frame}
 
-\begin{frame}[fragile]{Métodos para obter os resultados}
-Métodos para obter os resultados
+\begin{frame}[fragile]{Orange}
+Montar um fluxo de trabalho utilizando a ferramenta para mineração de dados Orange
+Ajustar e treinar os modelos classificadores com o corpus de redações
+\end{frame}
+
+\begin{frame}[fragile]{Orange}
+Montar um fluxo de trabalho utilizando a ferramenta para mineração de dados Orange
 \end{frame}
 
 \begin{frame}[fragile]{Métodos de analise dos resultados}
-Métodos de analise dos resultados
+Realizar testes de acurácia, overfitting e noise sobre o modelo induzido
 \end{frame}
 
 \section{Resultados Experimentais}

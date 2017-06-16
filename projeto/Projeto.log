@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.5.4)  12 JUN 2017 20:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.5.4)  15 JUN 2017 23:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -883,13 +883,391 @@ LaTeX Font Info:    Try loading font information for U+psy on input line 64.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/upsy.fd
 File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2016/08/10 v1.14 Data Visualization (1.14)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks39
+\pgfutil@tempdima=\dimen156
+\pgfutil@tempdimb=\dimen157
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box61
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks40
+\pgfkeys@temptoks=\toks41
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks42
+))
+\pgf@x=\dimen158
+\pgf@y=\dimen159
+\pgf@xa=\dimen160
+\pgf@ya=\dimen161
+\pgf@xb=\dimen162
+\pgf@yb=\dimen163
+\pgf@xc=\dimen164
+\pgf@yc=\dimen165
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count144
+\c@pgf@countb=\count145
+\c@pgf@countc=\count146
+\c@pgf@countd=\count147
+\t@pgf@toka=\toks43
+\t@pgf@tokb=\toks44
+\t@pgf@tokc=\toks45
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count148
+\pgfsyssoftpath@bigbuffer@items=\count149
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen166
+\pgfmath@count=\count150
+\pgfmath@box=\box62
+\pgfmath@toks=\toks46
+\pgfmath@stack@operand=\toks47
+\pgfmath@stack@operation=\toks48
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count151
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen167
+\pgf@picmaxx=\dimen168
+\pgf@picminy=\dimen169
+\pgf@picmaxy=\dimen170
+\pgf@pathminx=\dimen171
+\pgf@pathmaxx=\dimen172
+\pgf@pathminy=\dimen173
+\pgf@pathmaxy=\dimen174
+\pgf@xx=\dimen175
+\pgf@xy=\dimen176
+\pgf@yx=\dimen177
+\pgf@yy=\dimen178
+\pgf@zx=\dimen179
+\pgf@zy=\dimen180
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen181
+\pgf@path@lasty=\dimen182
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen183
+\pgf@shorten@start@additional=\dimen184
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box63
+\pgf@hbox=\box64
+\pgf@layerbox@main=\box65
+\pgf@picture@serial@count=\count152
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen185
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen186
+\pgf@pt@y=\dimen187
+\pgf@pt@temp=\dimen188
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen189
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen190
+\pgf@sys@shading@range@num=\count153
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box66
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box67
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen191
+\pgf@nodesepend=\dimen192
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen193
+\pgffor@skip=\dimen194
+\pgffor@stack=\toks49
+\pgffor@toks=\toks50
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count154
+\pgfplotmarksize=\dimen195
+)
+\tikz@lastx=\dimen196
+\tikz@lasty=\dimen197
+\tikz@lastxsaved=\dimen198
+\tikz@lastysaved=\dimen199
+\tikzleveldistance=\dimen256
+\tikzsiblingdistance=\dimen257
+\tikz@figbox=\box68
+\tikz@figbox@bg=\box69
+\tikz@tempbox=\box70
+\tikz@tempbox@bg=\box71
+\tikztreelevel=\count155
+\tikznumberofchildren=\count156
+\tikznumberofcurrentchild=\count157
+\tikz@fig@count=\count158
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count159
+\pgfmatrixcurrentcolumn=\count160
+\pgf@matrix@numberofcolumns=\count161
+)
+\tikz@expandcount=\count162
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks51
+\t@pgfplots@tokb=\toks52
+\t@pgfplots@tokc=\toks53
+\pgfplots@tmpa=\dimen258
+\c@pgfplots@coordindex=\count163
+\c@pgfplots@scanlineindex=\count164
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code
+.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_loader.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
+)
+Package pgfplots: loading complementary arithmetics for your pgf version...
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgflibraryfpu.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count165
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
+tructure.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
+tructureext.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray
+.code.tex
+\c@pgfplotsarray@tmp=\count166
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatri
+x.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshare
+d.code.tex
+\c@pgfplotstable@counta=\count167
+\t@pgfplotstable@a=\toks54
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.te
+x
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.co
+de.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.sur
+fshading.code.tex
+\c@pgfplotslibrarysurf@no=\count168
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surf
+shading.pgfsys-pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.
+tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.t
+ex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.cod
+e.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.
+tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
+e.tex
+\pgfdecoratedcompleteddistance=\dimen259
+\pgfdecoratedremainingdistance=\dimen260
+\pgfdecoratedinputsegmentcompleteddistance=\dimen261
+\pgfdecoratedinputsegmentremainingdistance=\dimen262
+\pgf@decorate@distancetomove=\dimen263
+\pgf@decorate@repeatstate=\count169
+\pgfdecorationsegmentamplitude=\dimen264
+\pgfdecorationsegmentlength=\dimen265
+)
+\tikz@lib@dec@box=\box72
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathmorphing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathmorphing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathreplacing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathreplacing.code.tex))
+\pgfplots@numplots=\count170
+\pgfplots@xmin@reg=\dimen266
+\pgfplots@xmax@reg=\dimen267
+\pgfplots@ymin@reg=\dimen268
+\pgfplots@ymax@reg=\dimen269
+\pgfplots@zmin@reg=\dimen270
+\pgfplots@zmax@reg=\dimen271
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.co
+de.tex
+File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
+))))
 \@input{configuracao/comandos.aux}
 \openout2 = `configuracao/comandos.aux'.
 
 (/home/genio/Workspace/TCC/projeto/configuracao/comandos.tex
-\@indexfile=\write3
-\openout3 = `Projeto.idx'.
+\@indexfile=\write4
+\openout4 = `Projeto.idx'.
 
 
 Writing index file Projeto.idx
@@ -909,8 +1287,11 @@ Writing index file Projeto.idx
 (/home/genio/Workspace/TCC/projeto/textuais/Metodologia.aux)
 (/home/genio/Workspace/TCC/projeto/textuais/Desenvolvimento.aux)
 (/home/genio/Workspace/TCC/projeto/textuais/Plano.aux)
-(/home/genio/Workspace/TCC/projeto/textuais/Resultados.aux)
-(/home/genio/Workspace/TCC/projeto/textuais/Conclusao.aux)
+(/home/genio/Workspace/TCC/projeto/textuais/Resultados.aux
+
+LaTeX Warning: Label `my-label' multiply defined.
+
+) (/home/genio/Workspace/TCC/projeto/textuais/Conclusao.aux)
 (/home/genio/Workspace/TCC/projeto/pos-textuais/appendices.aux))
 \openout1 = `Projeto.aux'.
 
@@ -933,17 +1314,17 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count144
-\scratchdimen=\dimen156
-\scratchbox=\box61
-\nofMPsegments=\count145
-\nofMParguments=\count146
-\everyMPshowfont=\toks39
-\MPscratchCnt=\count147
-\MPscratchDim=\dimen157
-\MPnumerator=\count148
-\makeMPintoPDFobject=\count149
-\everyMPtoPDFconversion=\toks40
+\scratchcounter=\count171
+\scratchdimen=\dimen272
+\scratchbox=\box73
+\nofMPsegments=\count172
+\nofMParguments=\count173
+\everyMPshowfont=\toks55
+\MPscratchCnt=\count174
+\MPscratchDim=\dimen273
+\MPnumerator=\count175
+\makeMPintoPDFobject=\count176
+\everyMPtoPDFconversion=\toks56
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -1003,8 +1384,15 @@ Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\openout2 = `pre-textuais/capa.aux'.
 
+ABD: EveryShipout initializing macros
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
+ick labels; missing features). Consider writing \pgfplotsset{compat=1.14} into 
+your preamble.
+ on input line 8.
+
+\openout2 = `pre-textuais/capa.aux'.
 
 (/home/genio/Workspace/TCC/projeto/pre-textuais/capa.tex
 LaTeX Font Info:    Try loading font information for T1+phv on input line 5.
@@ -1012,7 +1400,7 @@ LaTeX Font Info:    Try loading font information for T1+phv on input line 5.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
-<figuras/logo-uit.pdf, id=1, 401.5pt x 100.375pt>
+<figuras/logo-uit.pdf, id=4, 401.5pt x 100.375pt>
 File: figuras/logo-uit.pdf Graphic file (type pdf)
  <use figuras/logo-uit.pdf>
 Package pdftex.def Info: figuras/logo-uit.pdf used on input line 8.
@@ -1087,7 +1475,7 @@ Underfull \hbox (badness 3547) in paragraph at lines 18--19
 \openout2 = `pre-textuais/folhadeaprovacao.aux'.
 
  (/home/genio/Workspace/TCC/projeto/pre-textuais/folhadeaprovacao.tex
-<figuras/brasao_uit.pdf, id=19, 578.16pt x 578.16pt>
+<figuras/brasao_uit.pdf, id=22, 578.16pt x 578.16pt>
 File: figuras/brasao_uit.pdf Graphic file (type pdf)
 
 <use figuras/brasao_uit.pdf>
@@ -1174,8 +1562,8 @@ LaTeX Font Info:    Font shape `T1/phv/b/it' in size <12> not available
 
 
 ])
-\tf@toc=\write4
-\openout4 = `Projeto.toc'.
+\tf@toc=\write5
+\openout5 = `Projeto.toc'.
 
  [7]
 (/home/genio/Workspace/TCC/projeto/Projeto.lof
@@ -1190,22 +1578,16 @@ Underfull \hbox (badness 4846) in paragraph at lines 6--6
 -li-za-ção e 
  []
 
-
-Underfull \hbox (badness 1946) in paragraph at lines 9--9
- [][] []\T1/phv/m/n/12 No grá-fico ilus-trado os pon-tos ver-des de-mosn-tram a
-s re-da-ções 
- []
-
 )
-\tf@lof=\write5
-\openout5 = `Projeto.lof'.
+\tf@lof=\write6
+\openout6 = `Projeto.lof'.
 
  [8
 
 
 ] (/home/genio/Workspace/TCC/projeto/Projeto.lot)
-\tf@lot=\write6
-\openout6 = `Projeto.lot'.
+\tf@lot=\write7
+\openout7 = `Projeto.lot'.
 
  [9
 
@@ -1213,9 +1595,9 @@ s re-da-ções
 (/home/genio/Workspace/TCC/projeto/pre-textuais/nomenclatura.tex) [10
 
 ]
-(/home/genio/Workspace/TCC/projeto/pre-textuais/abreviacoes.tex) [11
+(/home/genio/Workspace/TCC/projeto/pre-textuais/abreviacoes.tex [11
 
-]
+]) [12]
 \openout2 = `textuais/Introducao.aux'.
 
 
@@ -1223,7 +1605,7 @@ s re-da-ções
 Cap\'{\i }tulo 1.
 LaTeX Font Info:    Font shape `T1/phv/bx/sc' in size <24.88> not available
 (Font)              Font shape `T1/phv/b/sc' tried instead on input line 1.
-[12
+[13
 
 
 ]
@@ -1243,7 +1625,7 @@ de re-da-ção do tipo
 
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 34.
-[13]
+[14]
 LaTeX Font Info:    Try loading font information for OMS+phv on input line 34.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsphv.fd
 File: omsphv.fd 
@@ -1256,7 +1638,7 @@ Underfull \hbox (badness 4479) in paragraph at lines 48--49
 al-guns dos tra-ba-lhos li-dos para
  []
 
-) [14]
+) [15]
 \openout2 = `textuais/TrabalhosRelacionados.aux'.
 
  (/home/genio/Workspace/TCC/projeto/textuais/TrabalhosRelacionados.tex
@@ -1278,29 +1660,29 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 Underfull \vbox (badness 10000) detected at line 35
  []
 
-[15
+[16
 
 
 
-] [16] [17]
-<figuras/aprendizado_indutivo.png, id=80, 404.26031pt x 492.33937pt>
+] [17] [18]
+<figuras/aprendizado_indutivo.png, id=87, 404.26031pt x 492.33937pt>
 File: figuras/aprendizado_indutivo.png Graphic file (type png)
 
 <use figuras/aprendizado_indutivo.png>
 Package pdftex.def Info: figuras/aprendizado_indutivo.png used on input line 61
 .
 (pdftex.def)             Requested size: 303.19449pt x 369.2536pt.
- [18]
-<figuras/processo_classificacao.png, id=86, 527.72156pt x 356.83313pt>
+ [19]
+<figuras/processo_classificacao.png, id=92, 527.72156pt x 356.83313pt>
 File: figuras/processo_classificacao.png Graphic file (type png)
 
 <use figuras/processo_classificacao.png>
 Package pdftex.def Info: figuras/processo_classificacao.png used on input line 
 75.
 (pdftex.def)             Requested size: 395.7902pt x 267.62418pt.
- [19 </home/genio/Workspace/TCC/projeto/figuras/aprendizado_indutivo.png>] [20 
+ [20 </home/genio/Workspace/TCC/projeto/figuras/aprendizado_indutivo.png>] [21 
 </home/genio/Workspace/TCC/projeto/figuras/processo_classificacao.png>]
-<figuras/orange_canvas.png, id=95, 1371.1225pt x 743.77875pt>
+<figuras/orange_canvas.png, id=101, 1371.1225pt x 743.77875pt>
 File: figuras/orange_canvas.png Graphic file (type png)
 
 <use figuras/orange_canvas.png>
@@ -1311,7 +1693,7 @@ Overfull \hbox (230.31546pt too wide) in paragraph at lines 95--96
  [] 
  []
 
-) [21 </home/genio/Workspace/TCC/projeto/figuras/orange_canvas.png>]
+) [22 </home/genio/Workspace/TCC/projeto/figuras/orange_canvas.png>]
 \openout2 = `textuais/Fundamentacao.aux'.
 
 
@@ -1321,7 +1703,7 @@ LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <17.28> not available
 (Font)              Font shape `T1/phv/b/it' tried instead on input line 12.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <17.28> not available
 (Font)              Font shape `T1/phv/b/sl' tried instead on input line 12.
-[22
+[23
 
 
 
@@ -1341,7 +1723,7 @@ Underfull \hbox (badness 1838) in paragraph at lines 46--47
 sí-vel de-vido à enorme
  []
 
-[23]
+[24]
 Underfull \hbox (badness 1062) in paragraph at lines 48--49
 []\T1/phv/m/n/12 Segundo o tra-ba-lho de  (BA-TISTA \T1/phv/m/sl/12 et al.\T1/p
 hv/m/n/12 , 2003), na área de Apren-di-zado
@@ -1353,19 +1735,19 @@ Underfull \hbox (badness 1845) in paragraph at lines 56--58
 re aos pa-râ-me-tros
  []
 
-) [24] [25]
+) [25] [26]
 \openout2 = `textuais/Metodologia.aux'.
 
  (/home/genio/Workspace/TCC/projeto/textuais/Metodologia.tex
 Cap\'{\i }tulo 4.
-<figuras/metodologia_1.png, id=112, 376.40625pt x 116.68594pt>
+<figuras/metodologia_1.png, id=118, 376.40625pt x 116.68594pt>
 File: figuras/metodologia_1.png Graphic file (type png)
 
 <use figuras/metodologia_1.png>
 Package pdftex.def Info: figuras/metodologia_1.png used on input line 9.
 (pdftex.def)             Requested size: 282.30399pt x 87.51422pt.
 
-<figuras/metodologia_2.png, id=113, 376.40625pt x 116.68594pt>
+<figuras/metodologia_2.png, id=119, 376.40625pt x 116.68594pt>
 File: figuras/metodologia_2.png Graphic file (type png)
 
 <use figuras/metodologia_2.png>
@@ -1377,33 +1759,33 @@ Underfull \hbox (badness 1052) in paragraph at lines 21--21
 -li-za-ção e pos-te-ri-or-mente
  []
 
-[26
+[27
 
 
 
  </home/genio/Workspace/TCC/projeto/figuras/metodologia_1.png>]
-<figuras/metodologia_3.png, id=118, 376.40625pt x 116.68594pt>
+<figuras/metodologia_3.png, id=124, 376.40625pt x 116.68594pt>
 File: figuras/metodologia_3.png Graphic file (type png)
 
 <use figuras/metodologia_3.png>
 Package pdftex.def Info: figuras/metodologia_3.png used on input line 29.
 (pdftex.def)             Requested size: 282.30399pt x 87.51422pt.
 
-<figuras/metodologia_4.png, id=119, 376.40625pt x 116.68594pt>
+<figuras/metodologia_4.png, id=125, 376.40625pt x 116.68594pt>
 File: figuras/metodologia_4.png Graphic file (type png)
 
 <use figuras/metodologia_4.png>
 Package pdftex.def Info: figuras/metodologia_4.png used on input line 38.
 (pdftex.def)             Requested size: 282.30399pt x 87.51422pt.
-) [27 </home/genio/Workspace/TCC/projeto/figuras/metodologia_2.png> </home/geni
-o/Workspace/TCC/projeto/figuras/metodologia_3.png>] [28 </home/genio/Workspace/
+) [28 </home/genio/Workspace/TCC/projeto/figuras/metodologia_2.png> </home/geni
+o/Workspace/TCC/projeto/figuras/metodologia_3.png>] [29 </home/genio/Workspace/
 TCC/projeto/figuras/metodologia_4.png>]
 \openout2 = `textuais/Desenvolvimento.aux'.
 
 
 (/home/genio/Workspace/TCC/projeto/textuais/Desenvolvimento.tex
 Cap\'{\i }tulo 5.
-) [29
+) [30
 
 
 
@@ -1412,7 +1794,7 @@ Cap\'{\i }tulo 5.
 
  (/home/genio/Workspace/TCC/projeto/textuais/Plano.tex
 Cap\'{\i }tulo 6.
-[30
+[31
 
 
 
@@ -1422,39 +1804,89 @@ Underfull \hbox (badness 1325) in paragraph at lines 23--24
 fesa à banca
  []
 
-) [31]
+) [32]
 \openout2 = `textuais/Resultados.aux'.
 
  (/home/genio/Workspace/TCC/projeto/textuais/Resultados.tex
 Cap\'{\i }tulo 7.
 
-Underfull \hbox (badness 1132) in paragraph at lines 5--6
-[]\T1/phv/m/n/12 Os pri-mei-ros ex-pe-ri-men-tos re-a-li-za-dos na pre-di-ção, 
-ilus-trado na Fi-gura  8[],
+Underfull \hbox (badness 2941) in paragraph at lines 27--28
+[]\T1/phv/b/n/12 Acurácia \T1/phv/m/n/12 - por-cen-ta-gem de amos-tras po-si-ti
+-vas e ne-ga-ti-vas clas-si-fi-ca-das
  []
 
-<figuras/resultados_experimentais.png, id=140, 692.5875pt x 339.51843pt>
-File: figuras/resultados_experimentais.png Graphic file (type png)
+[33
 
-<use figuras/resultados_experimentais.png>
-Package pdftex.def Info: figuras/resultados_experimentais.png used on input lin
-e 11.
-(pdftex.def)             Requested size: 484.80794pt x 237.66127pt.
 
-Overfull \hbox (29.56383pt too wide) in paragraph at lines 11--12
+
+]
+Underfull \hbox (badness 2689) in paragraph at lines 42--43
+[]\T1/phv/b/sl/12 Specificity \T1/phv/m/n/12 - ou es-pe-ci-fi-ci-dade é a por-c
+en-ta-gem de amos-tras ne-ga-ti-vas
+ []
+
+
+Underfull \hbox (badness 1629) in paragraph at lines 52--53
+[]\T1/phv/b/n/12 Curva ROC \T1/phv/m/n/12 - a Curva ROC é um grá-fico da por-ce
+n-ta-gem de amos-tras
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 66.
+
+<figuras/roc_0-0.png, id=151, 382.42876pt x 539.76656pt>
+File: figuras/roc_0-0.png Graphic file (type png)
+
+<use figuras/roc_0-0.png>
+Package pdftex.def Info: figuras/roc_0-0.png used on input line 84.
+(pdftex.def)             Requested size: 382.42781pt x 539.76524pt.
+ [34]
+Overfull \vbox (58.56712pt too high) has occurred while \output is active []
+
+
+[35 </home/genio/Workspace/TCC/projeto/figuras/roc_0-0.png>]
+<figuras/roc_0-5.png, id=160, 382.42876pt x 539.76656pt>
+File: figuras/roc_0-5.png Graphic file (type png)
+
+<use figuras/roc_0-5.png>
+Package pdftex.def Info: figuras/roc_0-5.png used on input line 92.
+(pdftex.def)             Requested size: 382.42781pt x 539.76524pt.
+
+<figuras/roc_1-0.png, id=161, 382.42876pt x 539.76656pt>
+File: figuras/roc_1-0.png Graphic file (type png)
+
+<use figuras/roc_1-0.png>
+Package pdftex.def Info: figuras/roc_1-0.png used on input line 100.
+(pdftex.def)             Requested size: 382.42781pt x 539.76524pt.
+ [36 </home/genio/Workspace/TCC/projeto/figuras/roc_0-5.png>] <figuras/roc_1-5.
+png, id=167, 382.42876pt x 539.76656pt>
+File: figuras/roc_1-5.png Graphic file (type png)
+
+<use figuras/roc_1-5.png>
+Package pdftex.def Info: figuras/roc_1-5.png used on input line 108.
+(pdftex.def)             Requested size: 382.42781pt x 539.76524pt.
+ [37 </home/genio/Workspace/TCC/projeto/figuras/roc_1-0.png>] <figuras/roc_2-0.
+png, id=172, 382.42876pt x 539.76656pt>
+File: figuras/roc_2-0.png Graphic file (type png)
+
+<use figuras/roc_2-0.png>
+Package pdftex.def Info: figuras/roc_2-0.png used on input line 116.
+(pdftex.def)             Requested size: 382.42781pt x 539.76524pt.
+ [38 </home/genio/Workspace/TCC/projeto/figuras/roc_1-5.png>] [39 </home/genio/
+Workspace/TCC/projeto/figuras/roc_2-0.png>]
+PGFPlots: reading {data/adaboost_competence_1.dat}
+
+Overfull \hbox (3.9327pt too wide) in paragraph at lines 164--165
  [] 
  []
 
-) [32
-
-
-
- </home/genio/Workspace/TCC/projeto/figuras/resultados_experimentais.png>]
+[40]) [41]
 \openout2 = `textuais/Conclusao.aux'.
 
-(/home/genio/Workspace/TCC/projeto/textuais/Conclusao.tex
+ (/home/genio/Workspace/TCC/projeto/textuais/Conclusao.tex
 Cap\'{\i }tulo 8.
-) [33
+) [42
 
 
 
@@ -1463,10 +1895,10 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 55.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [34
+) [43
 
 
-] [35]) [36]
+] [44]) [45]
 \openout2 = `pos-textuais/appendices.aux'.
 
 
@@ -1481,12 +1913,12 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 
 Apendice A.
-[37
+[46
 
 
 ]
 Apendice B.
-) [38
+) [47
 
 ]
 +-------------------------------------------------------------------+
@@ -1510,34 +1942,38 @@ Apendice B.
 (/home/genio/Workspace/TCC/projeto/textuais/Plano.aux)
 (/home/genio/Workspace/TCC/projeto/textuais/Resultados.aux)
 (/home/genio/Workspace/TCC/projeto/textuais/Conclusao.aux)
-(/home/genio/Workspace/TCC/projeto/pos-textuais/appendices.aux)) ) 
+(/home/genio/Workspace/TCC/projeto/pos-textuais/appendices.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 7932 strings out of 493013
- 117833 string characters out of 6135683
- 217339 words of memory out of 5000000
- 11010 multiletter control sequences out of 15000+600000
- 107808 words of font info for 140 fonts, out of 8000000 for 9000
+ 27501 strings out of 493013
+ 663705 string characters out of 6135683
+ 859540 words of memory out of 5000000
+ 30230 multiletter control sequences out of 15000+600000
+ 113920 words of font info for 146 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,12n,48p,729b,564s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/t
-exlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvips
-/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf
--dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/h
-elvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/urw/times/utmri8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/urw/zapfding/uzdr.pfb>
-Output written on /home/genio/Workspace/TCC/projeto/Projeto.pdf (39 pages, 6356
-85 bytes).
+ 66i,19n,105p,734b,2312s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/
+fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
+rw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/urw/times/utmri8a.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/urw/zapfding/uzdr.pfb>
+Output written on /home/genio/Workspace/TCC/projeto/Projeto.pdf (48 pages, 7348
+05 bytes).
 PDF statistics:
- 218 PDF objects out of 1000 (max. 8388607)
- 141 compressed objects within 2 object streams
+ 261 PDF objects out of 1000 (max. 8388607)
+ 166 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 83 words of extra memory for PDF output out of 10000 (max. 10000000)
 
