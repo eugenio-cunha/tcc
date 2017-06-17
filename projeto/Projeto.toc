@@ -1,35 +1,32 @@
 \select@language {brazilian}
 \contentsline {chapter}{Lista de Figuras}{}
 \contentsline {chapter}{Lista de Tabelas}{}
-\contentsline {chapter}{Lista de S\IeC {\'\i }mbolos}{}
 \contentsline {chapter}{Lista de Abrevia\IeC {\c c}\IeC {\~o}es}{}
-\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{13}
-\contentsline {section}{\numberline {1.1}Defini\IeC {\c c}\IeC {\~a}o do Problema de Pesquisa}{14}
-\contentsline {section}{\numberline {1.2}Motiva\IeC {\c c}\IeC {\~a}o}{14}
-\contentsline {section}{\numberline {1.3}Objetivos Gerais e Espec\IeC {\'\i }ficos}{14}
-\contentsline {subsection}{\numberline {1.3.1}Objetivos Espec\IeC {\'\i }ficos}{14}
-\contentsline {section}{\numberline {1.4}Contribui\IeC {\c c}\IeC {\~o}es}{15}
-\contentsline {section}{\numberline {1.5}Organiza\IeC {\c c}\IeC {\~a}o do trabalho}{15}
-\contentsline {chapter}{\numberline {2}Trabalhos Relacionados}{16}
-\contentsline {section}{\numberline {2.1}Compet\IeC {\^e}ncias requeridas pela avalia\IeC {\c c}\IeC {\~a}o de reda\IeC {\c c}\IeC {\~a}o do ENEM}{16}
-\contentsline {section}{\numberline {2.2}Aprendizado de m\IeC {\'a}quina}{19}
-\contentsline {section}{\numberline {2.3}Ferramenta para minera\IeC {\c c}\IeC {\~a}o de dados}{21}
-\contentsline {chapter}{\numberline {3}Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica}{23}
-\contentsline {section}{\numberline {3.1}Processamento de linguagem natural}{23}
-\contentsline {section}{\numberline {3.2}\textit {Bag of words}}{23}
-\contentsline {section}{\numberline {3.3}Aprendizado de M\IeC {\'a}quina supervisionado}{25}
-\contentsline {section}{\numberline {3.4}Classificador \textit {Adaboost}}{25}
-\contentsline {section}{\numberline {3.5}M\IeC {\'e}tricas utilizadas}{26}
-\contentsline {chapter}{\numberline {4}M\IeC {\'e}todo Proposto}{28}
-\contentsline {chapter}{\numberline {5}Desenvolvimento}{31}
-\contentsline {chapter}{\numberline {6}Plano de Trabalho}{32}
-\contentsline {section}{\numberline {6.1}Plano de atividade}{32}
-\contentsline {section}{\numberline {6.2}Cronograma gr\IeC {\'a}fico do Plano de Atividades}{33}
-\contentsline {chapter}{\numberline {7}Resultados Preliminares}{34}
-\contentsline {subsection}{\numberline {7.0.1}Dados Desbalanceados}{34}
-\contentsline {subsection}{\numberline {7.0.2}M\IeC {\'e}tricas de Desempenho}{35}
-\contentsline {subsection}{\numberline {7.0.3}Considera\IeC {\c c}\IeC {\~o}es Finais}{38}
-\contentsline {chapter}{\numberline {8}Conclus\IeC {\~a}o e Trabalhos Futuros}{39}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{40}
-\contentsline {chapter}{Ap\^endice{} A{} -$\tmspace -\thinmuskip {.1667em}$-{} T\IeC {\'\i }tulo do Ap\IeC {\^e}ndice}{43}
-\contentsline {chapter}{Ap\^endice{} B{} -$\tmspace -\thinmuskip {.1667em}$-{} Exemplo do pacote Algorithm}{44}
+\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{12}
+\contentsline {section}{\numberline {1.1}Defini\IeC {\c c}\IeC {\~a}o do Problema de Pesquisa}{13}
+\contentsline {section}{\numberline {1.2}Motiva\IeC {\c c}\IeC {\~a}o}{13}
+\contentsline {section}{\numberline {1.3}Objetivos Gerais e Espec\IeC {\'\i }ficos}{13}
+\contentsline {subsection}{\numberline {1.3.1}Objetivos Espec\IeC {\'\i }ficos}{13}
+\contentsline {section}{\numberline {1.4}Contribui\IeC {\c c}\IeC {\~o}es}{14}
+\contentsline {section}{\numberline {1.5}Organiza\IeC {\c c}\IeC {\~a}o do trabalho}{14}
+\contentsline {chapter}{\numberline {2}Trabalhos Relacionados}{15}
+\contentsline {section}{\numberline {2.1}Compet\IeC {\^e}ncias requeridas pela avalia\IeC {\c c}\IeC {\~a}o de reda\IeC {\c c}\IeC {\~a}o do ENEM}{15}
+\contentsline {section}{\numberline {2.2}Aprendizado de m\IeC {\'a}quina}{18}
+\contentsline {section}{\numberline {2.3}Ferramenta para minera\IeC {\c c}\IeC {\~a}o de dados}{20}
+\contentsline {chapter}{\numberline {3}Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica}{22}
+\contentsline {section}{\numberline {3.1}Processamento de linguagem natural}{22}
+\contentsline {section}{\numberline {3.2}\textit {Bag of words}}{22}
+\contentsline {section}{\numberline {3.3}Aprendizado de M\IeC {\'a}quina supervisionado}{24}
+\contentsline {section}{\numberline {3.4}Classificador \textit {Adaboost}}{24}
+\contentsline {section}{\numberline {3.5}M\IeC {\'e}tricas utilizadas}{25}
+\contentsline {chapter}{\numberline {4}M\IeC {\'e}todo Proposto}{27}
+\contentsline {chapter}{\numberline {5}Plano de Trabalho}{29}
+\contentsline {section}{\numberline {5.1}Plano de atividade}{29}
+\contentsline {section}{\numberline {5.2}Cronograma gr\IeC {\'a}fico do Plano de Atividades}{30}
+\contentsline {chapter}{\numberline {6}Resultados Preliminares}{31}
+\contentsline {section}{\numberline {6.1}Dados Desbalanceados}{31}
+\contentsline {section}{\numberline {6.2}M\IeC {\'e}tricas de Desempenho}{32}
+\contentsline {section}{\numberline {6.3}Considera\IeC {\c c}\IeC {\~o}es Finais}{35}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{36}
+\contentsline {chapter}{Ap\^endice{} A{} -$\tmspace -\thinmuskip {.1667em}$-{} T\IeC {\'\i }tulo do Ap\IeC {\^e}ndice}{39}
+\contentsline {chapter}{Ap\^endice{} B{} -$\tmspace -\thinmuskip {.1667em}$-{} Exemplo do pacote Algorithm}{40}

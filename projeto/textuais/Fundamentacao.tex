@@ -53,8 +53,7 @@ Entretanto o autor cita que ``Se todos os casos são memorizados, o classificado
 
 \textit{Boosting} é um conjunto de métodos e procedimentos de Aprendizado de Máquina que mescla vários classificadores fracos para aperfeiçoar a \textit{acurácia} geral. O algoritmo atualiza os pesos dos exemplos a cada iteração e cria um classificador adicional. Os classificadores são combinados por um esquema simples de votação. O algoritmo mais famoso baseado em Boosting é o Adaboost (Algoritmo Adaptive Boosting) que atualiza os pesos dos exemplos em que os classificadores anteriores cometeram erros, focando o classificador adicional nos exemplos mais difíceis ~\cite {duarte2009algoritmo}.
 
-Durante seu trabalho ~\cite{merjildo2013algoritmo} cita duas propriedades que simplificam seu uso e implementação: a primeira se refere aos parâmetros empregados para analisar dados de grandes proporções,
-e as margens entre as classes podem ser mais precisas do que outros métodos, já a segunda, dado que corresponde a um programa de complexidade linear e evita o uso de componentes computacionais pesados, o custo computacional é baixo.
+Merjildo et al. (2013) mostra as propriedades que simplificam o uso do classificador \textit{AdaBoost}. O autor cita em seu trabalho que os parâmetros empregados para analisar dados de grandes proporções e as margens entre as classes podem ser mais precisas do que em outros métodos e o custo computacional é baixo, dado que corresponde a um programa de complexidade linear e evita o uso de componentes computacionais pesados.
 
 Por fim, este classificador escolhido para essa pesquisa, tem como objetivo reconhecer padrões complexos a partir de combinações de características simples baseadas em formas que podem estar presentes em textos de redação do tipo dissertativo-argumentativo.
 
@@ -64,11 +63,10 @@ Avaliar o desempenho de um modelo é um dos estágios principais deste estudo, a
 
 Na comparação dos resultados experimentais serão utilizadas sete métricas de avaliações sobre modelo supervisionado \textit{AdaBoost}, que são:
 
-\textbf{Matriz de confusão} - A matriz de confusão de uma hipótese H oferece uma medida efetiva do modelo de classificação, ao mostrar o número de classificações corretas versus as classificações preditas para cada classe, sobre um conjunto de exemplos verdadeiros como descrito na Tabela ~\ref{tab:matrix_confusion}.
+\textbf{Matriz de confusão} - A matriz de confusão de uma hipótese H oferece uma medida efetiva do modelo de classificação, ao mostrar o número de classificações corretas versus as classificações preditas para cada classe, sobre um conjunto de exemplos verdadeiros como descrito na Tabela ~\ref{tab:sample_matrix_confusion}.
 
 \begin{table}[H]
 \centering
-\caption{Matriz de confusão}
 \begin{tabular}{rc|c|c|}
 \cline{3-4}
 \multicolumn{2}{c|}{\multirow{2}{*}{}} & \multicolumn{2}{c|}{Valor verdadeiro} \\ \cline{3-4} 
@@ -76,36 +74,36 @@ Na comparação dos resultados experimentais serão utilizadas sete métricas de
 \multicolumn{1}{|c|}{\multirow{2}{*}{Valor previsto}} & positivos & VP & FP \\ \cline{2-4} 
 \multicolumn{1}{|c|}{} & negativos & FN & VN \\ \hline
 \end{tabular}
-\label{tab:matrix_confusion}
+\caption{Matriz de confusão ou tabela de contingência}
+\label{tab:sample_matrix_confusion}
 \end{table}
-
 
 \textbf{Acurácia} - porcentagem de amostras positivas e negativas classificadas corretamente sobre a soma de amostras positivas e negativas dada pela fórmula da equação ~\ref{eq:acuracia}:
 \begin{equation} \label{eq:acuracia}
  acuracia = \frac{TP+TN}{VP+VN+FP+FN}
 \end{equation}
 
-\textbf{\textit{Recall}} - ou sensitividade é a porcentagem de amostras positivas classificadas corretamente sobre o total de amostras positivas dada pela fórmula da equação ~\ref{eq:recall}:
+\textbf{Sensitividade} - ou \textit{recall} é a porcentagem de amostras positivas classificadas corretamente sobre o total de amostras positivas dada pela fórmula da equação ~\ref{eq:recall}:
 \begin{equation} \label{eq:recall}
-  recall = \frac{TP}{TP+FN} = \frac{TP}{\textit{Positive}}
+  sensitividade = \frac{TP}{TP+FN} = \frac{TP}{Positivo}
 \end{equation}
 
-\textbf{\textit{Precision}} - ou precisão é a porcentagem de amostras positivas classificadas corretamente sobre o total de amostras classificadas como positivas dada pela fórmula da equação ~\ref{eq:precision}:
+\textbf{Precisão} - ou \textit{precision} é a porcentagem de amostras positivas classificadas corretamente sobre o total de amostras classificadas como positivas dada pela fórmula da equação ~\ref{eq:precision}:
 \begin{equation} \label{eq:precision}
-    precision = \frac{TP}{TP+FP}
+    precisao = \frac{TP}{TP+FP}
 \end{equation}
 
-\textbf{\textit{Specificity}} - ou especificidade é a porcentagem de amostras negativas identificadas corretamente sobre o total de amostras negativas dada pela fórmula da equação ~\ref{eq:specificity}:
+\textbf{Especificidade} - ou \textit{specificity} é a porcentagem de amostras negativas identificadas corretamente sobre o total de amostras negativas dada pela fórmula da equação ~\ref{eq:specificity}:
 \begin{equation} \label{eq:specificity}
-    specificity = \frac{TN}{TN+FP}=\frac{TN}{\textit{Negative}}
+    especificidade = \frac{TN}{TN+FP}=\frac{TN}{Negativo}
 \end{equation}
 
-\textbf{\textit{F-Score}} - ou \textit{F-Measure} é uma média ponderada de precisão e sensitividade dada pela fórmula da equação ~\ref{eq:fscore}:
+\textbf{\textit{F1}} - ou \textit{F-Measure} é uma média ponderada de precisão e sensitividade dada pela fórmula da equação ~\ref{eq:fscore}:
 \begin{equation} \label{eq:fscore}
-    fscore=\frac{2*(\textit{Precision}*\textit{Recall})}{\textit{Precision}+\textit{Recall}}
+    f1=\frac{2*(precisao*sensitividade)}{precisao+sensitividade}
 \end{equation}
 
-\textbf{Curva ROC} - a Curva ROC é um gráfico da porcentagem de amostras corretamente classificadas como positivas dentre todas as positivas reais versus a porcentagem de amostras erroneamente classificadas como positivas dentre todas as negativas reais ou um \textit{trade-off} entre TPR e FPR, dadas pelas fórmulas da equações  
+\textbf{Curva ROC} - a Curva ROC é um gráfico da porcentagem de amostras corretamente classificadas como positivas dentre todas as positivas reais versus a porcentagem de amostras erroneamente classificadas como positivas dentre todas as negativas reais ou um \textit{trade-off} entre TPR e FPR, dadas pelas fórmulas da equações:
 
 \begin{equation} \label{eq:tpr}
     TPR=\frac{TP}{TP+FN}
@@ -116,3 +114,5 @@ Na comparação dos resultados experimentais serão utilizadas sete métricas de
 \end{equation}
 
 Obviamente, um modelo de classificação ideal teria TPR = 1 e FPR = 0 (taxa de acerto = 1 e taxa de erro = 0).
+
+As principais métricas da literatura citadas neste estudo tem o objetivo de avaliar diretamente, de forma independente, o desempenho do classificador induzido.

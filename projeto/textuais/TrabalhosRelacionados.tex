@@ -52,15 +52,15 @@ De acordo com ~\cite{braga:2015}, no texto de redação, o candidato defenderá 
 
 \section{Aprendizado de máquina}
 
-Segundo ~\cite{monard_baranauskas:2003} ``A indução é a forma de inferência lógica que permite obter conclusões genéricas sobre um conjunto particular de exemplos.'' Na indução, um conceito é aprendido efetuando-se inferência indutiva sobre os exemplos apresentados. O aprendizado indutivo pode ser dividido em supervisionado e não-supervisionado como ilustrado na Figura ~\ref{fig:aprendizado_indutivo}.  
+Segundo ~\cite{monard_baranauskas:2003} ``A indução é a forma de inferência lógica que permite obter conclusões genéricas sobre um conjunto particular de exemplos.'' Na indução, um conceito é aprendido efetuando-se inferência indutiva sobre os exemplos apresentados. O aprendizado indutivo pode ser dividido em supervisionado e não-supervisionado como ilustrada a Figura ~\ref{fig:aprendizado_indutivo}.  
 
-No aprendizado não-supervisionado, o algoritmo de aprendizado analisa os exemplos fornecidos e tenta determinar se alguns deles podem ser agrupados de alguma maneira, formando clusters ou agrupamentos. Já no aprendizado supervisionado é fornecido ao algoritmo de aprendizado um conjunto de exemplos de treinamento para os quais o rótulo da classe associada é conhecido.
+No aprendizado não-supervisionado, o algoritmo de aprendizado analisa os exemplos fornecidos e tenta determinar se alguns deles podem ser agrupados de alguma maneira, formando \textit{clusters} ou agrupamentos. Já no aprendizado supervisionado é fornecido ao algoritmo de aprendizado um conjunto de exemplos de treinamento para os quais o rótulo da classe associada é conhecido.
 
 \begin{figure}[H]
 \begin{center}
     \includegraphics[scale=0.75]{figuras/aprendizado_indutivo.png}
 \end{center}
-\caption{Árvore hierárquica do aprendizado indutivo, dividida no algoritmo supervisionado e não supervisionado.}
+\caption{Árvore hierárquica do aprendizado indutivo, a qual é dividida em algoritmos supervisionado e não- supervisionado.}
 \label{fig:aprendizado_indutivo}
 \end{figure}
 
@@ -82,19 +82,19 @@ Dado um conjunto de exemplos como ilustrado na Figura ~\ref{fig:processo_classif
 
 \section{Ferramenta para mineração de dados}
 
-Diversas ferramentas disponíveis para exploração de dados dispõem de soluções para o processamento e a análise das informações de forma ágil e simples. Em uma analise comparativa ~\cite{boscarioli2014avaliaccao} demonstra que não existe uma única ferramenta com características melhores para todas as aplicações em mineração de dados.
+Diversas ferramentas disponíveis para exploração de dados dispõem de soluções para o processamento e a análise das informações de forma ágil e simples. Em uma análise comparativa ~\cite{boscarioli2014avaliaccao} demonstra que não existe uma única ferramenta com características melhores para todas as aplicações em mineração de dados.
 
 Em um estudo que comparou quatro ferramentas (KMINE, \textit{Orange}, Tanagra, Weka), todas de código aberto, gratuitas e muito utilizadas na pesquisa e na academia, ~\cite{wahbeh2011comparison} concluiu que a ferramenta Weka apresentou o melhor desempenho, seguido pelo \textit{Orange}, e, depois, pelo KMINE e Tanagra.
 
 Para este trabalho, foi escolhida a ferramenta \textit{Orange} ~\cite{JMLR:demsar13a} por ser muito utilizada no meio acadêmico, ter sido bem avaliada quando comparada a outras, ser utilizada como uma biblioteca na linguagem Python ~\cite{van2003python} e utiliza a conceituada biblioteca \textit{Scikit-learn} ~\cite{scikit-learn} internamente para Aprendizado de Máquina. 
 
-A ferramenta \textit{Orange} na atual versão 3.4 desenvolvida pelo laboratório de Inteligência Artificial da Faculdade de Computação e Ciência da Informação da Universidade de Ljubljana na Eslovênia sob a licença GPL, possui uma interface gráfica denominada \textit{Orange Canvas}. Por meio de sua interface ilustrada na Figura ~\ref{fig:orange_canvas} é possível conectar e interligar os objetos montando um fluxo de trabalho para o desenvolvimento de modelos de classificação, incluindo Adaboost, Naive Bayes, Regras de Decisão, Árvores de Decisão, etc..
+A ferramenta \textit{Orange} na atual versão 3.4 desenvolvida pelo laboratório de Inteligência Artificial da Faculdade de Computação e Ciência da Informação da Universidade de \textit{Ljubljana} na Eslovênia sob a licença GPL, possui uma interface gráfica denominada \textit{Orange Canvas}. Por meio de sua interface ilustrada na Figura ~\ref{fig:orange_canvas} é possível conectar e interligar os objetos montando um fluxo de trabalho para o desenvolvimento de modelos de classificação, incluindo \textit{Adaboost}, \textit{Naive Bayes}, Regras de Decisão, Árvores de Decisão, etc..
 
 \begin{figure}[H]
 \begin{center}
-    \includegraphics[scale=0.33]{figuras/orange_canvas.png}
+    \includegraphics[scale=0.55]{figuras/orange_canvas.png}
 \end{center}
-\caption{Interface gráfica da ferramenta de Mineração de Dados \textit{Orange Canvas}}
+\caption{Ferramenta de mineração de dados \textit{Orange Canvas}} executando teste de desempenho dos classificadores AdaBoost, SVM e \textit{Classification Tree} na matriz de confusão.  
 \label{fig:orange_canvas}
 \end{figure}
 

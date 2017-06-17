@@ -1,8 +1,8 @@
 \chapter{Resultados Preliminares}\label{result}
 
-Este capítulo é dedicado a apresentar os resultados preliminares obtidos na indução do modelo \textit{Adaboost}, e todas as adversidades encontradas.
+Este capítulo é dedicado a apresentar os resultados preliminares e adversidades obtidas na indução do classificador \textit{AdaBoost}, um algoritmo que utiliza \textit{Boosting} como método de aprendizagem, flexível para se combinar com os vários algoritmos base de aprendizagem disponíveis.
 
-\subsection{Dados Desbalanceados}
+\section{Dados Desbalanceados}
 
 Para a indução do classificador AdaBoost sobre a primeira competência exigida em um texto de redação, isto é,  ``Demonstrar domínio da norma padrão da língua escrita.'', a ferramenta \textit{Orange} selecionou de forma aleatória uma amostra de 30\% do corpus de redações, ou seja, aproximadamente 131 redações de 436. 
 
@@ -48,7 +48,7 @@ Como demostrado no Gráfico ~\ref{gra:class_unbundling}, a amostra de 30\% das r
 
 O desbalanceamento de dados presente na amostra era uma condição esperada, no processo de valoração, a competência é avaliada por, pelo menos, dois avaliadores, de forma independente, se ocorrer diferenças nas notas da competência inferior a 20\% entre elas, é calculado o valor médio, fator que colabora efetivamente para tendência de uma ou mais classes presentes na amostra.
 
-\subsection{Métricas de Desempenho}
+\section{Métricas de Desempenho}
 
 Nos resultados preliminares, este estudo utilizou as principais métricas da literatura para análise do desempenho de classificadores, tendo como foco as métricas: Curva ROC, Acurácia, \textit{F-Score}, \textit{Precision} e \textit{Recall}.
 
@@ -73,7 +73,7 @@ A Tabela ~\ref{tab:evaluation_result} exibe os resultados das principais métric
 
 A adversidade de classes desbalanceadas, pode produzir um modelo com elevadas taxas de acurácia global para determinadas classes, como o ocorrido nas classes 0.00 e 2.00 de 0.828 e 0.915 respectivamente, entretanto frequentemente tende a prejudicar a identificação de exemplos pertencentes a grupos minoritários.
 
-A seguir é ilustrado na Figura ~\ref{fig:roc}, a representação gráfica da Curva ROC de cada classe induzida pelo classificador.
+Ilustrada na Figura ~\ref{fig:roc}, a representação gráfica da Curva ROC de cada classe induzida pelo classificador.
 
 \begin{figure}[H]
 \begin{center}
@@ -106,7 +106,7 @@ A Tabela ~\ref{tab:matrix_confusion} exibe ao longo da diagonal em tons de cinza
 \label{tab:matrix_confusion}
 \end{table}
 
-\subsection{Considerações Finais}
+\section{Considerações Finais}
 
 E notável que adversidade de classes desbalanceadas influenciou consideravelmente nos resultados preliminares.  A próxima etapa deste estudo merece destaque em uma seção exclusiva para discussão do tema e a análise dos principais métodos na literatura para balanceamento de classes.
 

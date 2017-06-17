@@ -13,10 +13,8 @@ A level-1 auxiliary file: textuais/Introducao.aux
 A level-1 auxiliary file: textuais/TrabalhosRelacionados.aux
 A level-1 auxiliary file: textuais/Fundamentacao.aux
 A level-1 auxiliary file: textuais/Metodologia.aux
-A level-1 auxiliary file: textuais/Desenvolvimento.aux
 A level-1 auxiliary file: textuais/Plano.aux
 A level-1 auxiliary file: textuais/Resultados.aux
-A level-1 auxiliary file: textuais/Conclusao.aux
 The style file: configuracao/abnt-alf.bst
 A level-1 auxiliary file: pos-textuais/appendices.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -41,45 +39,45 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 29 entries,
+You've used 28 entries,
             6480 wiz_defined-function locations,
-            1310 strings with 14815 characters,
-and the built_in function-call counts, 21108 in all, are:
-= -- 1600
-> -- 779
+            1304 strings with 14554 characters,
+and the built_in function-call counts, 20433 in all, are:
+= -- 1559
+> -- 747
 < -- 32
-+ -- 357
-- -- 231
-* -- 1537
-:= -- 2785
-add.period$ -- 90
-call.type$ -- 32
-change.case$ -- 277
-chr.to.int$ -- 52
-cite$ -- 23
-duplicate$ -- 935
-empty$ -- 1644
-format.name$ -- 1179
-if$ -- 4990
++ -- 345
+- -- 221
+* -- 1487
+:= -- 2688
+add.period$ -- 87
+call.type$ -- 31
+change.case$ -- 266
+chr.to.int$ -- 51
+cite$ -- 22
+duplicate$ -- 902
+empty$ -- 1597
+format.name$ -- 1132
+if$ -- 4837
 int.to.chr$ -- 5
 int.to.str$ -- 1
-missing$ -- 496
-newline$ -- 133
-num.names$ -- 115
-pop$ -- 558
+missing$ -- 479
+newline$ -- 128
+num.names$ -- 110
+pop$ -- 535
 preamble$ -- 1
-purify$ -- 106
+purify$ -- 102
 quote$ -- 0
-skip$ -- 1384
+skip$ -- 1349
 stack$ -- 1
-substring$ -- 720
-swap$ -- 467
+substring$ -- 703
+swap$ -- 457
 text.length$ -- 23
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 19
 warning$ -- 0
-while$ -- 161
+while$ -- 155
 width$ -- 0
-write$ -- 375
+write$ -- 361
 (There was 1 warning)

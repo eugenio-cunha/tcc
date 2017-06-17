@@ -1,6 +1,6 @@
 \select@language {brazilian}
-\contentsline {table}{\numberline {1}{\ignorespaces Matriz de refer\IeC {\^e}ncia elaborada pelo INEP.\relax }}{16}
-\contentsline {table}{\numberline {2}{\ignorespaces Modelo \textit {Bag of Words} \IeC {\'e} maneira mais comum de representar cole\IeC {\c c}\IeC {\~o}es de documentos no qual cada documento \IeC {\'e} representado por um vetor e cada palavra da cole\IeC {\c c}\IeC {\~a}o representa uma dimens\IeC {\~a}o do vetor.\relax }}{24}
-\contentsline {table}{\numberline {3}{\ignorespaces Matriz de confus\IeC {\~a}o\relax }}{26}
-\contentsline {table}{\numberline {4}{\ignorespaces Resultado das m\IeC {\'e}tricas de desempenho do classificador AdaBoost.\relax }}{36}
-\contentsline {table}{\numberline {5}{\ignorespaces Tabela de conting\IeC {\^e}ncia ou Matriz de confus\IeC {\~a}o resultante da indu\IeC {\c c}\IeC {\~a}o do classificador AdaBoost.\relax }}{38}
+\contentsline {table}{\numberline {1}{\ignorespaces Matriz de refer\IeC {\^e}ncia elaborada pelo INEP.\relax }}{15}
+\contentsline {table}{\numberline {2}{\ignorespaces Modelo \textit {Bag of Words} \IeC {\'e} maneira mais comum de representar cole\IeC {\c c}\IeC {\~o}es de documentos no qual cada documento \IeC {\'e} representado por um vetor e cada palavra da cole\IeC {\c c}\IeC {\~a}o representa uma dimens\IeC {\~a}o do vetor.\relax }}{23}
+\contentsline {table}{\numberline {3}{\ignorespaces Matriz de confus\IeC {\~a}o ou tabela de conting\IeC {\^e}ncia\relax }}{25}
+\contentsline {table}{\numberline {4}{\ignorespaces Resultado das m\IeC {\'e}tricas de desempenho do classificador AdaBoost.\relax }}{33}
+\contentsline {table}{\numberline {5}{\ignorespaces Tabela de conting\IeC {\^e}ncia ou Matriz de confus\IeC {\~a}o resultante da indu\IeC {\c c}\IeC {\~a}o do classificador AdaBoost.\relax }}{35}
