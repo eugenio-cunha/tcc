@@ -1,6 +1,0 @@
-\select@language {brazilian}
-\beamer@sectionintoc {1}{Introdu\IeC {\c c}\IeC {\~a}o}{3}{0}{1}
-\beamer@sectionintoc {2}{Objetivos}{9}{0}{2}
-\beamer@sectionintoc {3}{Metodologia}{11}{0}{3}
-\beamer@sectionintoc {4}{Resultados Experimentais}{16}{0}{4}
-\beamer@sectionintoc {5}{Considera\IeC {\c c}\IeC {\~o}es finais}{18}{0}{5}

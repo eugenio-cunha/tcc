@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: projeto.aux
+The style file: abbrv.bst
+Database file #1: bib.bib
+Warning--entry type for "edital_enem:2016" isn't style-file defined
+--line 91 of file bib.bib
+You've used 3 entries,
+            2118 wiz_defined-function locations,
+            516 strings with 4435 characters,
+and the built_in function-call counts, 738 in all, are:
+= -- 70
+> -- 27
+< -- 0
++ -- 11
+- -- 8
+* -- 37
+:= -- 129
+add.period$ -- 9
+call.type$ -- 3
+change.case$ -- 13
+chr.to.int$ -- 0
+cite$ -- 3
+duplicate$ -- 25
+empty$ -- 69
+format.name$ -- 8
+if$ -- 153
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 1
+newline$ -- 18
+num.names$ -- 6
+pop$ -- 21
+preamble$ -- 1
+purify$ -- 10
+quote$ -- 0
+skip$ -- 22
+stack$ -- 0
+substring$ -- 31
+swap$ -- 3
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 12
+warning$ -- 0
+while$ -- 8
+width$ -- 4
+write$ -- 33
+(There was 1 warning)

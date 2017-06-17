@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.5.4)  17 JUN 2017 11:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.5.4)  17 JUN 2017 17:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1286,8 +1286,7 @@ Writing index file Projeto.idx
 (/home/genio/Workspace/TCC/projeto/textuais/Fundamentacao.aux)
 (/home/genio/Workspace/TCC/projeto/textuais/Metodologia.aux)
 (/home/genio/Workspace/TCC/projeto/textuais/Plano.aux)
-(/home/genio/Workspace/TCC/projeto/textuais/Resultados.aux)
-(/home/genio/Workspace/TCC/projeto/pos-textuais/appendices.aux))
+(/home/genio/Workspace/TCC/projeto/textuais/Resultados.aux))
 \openout1 = `Projeto.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -1631,9 +1630,6 @@ Underfull \hbox (badness 4479) in paragraph at lines 48--49
 al-guns dos tra-ba-lhos li-dos para
  []
 
-
-LaTeX Warning: Reference `desen' on page 14 undefined on input line 52.
-
 ) [14]
 \openout2 = `textuais/TrabalhosRelacionados.aux'.
 
@@ -1857,34 +1853,12 @@ File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 ) [36
 
 
-] [37]) [38]
-\openout2 = `pos-textuais/appendices.aux'.
-
-
-(/home/genio/Workspace/TCC/projeto/pos-textuais/appendices.tex
-LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <20.74> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 1.
-LaTeX Font Info:    Font shape `T1/phv/b/it' in size <20.74> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 1.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
-
-Apendice A.
-[39
-
-
-]
-Apendice B.
-) [40
-
-]
+] [37])
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
-(/home/genio/Workspace/TCC/projeto/Projeto.aux
+[38] (/home/genio/Workspace/TCC/projeto/Projeto.aux
 (/home/genio/Workspace/TCC/projeto/pre-textuais/capa.aux)
 (/home/genio/Workspace/TCC/projeto/pre-textuais/folharosto.aux)
 (/home/genio/Workspace/TCC/projeto/pre-textuais/folhadeaprovacao.aux)
@@ -1898,39 +1872,33 @@ Apendice B.
 (/home/genio/Workspace/TCC/projeto/textuais/Fundamentacao.aux)
 (/home/genio/Workspace/TCC/projeto/textuais/Metodologia.aux)
 (/home/genio/Workspace/TCC/projeto/textuais/Plano.aux)
-(/home/genio/Workspace/TCC/projeto/textuais/Resultados.aux)
-(/home/genio/Workspace/TCC/projeto/pos-textuais/appendices.aux))
-
-LaTeX Warning: There were undefined references.
-
- ) 
+(/home/genio/Workspace/TCC/projeto/textuais/Resultados.aux)) ) 
 Here is how much of TeX's memory you used:
- 27420 strings out of 493013
- 661562 string characters out of 6135683
+ 27340 strings out of 493013
+ 660341 string characters out of 6135683
  859540 words of memory out of 5000000
- 30170 multiletter control sequences out of 15000+600000
- 108586 words of font info for 143 fonts, out of 8000000 for 9000
+ 30109 multiletter control sequences out of 15000+600000
+ 91503 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,13n,98p,734b,2033s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/
-fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
-rw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/urw/times/utmri8a.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/urw/zapfding/uzdr.pfb>
-Output written on /home/genio/Workspace/TCC/projeto/Projeto.pdf (41 pages, 5593
-57 bytes).
+{/usr/share/texmf
+/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/
+enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helve
+tic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on /home/genio/Workspace/TCC/projeto/Projeto.pdf (39 pages, 5448
+99 bytes).
 PDF statistics:
- 232 PDF objects out of 1000 (max. 8388607)
- 151 compressed objects within 2 object streams
+ 218 PDF objects out of 1000 (max. 8388607)
+ 141 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  63 words of extra memory for PDF output out of 10000 (max. 10000000)
 

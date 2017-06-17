@@ -28,5 +28,3 @@
 \contentsline {section}{\numberline {6.2}M\IeC {\'e}tricas de Desempenho}{32}
 \contentsline {section}{\numberline {6.3}Considera\IeC {\c c}\IeC {\~o}es Finais}{35}
 \contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{36}
-\contentsline {chapter}{Ap\^endice{} A{} -$\tmspace -\thinmuskip {.1667em}$-{} T\IeC {\'\i }tulo do Ap\IeC {\^e}ndice}{39}
-\contentsline {chapter}{Ap\^endice{} B{} -$\tmspace -\thinmuskip {.1667em}$-{} Exemplo do pacote Algorithm}{40}
