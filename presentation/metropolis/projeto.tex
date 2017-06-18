@@ -1,3 +1,4 @@
+\PassOptionsToPackage{table}{xcolor}
 \documentclass[10pt]{beamer}
 
 \usetheme[progressbar=frametitle]{metropolis}
@@ -15,6 +16,13 @@
 \usepackage[brazilian]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+\usepackage{multirow}
+
+\usepackage[table]{xcolor}
+\usepackage{pifont}
+
+\newcommand*\rot{\rotatebox{90}}
+\newcommand*\V{\ding{51}}
 
 \title{UNIVERSIDADE DE ITAÚNA}
 \subtitle{Aprendizado de Máquina Aplicado à Valoração de Redações}
@@ -41,7 +49,7 @@
     \end{frame}
 
     \begin{frame}[fragile]{Problema de Pesquisa}
-    No ENEM cada redação foi avaliada por, pelo menos, dois avaliadores, de forma independente ~\cite{edital_enem:2016}.
+    No ENEM cada redação é avaliada por, pelo menos, dois avaliadores, de forma independente ~\cite{edital_enem:2016}.
     \begin{figure}[H]
     \begin{center}
         \includegraphics[scale=0.50]{images/correction_redaction_enem.png}
@@ -90,41 +98,183 @@
 
 \section{Trabalhos Relacionados}
   \begin{frame}[fragile]{Matriz de Competências}
-  Silva, Carvalho ~\cite{silvio_taynan:2017} cita em seu estudo que à prova de redação do ENEM é avaliada levando em conta uma matriz de referência elaborada pelo INEP.
-
-\begin{table}[H]
-\centering
-\begin{tabular}{|l|l|l|}
-\hline
-\textbf{I} & {Demonstrar domínio da norma padrão da língua escrita.}\small & 200 \\ \hline
-\textbf{II} & \begin{tabular}[c]{@{}l@{}}Compreender a proposta de redação e aplicar conceitosdas \\ varias áreas de conhecimento para desenvolver o tema, dentro \\ dos limites estruturais do textodissertativo-argumentativo em \\ prosa.\end{tabular} & 200 \\ \hline
-\textbf{III} & \begin{tabular}[c]{@{}l@{}}Selecionar, relacionar, organizar e interpretar informações, \\ fatos, opiniões e argumentos em defesa de um ponto de vista.\end{tabular} & 200 \\ \hline
-\textbf{IV} & \begin{tabular}[c]{@{}l@{}}Demonstrar conhecimento dos mecanismos linguísticos \\ necessários para a construção da argumentação.\end{tabular} & 200 \\ \hline
-\textbf{V} & \begin{tabular}[c]{@{}l@{}}Elaborar proposta de intervenção para o problema abordado, \\ respeitando os direitos humanos.\end{tabular} & 200 \\ \hline
-\end{tabular}
-\end{table}
-
-
+  Silva (2017) cita em seu estudo, que à prova de redação do ENEM é avaliada levando em conta uma matriz de referência elaborada pelo INEP ~\cite{silvio_taynan:2017}.
+  \begin{table}[H]
+  \centering
+  \begin{tabular}{|c|l|c|}
+  \hline
+  \textbf{I} & {Demonstrar domínio da norma padrão da língua escrita.}\small & 200 \\ \hline
+  \textbf{II} & \begin{tabular}[c]{@{}l@{}}Compreender a proposta de redação e aplicar conceitosdas \\ varias áreas de conhecimento para desenvolver o tema, dentro \\ dos limites estruturais do textodissertativo-argumentativo em \\ prosa.\end{tabular} & 200 \\ \hline
+  \textbf{III} & \begin{tabular}[c]{@{}l@{}}Selecionar, relacionar, organizar e interpretar informações, \\ fatos, opiniões e argumentos em defesa de um ponto de vista.\end{tabular} & 200 \\ \hline
+  \textbf{IV} & \begin{tabular}[c]{@{}l@{}}Demonstrar conhecimento dos mecanismos linguísticos \\ necessários para a construção da argumentação.\end{tabular} & 200 \\ \hline
+  \textbf{V} & \begin{tabular}[c]{@{}l@{}}Elaborar proposta de intervenção para o problema abordado, \\ respeitando os direitos humanos.\end{tabular} & 200 \\ \hline
+  \end{tabular}
+  \end{table}
   \end{frame}
 
   \begin{frame}[fragile]{Aprendizado de Máquina}
+    Segundo Monard (2003), de uma forma geral o aprendizado indutivo pode ser dividido em supervisionado e não-supervisionado ~\cite{monard_baranauskas:2003}.
+    \begin{figure}[H]
+    \begin{center}
+        \includegraphics[scale=0.45]{images/supervised_unsupervised.png}
+    \end{center}
+    \end{figure}
+    Freitas (2005), cita que o aprendizado supervisionado exige como entrada um corpus de treino, com exemplos corretamente rotulados ~\cite{de2005anotaccao}.
   \end{frame}
 
-  \begin{frame}[fragile]{Orange Data Mining}
+  \begin{frame}[fragile]{Aprendizado de Máquina}
+    \begin{center}
+    \textbf{Supervisionado ou não-supervisionado?}
+    \end{center}
+    \begin{table}[]
+    \centering
+    \begin{tabular}{|r|l|}
+    \hline
+    \textbf{Tema} & \textit{Direitos em conflito: liberdade de expressão e ...} \\ \hline
+    \textbf{Título} & \textit{Os limites da informação} \\ \hline
+    \textbf{Texto} & \textit{Analisando todo um conjunto de fatos importantes ...} \\ \hline
+    \textbf{Competência I} & 50 \\ \hline
+    \textbf{Competência II} & 100 \\ \hline
+    \textbf{Competência III} & 50 \\ \hline
+    \textbf{Competência IV} & 50 \\ \hline
+    \textbf{Competência V} & 50 \\ \hline
+    \textbf{Nota Total} & \textbf{300} \\ \hline
+    \end{tabular}
+    \caption{Propriedades de uma redação.}
+    \end{table}
+    \begin{center}
+      \textbf{Aprendizado supervisionado.}
+    \end{center}
   \end{frame}
+
+  \begin{frame}[fragile]{Aprendizado de Máquina}
+    De acordo com o estudo de Monard (2003) o aprendizado supervisionado pode ser induzido a resolver problemas de classificação ou regressão ~\cite{monard_baranauskas:2003}.
+    \begin{figure}[H]
+    \begin{center}
+        \includegraphics[scale=0.45]{regression_classification.png}
+    \end{center}
+    \end{figure}
+    O autor ainda cita, ``Para rótulos de classe discretas, esse problema é conhecido como classificação e para valores contínuos como regressão.''
+  \end{frame}
+
+  \begin{frame}[fragile]{Aprendizado de Máquina}
+    \begin{center}
+    \textbf{Classificação ou Regressão?}
+    \end{center}
+
+    \begin{table}[H]
+    \centering
+    \begin{tabular}{|l|l|c|c|c|}
+    \hline
+    \multicolumn{2}{|c|}{\textbf{Competência}} & \multicolumn{1}{l|}{\textbf{Valor}} & \multicolumn{1}{l|}{\textbf{Subitens}} & \multicolumn{1}{l|}{\textbf{Valor/Classes}} \\ \hline
+    \multirow{2}{*}{} & \multirow{2}{*}{} & \multirow{2}{*}{} & \textit{0} & \textbf{0} \\ \cline{4-5} 
+     &  &  & \textit{1} & \textbf{50} \\ \hline
+    \textbf{I} & \textit{\begin{tabular}[c]{@{}l@{}}Demonstrar domínio da norma\\  padrão da língua escrita.\end{tabular}} & \textbf{200} & \textit{2} & \textbf{100} \\ \hline
+    \multirow{2}{*}{} & \multirow{2}{*}{} & \multirow{2}{*}{} & \textit{3} & \textbf{150} \\ \cline{4-5} 
+     &  &  & \textit{4} & \textbf{200} \\ \hline
+    \end{tabular}
+    \caption{Competência I da matriz de referência.}
+    \end{table}
+    \begin{center}
+      \textbf{Problema de classificação.}
+    \end{center}
+  \end{frame}
+
+  \begin{frame}[fragile]{\textit{Boost} -> \textit{AdaBoost}}
+    O AdaBoost é um algoritmo de aprendizado supervisionado do tipo \textit{Boost}, que combina um conjunto de funções simples de classificação, denominadas classificadores fracos para formar um classificador forte.
+
+    \begin{figure}[H]
+    \begin{center}
+        \includegraphics[scale=0.35]{images/boosting.png}
+    \end{center}
+    \end{figure}
+
+    Em cada iteração, o procedimento de atualização aumenta os pesos das amostras classificadas incorretamente, fornecendo desta forma a característica adaptativa do AdaBoost.
+
+  \end{frame}
+
+  \begin{frame}[fragile]{Ferramentas}
+    Wahbeh et al. (2011) realizou um estudo comparativo entre quatro ferramentas para mineração de dados: KMINE, Orange, Tanagra e Weka ~\cite{wahbeh2011comparison}.
+
+    \begin{figure}[H]
+    \begin{center}
+        \includegraphics[scale=0.45]{images/tools_data_mining.png}
+    \end{center}
+    \end{figure}
+
+    Segundo seu trabalho, ferramenta Weka apresentou o melhor desempenho, seguido pela \textit{Orange}.
+  \end{frame}
+
+  \begin{frame}[fragile]{\textit{Orange Data Mining}}
+    \begin{figure}[H]
+    \begin{center}
+        \includegraphics[scale=0.35]{images/orange_canvas.png}
+    \end{center}
+    \begin{center}
+    \textbf{\textit{Orange Data Mining}}
+    \end{center}
+    \end{figure}
+  \end{frame}
+
+
 
 \section{Metodologia}
   \begin{frame}[fragile]{Coleta de Dados}
+  Coletar textos de redações avaliadas segundo a matriz de referência do INEP, normalizar os textos sem alterar o seu valor textual e armazená-lo de forma estruturada, separando o tema, título, texto e nota.
+  \begin{figure}[H]
+  \begin{center}
+      \includegraphics[scale=0.50]{images/methodology_1.png}
+  \end{center}
+  \end{figure}
+
   \end{frame}
 
   \begin{frame}[fragile]{Orange Data Mining}
-  \end{frame}
-  
-  \begin{frame}[fragile]{Métricas de Desempenho}
+   Desenvolver uma representação do domínio do problema com auxílio da ferramenta \textit{Orange Data Mining}, induzir o classificado\textit{AdaBoost} sobre a base de conhecimento rotulada, avaliar as métricas de desempenho e repetir o ciclo se necessário.
+  \begin{figure}[H]
+  \begin{center}
+      \includegraphics[scale=0.50]{images/methodology_2.png}
+  \end{center}
+  \end{figure}
   \end{frame}
 
 \section{Resultados Preliminares}
   \begin{frame}[fragile]{Adversidades}
+    \pgfplotstableread[row sep=\\,col sep=&]{
+        class & score  \\
+        0.00  & 15 \\
+        0.50  & 40 \\
+        1.00  & 52 \\
+        1.50  & 20 \\
+        2.00  & 4  \\
+        }\mydata
+
+    \begin{figure}[H]
+    \begin{center}
+    \begin{tikzpicture}
+        \begin{axis}[
+                ybar,
+                width=8cm,
+                height=7cm,
+                symbolic x coords={0.00,0.50,1.00,1.50,2.00},
+                bar width=10pt,
+                ylabel=Quantidade,
+                xlabel=Classes,
+                xtick=data,
+                axis lines*=left,
+            ]
+            \addplot[draw=black, fill=white] table[x=class,y=score]{\mydata};
+            \node [above] at (axis cs:  0.00,15) {15};
+            \node [above] at (axis cs:  0.50,40) {40};
+            \node [above] at (axis cs:  1.00,52) {52};
+            \node [above] at (axis cs:  1.50,20) {20};
+            \node [above] at (axis cs:  2.00,4) {4};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Distribuição das classes em uma amostra de 131 redações selecionadas aleatoriamente no \textit{dataset}.}
+    \label{gra:class_unbundling}
+    \end{center}
+    \end{figure}
   \end{frame}
 
   \begin{frame}[fragile]{Resultado da Avaliação}
@@ -138,6 +288,21 @@
 
 \section{Plano de Trabalho}
   \begin{frame}[fragile]{Plano de Atividades}
+    \begin{center}
+    \rowcolors{1}{}{gray!25}
+    \begin{tabular}{c|l|c|c|c|c|c|c|c|c|c|c|}& Atividade & \rot{Fevereiro - 2017} & \rot{Março - 2017} & \rot{Abril - 2017} & \rot{Maio - 2017} & \rot{Junho - 2017} & \rot{Julho - 2017} & \rot{Agosto - 2017} & \rot{Setembro - 2017} & \rot{Outubro - 2017} & \rot{Novembro - 2017} \\
+        \hline
+        1 & Revisão Bibliográfica    &\V &\V &\V &   &   &   &   &   &   &   \\
+        2 & Coleta de Dados          &   &   &   &\V &   &   &   &   &   &   \\
+        3 & Tratamento dos dados     &   &   &   &\V &   &   &   &   &   &   \\
+        4 & Domínio do problema      &   &   &   &   &\V &\V &\V &\V &   &   \\
+        5 & Indução do classificador &   &   &   &   &\V &\V &\V &\V &   &   \\
+        6 & Métricas de desempenho   &   &   &   &   &\V &\V &\V &\V &\V &   \\
+        7 & Escrita da Monografia    &\V &\V &\V &\V &\V &\V &\V &\V &\V &\V \\
+        8 & Entrega da Monografia    &   &   &   &   &   &   &   &   &   &\V \\
+        \hline
+    \end{tabular}
+    \end{center}
   \end{frame}
 
 % \appendix desliga o slide da barra de progresso

@@ -5,45 +5,45 @@ The style file: abbrv.bst
 Database file #1: bib.bib
 Warning--entry type for "edital_enem:2016" isn't style-file defined
 --line 91 of file bib.bib
-You've used 3 entries,
+You've used 6 entries,
             2118 wiz_defined-function locations,
-            516 strings with 4435 characters,
-and the built_in function-call counts, 738 in all, are:
-= -- 70
-> -- 27
+            533 strings with 5175 characters,
+and the built_in function-call counts, 1733 in all, are:
+= -- 160
+> -- 91
 < -- 0
-+ -- 11
-- -- 8
-* -- 37
-:= -- 129
-add.period$ -- 9
-call.type$ -- 3
-change.case$ -- 13
++ -- 38
+- -- 30
+* -- 112
+:= -- 303
+add.period$ -- 18
+call.type$ -- 6
+change.case$ -- 33
 chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 25
-empty$ -- 69
-format.name$ -- 8
-if$ -- 153
+cite$ -- 6
+duplicate$ -- 60
+empty$ -- 140
+format.name$ -- 30
+if$ -- 351
 int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 1
-newline$ -- 18
-num.names$ -- 6
-pop$ -- 21
+int.to.str$ -- 6
+missing$ -- 4
+newline$ -- 33
+num.names$ -- 12
+pop$ -- 41
 preamble$ -- 1
-purify$ -- 10
+purify$ -- 27
 quote$ -- 0
-skip$ -- 22
+skip$ -- 45
 stack$ -- 0
-substring$ -- 31
-swap$ -- 3
+substring$ -- 67
+swap$ -- 7
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 12
+type$ -- 24
 warning$ -- 0
-while$ -- 8
-width$ -- 4
-write$ -- 33
+while$ -- 16
+width$ -- 7
+write$ -- 65
 (There was 1 warning)

@@ -14,9 +14,29 @@ S.~R. da~Silva and T.~L. Carvalho.
   didático de português.
 \newblock {\em Caminhos em linguística aplicada}, 16(1):1--25, 2017.
 
+\bibitem{de2005anotaccao}
+M.~C. de~Freitas, M.~Uzeda-Garr{\~a}o, C.~Oliveira, C.~N. dos Santos, and M.~C.
+  Silveira.
+\newblock A anota{\c{c}}ao de um corpus para o aprendizado supervisionado de um
+  modelo de sn.
+\newblock In {\em Proceedings of the III TIL/XXV Congresso da SBC}, 2005.
+
 \bibitem{edital_enem:2016}
 INEP.
 \newblock Edital no 10, de 14 de abril de 2016, 2016.
 \newblock {Online; acessado 05 Junho 2017}.
+
+\bibitem{monard_baranauskas:2003}
+M.~C. Monard and J.~A. Baranauskas.
+\newblock Conceitos sobre aprendizado de m{\'a}quina.
+\newblock {\em Sistemas Inteligentes-Fundamentos e Aplica{\c{c}}{\~o}es}, 1(1),
+  2003.
+
+\bibitem{wahbeh2011comparison}
+A.~H. Wahbeh, Q.~A. Al-Radaideh, M.~N. Al-Kabi, and E.~M. Al-Shawakfa.
+\newblock A comparison study between data mining tools over some classification
+  methods.
+\newblock {\em International Journal of Advanced Computer Science and
+  Applications}, 8(2):18--26, 2011.
 
 \end{thebibliography}

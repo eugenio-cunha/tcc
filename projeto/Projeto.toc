@@ -10,7 +10,7 @@
 \contentsline {section}{\numberline {1.4}Contribui\IeC {\c c}\IeC {\~o}es}{14}
 \contentsline {section}{\numberline {1.5}Organiza\IeC {\c c}\IeC {\~a}o do trabalho}{14}
 \contentsline {chapter}{\numberline {2}Trabalhos Relacionados}{15}
-\contentsline {section}{\numberline {2.1}Compet\IeC {\^e}ncias requeridas pela avalia\IeC {\c c}\IeC {\~a}o de reda\IeC {\c c}\IeC {\~a}o do ENEM}{15}
+\contentsline {section}{\numberline {2.1}Matriz de Refer\IeC {\^e}ncia da Reda\IeC {\c c}\IeC {\~a}o do ENEM}{15}
 \contentsline {section}{\numberline {2.2}Aprendizado de m\IeC {\'a}quina}{18}
 \contentsline {section}{\numberline {2.3}Ferramenta para minera\IeC {\c c}\IeC {\~a}o de dados}{20}
 \contentsline {chapter}{\numberline {3}Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica}{22}
