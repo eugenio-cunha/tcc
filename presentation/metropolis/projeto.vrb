@@ -1,16 +1,17 @@
 \frametitle{Plano de Atividades}
 \begin{center}
+    \scalebox{0.9}{
     \rowcolors{1}{}{gray!25}
     \begin{tabular}{c|l|c|c|c|c|c|c|c|c|c|c|}& Atividade & \rot{Fevereiro - 2017} & \rot{Março - 2017} & \rot{Abril - 2017} & \rot{Maio - 2017} & \rot{Junho - 2017} & \rot{Julho - 2017} & \rot{Agosto - 2017} & \rot{Setembro - 2017} & \rot{Outubro - 2017} & \rot{Novembro - 2017} \\
         \hline
         1 & Revisão Bibliográfica    &\V &\V &\V &   &   &   &   &   &   &   \\
         2 & Coleta de Dados          &   &   &   &\V &   &   &   &   &   &   \\
-        3 & Tratamento dos dados     &   &   &   &\V &   &   &   &   &   &   \\
-        4 & Domínio do problema      &   &   &   &   &\V &\V &\V &\V &   &   \\
-        5 & Indução do classificador &   &   &   &   &\V &\V &\V &\V &   &   \\
-        6 & Métricas de desempenho   &   &   &   &   &\V &\V &\V &\V &\V &   \\
+        3 & Tratamento dos Dados     &   &   &   &\V &   &   &   &   &   &   \\
+        4 & Domínio do Problema      &   &   &   &   &\V &\V &\V &\V &   &   \\
+        5 & Indução do Classificador &   &   &   &   &\V &\V &\V &\V &   &   \\
+        6 & Métricas de Desempenho   &   &   &   &   &\V &\V &\V &\V &\V &   \\
         7 & Escrita da Monografia    &\V &\V &\V &\V &\V &\V &\V &\V &\V &\V \\
         8 & Entrega da Monografia    &   &   &   &   &   &   &   &   &   &\V \\
         \hline
-    \end{tabular}
+    \end{tabular}}
     \end{center}

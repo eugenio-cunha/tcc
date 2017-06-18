@@ -19,6 +19,7 @@
 \usepackage{multirow}
 
 \usepackage[table]{xcolor}
+\usepackage{pgfplots}
 \usepackage{pifont}
 
 \newcommand*\rot{\rotatebox{90}}
@@ -210,9 +211,7 @@
     \begin{center}
         \includegraphics[scale=0.35]{images/orange_canvas.png}
     \end{center}
-    \begin{center}
-    \textbf{\textit{Orange Data Mining}}
-    \end{center}
+    \caption{\textit{Orange Data Mining}}
     \end{figure}
   \end{frame}
 
@@ -240,6 +239,9 @@
 
 \section{Resultados Preliminares}
   \begin{frame}[fragile]{Adversidades}
+    % A qualidade dos dados no \textit{dataset} é uma fator fundamental.
+    Trabalhar com dados desbalanceados tende à produzir regras de classificação que beneficiam as classes majoritárias, resultando em uma baixa taxa de predição para o grupo minoritário.
+
     \pgfplotstableread[row sep=\\,col sep=&]{
         class & score  \\
         0.00  & 15 \\
@@ -255,11 +257,11 @@
         \begin{axis}[
                 ybar,
                 width=8cm,
-                height=7cm,
+                height=6cm,
                 symbolic x coords={0.00,0.50,1.00,1.50,2.00},
                 bar width=10pt,
                 ylabel=Quantidade,
-                xlabel=Classes,
+                % xlabel=Classes,
                 xtick=data,
                 axis lines*=left,
             ]
@@ -271,37 +273,73 @@
             \node [above] at (axis cs:  2.00,4) {4};
         \end{axis}
     \end{tikzpicture}
-    \caption{Distribuição das classes em uma amostra de 131 redações selecionadas aleatoriamente no \textit{dataset}.}
-    \label{gra:class_unbundling}
     \end{center}
     \end{figure}
+    \begin{center}
+    \textbf{Gráfico 1}: Amostra de 30\% dos dados no \textit{dataset}.
+    \end{center}
   \end{frame}
 
-  \begin{frame}[fragile]{Resultado da Avaliação}
-  \end{frame}
+  \begin{frame}[fragile]{Métricas de Desempenho}
+    A Tabela ~\ref{tab:evaluation_result} exibe os resultados das principais métricas de desempenho para classificadores e a média geral de cada métrica.
 
-  \begin{frame}[fragile]{Curva ROC}
+    \begin{table}[H]
+    \centering
+    \begin{tabular}{c|c|c|c|c|c|}
+    \cline{2-6}
+     & \multicolumn{5}{c|}{\textbf{Resultado da avaliação}} \\ \hline
+    \multicolumn{1}{|c|}{\textbf{Classes}} & \textbf{ROC} & \textbf{Acurácia} & \textit{\textbf{F-Score}} & \textit{\textbf{Precision}} & \textit{\textbf{Recall}} \\ \hline
+    \multicolumn{1}{|c|}{\textbf{0.00}}  & 0.498 & 0.828 & 0.096 & 0.845 & 0.828 \\ \hline
+    \multicolumn{1}{|c|}{\textbf{0.50}}  & 0.552 & 0.640 & 0.349 & 0.653 & 0.640 \\ \hline
+    \multicolumn{1}{|c|}{\textbf{1.00}}  & 0.499 & 0.509 & 0.422 & 0.506 & 0.509 \\ \hline
+    \multicolumn{1}{|c|}{\textbf{1.50}}  & 0.549 & 0.579 & 0.222 & 0.755 & 0.759 \\ \hline
+    \multicolumn{1}{|c|}{\textbf{2.00}}  & 0.541 & 0.915 & 0.140 & 0.899 & 0.915 \\ \hline
+    \multicolumn{1}{|c|}{\textbf{Média}} & \textbf{0.529} & \textbf{0.694} & \textbf{0.246} & \textbf{0.737} & \textbf{0.730} \\ \hline
+    \end{tabular}
+    \caption{Resultado das métricas de desempenho do classificador AdaBoost.}
+    \label{tab:evaluation_result}
+    \end{table}
   \end{frame}
 
   \begin{frame}[fragile]{Matriz de Confusão}
+    A Tabela ~\ref{tab:matrix_confusion} exibe ao longo da diagonal em tons de cinza as decisões corretas: número de verdadeiros positivos TP e verdadeiros negativos TN;
+
+    \begin{table}[H]
+    \centering
+    \begin{tabular}{cc|c|c|c|c|c|c|}
+    \cline{3-8}
+     &  & \multicolumn{6}{c|}{\textbf{Predição}} \\ \cline{3-8} 
+     &  & \textbf{0.00} & \textbf{0.50} & \textbf{1.00} & \textbf{1.50} & \textbf{2.00} & $\sum_{}$  \\ \hline
+    \multicolumn{1}{|c|}{} & \textbf{0.00} & \cellcolor[HTML]{C0C0C0}4 & 18 & 13 & 2 & 0 & \textbf{37} \\ \cline{2-8} 
+    \multicolumn{1}{|c|}{} & \textbf{0.50} & 13 & \cellcolor[HTML]{C0C0C0}42 & 44 & 14 & 1 & \textbf{114} \\ \cline{2-8} 
+    \multicolumn{1}{|c|}{} & \textbf{1.00} & 18 & 51 & \cellcolor[HTML]{C0C0C0}78 & 32 & 11 & \textbf{190} \\ \cline{2-8} 
+    \multicolumn{1}{|c|}{} & \textbf{1.50} & 7 & 14 & 31 & \cellcolor[HTML]{C0C0C0}15 & 2 & \textbf{69} \\ \cline{2-8} 
+    \multicolumn{1}{|c|}{} & \textbf{2.00} & 4 & 2 & 14 & 3 & \cellcolor[HTML]{C0C0C0}3 & \textbf{26} \\ \cline{2-8} 
+    \multicolumn{1}{|c|}{\multirow{-6}{*}{\rot{Atual}}} & $\sum_{}$ & \textbf{46} & \textbf{127} & \textbf{180} & \textbf{66} & \textbf{17} & \textbf{436} \\ \hline
+    \end{tabular}
+    \caption{Matriz de confusão resultante da indução do classificador \textit{AdaBoost}.}
+    \label{tab:matrix_confusion}
+    \end{table}
+  
   \end{frame}
 
 \section{Plano de Trabalho}
   \begin{frame}[fragile]{Plano de Atividades}
     \begin{center}
+    \scalebox{0.9}{
     \rowcolors{1}{}{gray!25}
     \begin{tabular}{c|l|c|c|c|c|c|c|c|c|c|c|}& Atividade & \rot{Fevereiro - 2017} & \rot{Março - 2017} & \rot{Abril - 2017} & \rot{Maio - 2017} & \rot{Junho - 2017} & \rot{Julho - 2017} & \rot{Agosto - 2017} & \rot{Setembro - 2017} & \rot{Outubro - 2017} & \rot{Novembro - 2017} \\
         \hline
         1 & Revisão Bibliográfica    &\V &\V &\V &   &   &   &   &   &   &   \\
         2 & Coleta de Dados          &   &   &   &\V &   &   &   &   &   &   \\
-        3 & Tratamento dos dados     &   &   &   &\V &   &   &   &   &   &   \\
-        4 & Domínio do problema      &   &   &   &   &\V &\V &\V &\V &   &   \\
-        5 & Indução do classificador &   &   &   &   &\V &\V &\V &\V &   &   \\
-        6 & Métricas de desempenho   &   &   &   &   &\V &\V &\V &\V &\V &   \\
+        3 & Tratamento dos Dados     &   &   &   &\V &   &   &   &   &   &   \\
+        4 & Domínio do Problema      &   &   &   &   &\V &\V &\V &\V &   &   \\
+        5 & Indução do Classificador &   &   &   &   &\V &\V &\V &\V &   &   \\
+        6 & Métricas de Desempenho   &   &   &   &   &\V &\V &\V &\V &\V &   \\
         7 & Escrita da Monografia    &\V &\V &\V &\V &\V &\V &\V &\V &\V &\V \\
         8 & Entrega da Monografia    &   &   &   &   &   &   &   &   &   &\V \\
         \hline
-    \end{tabular}
+    \end{tabular}}
     \end{center}
   \end{frame}
 

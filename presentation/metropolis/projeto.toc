@@ -6,4 +6,4 @@
 \beamer@sectionintoc {2}{Trabalhos Relacionados}{10}{0}{2}
 \beamer@sectionintoc {3}{Metodologia}{19}{0}{3}
 \beamer@sectionintoc {4}{Resultados Preliminares}{22}{0}{4}
-\beamer@sectionintoc {5}{Plano de Trabalho}{27}{0}{5}
+\beamer@sectionintoc {5}{Plano de Trabalho}{26}{0}{5}
