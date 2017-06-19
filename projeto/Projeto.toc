@@ -11,7 +11,7 @@
 \contentsline {section}{\numberline {1.5}Organiza\IeC {\c c}\IeC {\~a}o do trabalho}{14}
 \contentsline {chapter}{\numberline {2}Trabalhos Relacionados}{15}
 \contentsline {section}{\numberline {2.1}Matriz de Refer\IeC {\^e}ncia da Reda\IeC {\c c}\IeC {\~a}o do ENEM}{15}
-\contentsline {section}{\numberline {2.2}Aprendizado de m\IeC {\'a}quina}{18}
+\contentsline {section}{\numberline {2.2}Aprendizado de M\IeC {\'a}quina}{18}
 \contentsline {section}{\numberline {2.3}Ferramenta para minera\IeC {\c c}\IeC {\~a}o de dados}{20}
 \contentsline {chapter}{\numberline {3}Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica}{22}
 \contentsline {section}{\numberline {3.1}Processamento de linguagem natural}{22}
@@ -20,11 +20,11 @@
 \contentsline {section}{\numberline {3.4}Classificador \textit {Adaboost}}{24}
 \contentsline {section}{\numberline {3.5}M\IeC {\'e}tricas utilizadas}{25}
 \contentsline {chapter}{\numberline {4}M\IeC {\'e}todo Proposto}{27}
-\contentsline {chapter}{\numberline {5}Plano de Trabalho}{29}
-\contentsline {section}{\numberline {5.1}Plano de atividade}{29}
-\contentsline {section}{\numberline {5.2}Cronograma gr\IeC {\'a}fico do Plano de Atividades}{30}
-\contentsline {chapter}{\numberline {6}Resultados Preliminares}{31}
-\contentsline {section}{\numberline {6.1}Dados Desbalanceados}{31}
-\contentsline {section}{\numberline {6.2}M\IeC {\'e}tricas de Desempenho}{32}
-\contentsline {section}{\numberline {6.3}Considera\IeC {\c c}\IeC {\~o}es Finais}{35}
+\contentsline {chapter}{\numberline {5}Resultados Preliminares}{29}
+\contentsline {section}{\numberline {5.1}Dados Desbalanceados}{29}
+\contentsline {section}{\numberline {5.2}M\IeC {\'e}tricas de Desempenho}{30}
+\contentsline {section}{\numberline {5.3}Considera\IeC {\c c}\IeC {\~o}es Finais}{33}
+\contentsline {chapter}{\numberline {6}Plano de Trabalho}{34}
+\contentsline {section}{\numberline {6.1}Plano de atividade}{34}
+\contentsline {section}{\numberline {6.2}Cronograma gr\IeC {\'a}fico do Plano de Atividades}{35}
 \contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{36}

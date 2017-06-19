@@ -6,5 +6,5 @@
 \contentsline {figure}{\numberline {5}{\ignorespaces Os textos s\IeC {\~a}o submetidos aos algoritmos de normaliza\IeC {\c c}\IeC {\~a}o e posteriormente estruturados e armazenados no padr\IeC {\~a}o JSON.\relax }}{28}
 \contentsline {figure}{\numberline {6}{\ignorespaces O \textit {corpus} ser\IeC {\'a} utilizado em um fluxo de trabalho da ferramenta \textit {Orange} para treinar os modelos classificadores.\relax }}{28}
 \contentsline {figure}{\numberline {7}{\ignorespaces O classificador ajustado e treinado ser\IeC {\'a} submetido a testes, e os resultados comparados graficamente com o objetivo de analisar o desempenho do classificador induzido.\relax }}{28}
-\contentsline {figure}{\numberline {8}{\ignorespaces Distribui\IeC {\c c}\IeC {\~a}o das classes em uma amostra de 131 reda\IeC {\c c}\IeC {\~o}es selecionadas aleatoriamente no \textit {dataset}.\relax }}{32}
-\contentsline {figure}{\numberline {9}{\ignorespaces Representa\IeC {\c c}\IeC {\~a}o gr\IeC {\'a}fica da Curva ROC para cada classe (0.00, 0.50, 1.00, 1.50 e 2.00) induzida no modelo AdaBoost.\relax }}{34}
+\contentsline {figure}{\numberline {8}{\ignorespaces Distribui\IeC {\c c}\IeC {\~a}o das classes em uma amostra de 131 reda\IeC {\c c}\IeC {\~o}es selecionadas aleatoriamente no \textit {dataset}.\relax }}{30}
+\contentsline {figure}{\numberline {9}{\ignorespaces Representa\IeC {\c c}\IeC {\~a}o gr\IeC {\'a}fica da Curva ROC para cada classe (0.00, 0.50, 1.00, 1.50 e 2.00) induzida no modelo AdaBoost.\relax }}{32}

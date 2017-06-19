@@ -366,10 +366,10 @@ INPUT /home/genio/Workspace/TCC/projeto/textuais/Fundamentacao.aux
 INPUT /home/genio/Workspace/TCC/projeto/textuais/Fundamentacao.aux
 INPUT /home/genio/Workspace/TCC/projeto/textuais/Metodologia.aux
 INPUT /home/genio/Workspace/TCC/projeto/textuais/Metodologia.aux
-INPUT /home/genio/Workspace/TCC/projeto/textuais/Plano.aux
-INPUT /home/genio/Workspace/TCC/projeto/textuais/Plano.aux
 INPUT /home/genio/Workspace/TCC/projeto/textuais/Resultados.aux
 INPUT /home/genio/Workspace/TCC/projeto/textuais/Resultados.aux
+INPUT /home/genio/Workspace/TCC/projeto/textuais/Plano.aux
+INPUT /home/genio/Workspace/TCC/projeto/textuais/Plano.aux
 OUTPUT /home/genio/Workspace/TCC/projeto/Projeto.aux
 INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
@@ -596,9 +596,6 @@ INPUT /home/genio/Workspace/TCC/projeto/figuras/metodologia_3.png
 INPUT /home/genio/Workspace/TCC/projeto/figuras/metodologia_4.png
 INPUT /home/genio/Workspace/TCC/projeto/figuras/metodologia_4.png
 INPUT /home/genio/Workspace/TCC/projeto/figuras/metodologia_4.png
-OUTPUT /home/genio/Workspace/TCC/projeto/textuais/Plano.aux
-INPUT /home/genio/Workspace/TCC/projeto/textuais/Plano.tex
-INPUT /home/genio/Workspace/TCC/projeto/textuais/Plano.tex
 OUTPUT /home/genio/Workspace/TCC/projeto/textuais/Resultados.aux
 INPUT /home/genio/Workspace/TCC/projeto/textuais/Resultados.tex
 INPUT /home/genio/Workspace/TCC/projeto/textuais/Resultados.tex
@@ -609,6 +606,9 @@ INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/zptmcm7v.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
+OUTPUT /home/genio/Workspace/TCC/projeto/textuais/Plano.aux
+INPUT /home/genio/Workspace/TCC/projeto/textuais/Plano.tex
+INPUT /home/genio/Workspace/TCC/projeto/textuais/Plano.tex
 INPUT /home/genio/Workspace/TCC/projeto/Projeto.bbl
 INPUT /home/genio/Workspace/TCC/projeto/Projeto.bbl
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
@@ -639,10 +639,10 @@ INPUT /home/genio/Workspace/TCC/projeto/textuais/Fundamentacao.aux
 INPUT /home/genio/Workspace/TCC/projeto/textuais/Fundamentacao.aux
 INPUT /home/genio/Workspace/TCC/projeto/textuais/Metodologia.aux
 INPUT /home/genio/Workspace/TCC/projeto/textuais/Metodologia.aux
-INPUT /home/genio/Workspace/TCC/projeto/textuais/Plano.aux
-INPUT /home/genio/Workspace/TCC/projeto/textuais/Plano.aux
 INPUT /home/genio/Workspace/TCC/projeto/textuais/Resultados.aux
 INPUT /home/genio/Workspace/TCC/projeto/textuais/Resultados.aux
+INPUT /home/genio/Workspace/TCC/projeto/textuais/Plano.aux
+INPUT /home/genio/Workspace/TCC/projeto/textuais/Plano.aux
 INPUT /usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
