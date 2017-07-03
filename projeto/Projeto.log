@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.5.4)  19 JUN 2017 09:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.5.4)  19 JUN 2017 10:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1890,7 +1890,7 @@ hvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr
 texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/urw/zapfding/uzdr.pfb>
 Output written on /home/genio/Workspace/TCC/projeto/Projeto.pdf (39 pages, 5448
-37 bytes).
+32 bytes).
 PDF statistics:
  218 PDF objects out of 1000 (max. 8388607)
  141 compressed objects within 2 object streams

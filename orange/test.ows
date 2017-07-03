@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme description="" title="" version="2.0">
+	<nodes>
+		<node id="0" name="Corpus" position="(112.0, 140.0)" project_name="Orange3-Text" qualified_name="orangecontrib.text.widgets.owloadcorpus.OWLoadCorpus" title="Corpus" version="" />
+		<node id="1" name="Corpus Viewer" position="(402.0, 82.0)" project_name="Orange3-Text" qualified_name="orangecontrib.text.widgets.owcorpusviewer.OWCorpusViewer" title="Corpus Viewer" version="" />
+		<node id="2" name="Preprocess Text" position="(414.0, 235.0)" project_name="Orange3-Text" qualified_name="orangecontrib.text.widgets.owpreprocess.OWPreprocess" title="Preprocess Text" version="" />
+	</nodes>
+	<links>
+		<link enabled="true" id="0" sink_channel="Data" sink_node_id="1" source_channel="Corpus" source_node_id="0" />
+		<link enabled="true" id="1" sink_channel="Corpus" sink_node_id="2" source_channel="Corpus" source_node_id="0" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties format="literal" node_id="0">{'recent_files': ['/home/genio/Workspace/TCC/orange/data.tab', '/home/genio/Workspace/TCC/bots/tab/data.tab', '/home/genio/Documents/data/data2.tab', '/home/genio/Documents/data/data2.csv', '/home/genio/Documents/data/data.tab'], '__version__': 1, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x01}\x00\x00\x00\x1b\x00\x00\x03\xc4\x00\x00\x01\xd4\x00\x00\x01}\x00\x00\x00@\x00\x00\x03\xc4\x00\x00\x01\xd4\x00\x00\x00\x00\x00\x00\x00\x00\x05V'}</properties>
+		<properties format="literal" node_id="1">{'autocommit': True, 'show_tokens': False, '__version__': 1, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x00\xda\x00\x00\x00\x1b\x00\x00\x04g\x00\x00\x02\xc1\x00\x00\x00\xda\x00\x00\x00@\x00\x00\x04g\x00\x00\x02\xc1\x00\x00\x00\x00\x00\x00\x00\x00\x05V'}</properties>
+		<properties format="literal" node_id="2">{'pos_tagger': {'enabled': False, 'stanford': {'recent_files': [], 'resource_path': ''}, 'method_index': 0}, 'transformers': {'checked': [0, 1], 'enabled': True}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x00\xc2\x00\x00\x00\x1b\x00\x00\x04v\x00\x00\x02\xa9\x00\x00\x00\xc2\x00\x00\x00@\x00\x00\x04v\x00\x00\x02\xa9\x00\x00\x00\x00\x00\x00\x00\x00\x05V', 'tokenizer': {'enabled': True, 'pattern': '\\w+', 'method_index': 3}, 'autocommit': True, 'filters': {'checked': [0, 3], 'enabled': True, 'stopwords_language': 'Portuguese', 'use_keep_n': False, 'keep_n': 107, 'use_df': False, 'pattern': '\\.|,|:|;|!|\\?|\\(|\\)|\\||\\+|\'|"|‘|’|“|”|\'|\\’|…|\\-|–|—|\\$|&amp;|\\*|&gt;|&lt;', 'recent_lexicon_files': [], 'min_df': 0.14, 'recent_sw_files': [], 'max_df': 1.0}, 'ngrams_range': {'enabled': False, 'ngrams_range': (1, 2)}, 'normalizer': {'enabled': False, 'snowball_language': 'Portuguese', 'method_index': 1}, '__version__': 1}</properties>
+	</node_properties>
+</scheme>
